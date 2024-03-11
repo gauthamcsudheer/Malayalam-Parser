@@ -1,0 +1,724 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.8)  11 MAR 2024 08:16
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**SRS.tex
+(./SRS.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count193
+\Gm@cntv=\count194
+\c@Gm@tempcnt=\count195
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks17
+)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen147
+\Gin@req@width=\dimen148
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
+rs
+\f@nch@headwidth=\skip49
+\f@nch@O@elh=\skip50
+\f@nch@O@erh=\skip51
+\f@nch@O@olh=\skip52
+\f@nch@O@orh=\skip53
+\f@nch@O@elf=\skip54
+\f@nch@O@erf=\skip55
+\f@nch@O@olf=\skip56
+\f@nch@O@orf=\skip57
+)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip58
+\enit@outerparindent=\dimen149
+\enit@toks=\toks18
+\enit@inbox=\box50
+\enit@count@id=\count196
+\enitdp@description=\count197
+)
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3
+2.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count198
+\l__pdf_internal_box=\box51
+)
+(./SRS.aux)
+\openout1 = `SRS.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count199
+\scratchdimen=\dimen150
+\scratchbox=\box52
+\nofMPsegments=\count266
+\nofMParguments=\count267
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count268
+\MPscratchDim=\dimen151
+\MPnumerator=\count269
+\makeMPintoPDFobject=\count270
+\everyMPtoPDFconversion=\toks20
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+<RSET.png, id=1, 361.35pt x 450.68375pt>
+File: RSET.png Graphic file (type png)
+<use RSET.png>
+Package pdftex.def Info: RSET.png  used on input line 38.
+(pdftex.def)             Requested size: 113.81102pt x 141.9455pt.
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./RSET.png>] [2]
+(./SRS.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+
+Overfull \hbox (5.52174pt too wide) has occurred while \output is active
+[][][][][][][]|  
+ []
+
+[3])
+\tf@toc=\write3
+\openout3 = `SRS.toc'.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+
+Overfull \hbox (5.52174pt too wide) has occurred while \output is active
+[][][][][][][]|  
+ []
+
+[4]
+Overfull \hbox (8.4033pt too wide) in paragraph at lines 138--143
+\OT1/ptm/m/n/12 This Soft-ware Re-quire-ments Spec-i-fi-ca-tion (SRS) doc-u-men
+t out-lines the spec-i-fi-ca-tions for de-vel-op-ing
+ []
+
+
+Overfull \hbox (19.29927pt too wide) in paragraph at lines 160--162
+\OT1/ptm/m/n/12 com-mu-ni-ca-tion with Malayalam-speaking au-di-ences, sup-port
+-ing mar-ket ex-pan-sion and cus-tomer
+ []
+
+
+Overfull \hbox (14.66756pt too wide) in paragraph at lines 165--166
+[]\OT1/ptm/b/n/12 Innovation: \OT1/ptm/m/n/12 In-vest-ment in lan-guage pro-ces
+s-ing tech-nolo-gies demon-strates in-no-va-tion, en-sur-ing
+ []
+
+
+Overfull \hbox (28.46725pt too wide) in paragraph at lines 165--166
+\OT1/ptm/m/n/12 its ob-jec-tives, scope, and key stake-hold-ers, and de-scribes
+ how the project aligns with or-ga-ni-za-tional
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+
+Overfull \hbox (5.52174pt too wide) has occurred while \output is active
+[][][][][][][]|  
+ []
+
+[1]
+<architecture.png, id=24, 575.14874pt x 413.545pt>
+File: architecture.png Graphic file (type png)
+<use architecture.png>
+Package pdftex.def Info: architecture.png  used on input line 188.
+(pdftex.def)             Requested size: 284.52756pt x 204.58865pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+
+Overfull \hbox (5.52174pt too wide) has occurred while \output is active
+[][][][][][][]|  
+ []
+
+[2]
+Overfull \hbox (14.84647pt too wide) in paragraph at lines 207--210
+[]\OT1/ptm/m/n/12 Interface with ex-ter-nal sys-tems or ap-pli-ca-tions, such a
+s text in-put sources or lin-guis-tic databases,
+ []
+
+
+Overfull \hbox (2.73921pt too wide) in paragraph at lines 207--210
+\OT1/ptm/m/n/12 for data in-te-gra-tion and en-hanced func-tion-al-ity within b
+roader lin-guis-tic anal-y-sis frame-works. 
+ []
+
+
+Overfull \hbox (24.09995pt too wide) in paragraph at lines 213--216
+\OT1/ptm/m/n/12 For cre-at-ing the Malay-alam Parser, the op-er-at-ing en-vi-ro
+n-ment en-com-passes the fol-low-ing spec-i-fi-ca-tions: 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+
+Overfull \hbox (5.52174pt too wide) has occurred while \output is active
+[][][][][][][]|  
+ []
+
+[3 <./architecture.png>]
+Overfull \hbox (10.97159pt too wide) in paragraph at lines 220--223
+[]\OT1/ptm/m/n/12 Minimum hard-ware re-quire-ments in-clude a mod-ern pro-ces-s
+or (e.g., In-tel Core i5 or equiv-a-lent),
+ []
+
+
+Overfull \hbox (23.51147pt too wide) in paragraph at lines 228--231
+[]\OT1/ptm/m/n/12 The soft-ware should be com-pat-i-ble with pop-u-lar op-er-at
+-ing sys-tems used for soft-ware de-vel-op-ment
+ []
+
+
+Overfull \hbox (24.49509pt too wide) in paragraph at lines 240--241
+[]\OT1/ptm/m/n/12 The Malay-alam Parser may re-quire in-te-gra-tion with var-i-
+ous soft-ware com-po-nents and ap-pli-ca-tions
+ []
+
+
+Overfull \hbox (7.35968pt too wide) in paragraph at lines 247--248
+\OT1/ptm/m/n/12 The de-vel-op-ment of the Malay-alam Parser is sub-ject to var-
+i-ous con-straints and lim-i-ta-tions, in-clud-ing: 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+
+Overfull \hbox (5.52174pt too wide) has occurred while \output is active
+[][][][][][][]|  
+ []
+
+[4]
+Overfull \hbox (1.43175pt too wide) in paragraph at lines 250--253
+[]\OT1/ptm/b/n/12 Corporate or Reg-u-la-tory Poli-cies: \OT1/ptm/m/n/12 Com-pli
+-ance with data pro-tec-tion reg-u-la-tions and pri-vacy
+ []
+
+
+Overfull \hbox (10.05896pt too wide) in paragraph at lines 250--253
+\OT1/ptm/m/n/12 poli-cies is manda-tory. The Malay-alam Parser must ad-here to 
+all ap-pli-ca-ble laws and reg-u-la-tions
+ []
+
+
+Overfull \hbox (18.08684pt too wide) in paragraph at lines 253--257
+[]\OT1/ptm/b/n/12 Hardware Lim-i-ta-tions: \OT1/ptm/m/n/12 The soft-ware must b
+e op-ti-mized to op-er-ate within hard-ware lim-i-ta-tions,
+ []
+
+
+Overfull \hbox (9.11053pt too wide) in paragraph at lines 257--261
+\OT1/ptm/m/n/12 and data for-mats to fa-cil-i-tate in-ter-op-er-abil-ity with o
+ther lan-guage pro-cess-ing tools or databases. 
+ []
+
+
+Overfull \hbox (20.93124pt too wide) in paragraph at lines 272--276
+\OT1/ptm/m/n/12 pro-gram-ming stan-dards, and cod-ing guide-lines is paramount.
+ De-vel-op-ers must fol-low es-tab-lished
+ []
+
+
+Overfull \hbox (17.94276pt too wide) in paragraph at lines 272--276
+\OT1/ptm/m/n/12 best prac-tices and or-ga-ni-za-tional stan-dards to en-sure ma
+in-tain-abil-ity, read-abil-ity, and con-sis-tency
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+
+Overfull \hbox (5.52174pt too wide) has occurred while \output is active
+[][][][][][][]|  
+ []
+
+[5]
+Overfull \hbox (24.15834pt too wide) in paragraph at lines 288--299
+\OT1/ptm/m/n/12 de-ploy-ment of the Malay-alam Parser will meet the spec-i-fied
+ re-quire-ments, in-clud-ing com-pat-i-bil-ity
+ []
+
+
+Overfull \hbox (2.16217pt too wide) in paragraph at lines 299--303
+[]\OT1/ptm/b/n/12 Constraints and Lim-i-ta-tions: \OT1/ptm/m/n/12 The project a
+s-sumes that con-straints and lim-i-ta-tions iden-ti-fied
+ []
+
+
+Overfull \hbox (21.73524pt too wide) in paragraph at lines 303--307
+[]\OT1/ptm/b/n/12 External De-pen-den-cies: \OT1/ptm/m/n/12 The project does no
+t an-tic-i-pate heavy re-liance on ex-ter-nal de-pen-den-cies
+ []
+
+
+Overfull \hbox (2.17609pt too wide) in paragraph at lines 316--324
+\OT1/ptm/m/n/12 friendly ap-pli-ca-tions that en-hance the learn-ing and anal-y
+-sis ex-pe-ri-ence for users. These ap-pli-ca-tions
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+
+Overfull \hbox (5.52174pt too wide) has occurred while \output is active
+[][][][][][][]|  
+ []
+
+[6]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+
+Overfull \hbox (5.52174pt too wide) has occurred while \output is active
+[][][][][][][]|  
+ []
+
+[7]
+Overfull \hbox (2.75243pt too wide) in paragraph at lines 364--366
+\OT1/ptm/m/n/12 The sys-tem fea-tures for the Malay-alam Parser are or-ga-nized
+ to high-light the ma-jor ser-vices pro-vided
+ []
+
+
+Overfull \hbox (14.95538pt too wide) in paragraph at lines 366--368
+[]\OT1/ptm/b/n/12 Text Pars-ing: \OT1/ptm/m/n/12 The parser breaks down Malay-a
+lam lan-guage text into its con-stituent com-po-nents
+ []
+
+
+Overfull \hbox (1.99446pt too wide) in paragraph at lines 368--370
+[]\OT1/ptm/b/n/12 Grammatical Anal-y-sis: \OT1/ptm/m/n/12 It iden-ti-fies the p
+arts of speech, syn-tac-tic struc-ture, and gram-mat-i-cal
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+
+Overfull \hbox (5.52174pt too wide) has occurred while \output is active
+[][][][][][][]|  
+ []
+
+[8]
+Overfull \hbox (3.37587pt too wide) in paragraph at lines 397--399
+[]\OT1/ptm/m/n/12 The sys-tem shall to-k-enize words in Malay-alam text, con-si
+d-er-ing com-pound words and af-fixes. 
+ []
+
+
+Overfull \hbox (2.79944pt too wide) in paragraph at lines 401--403
+[]\OT1/ptm/m/n/12 The sys-tem shall han-dle vari-a-tions in spelling and word f
+orms com-monly found in Malay-alam
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+
+Overfull \hbox (5.52174pt too wide) has occurred while \output is active
+[][][][][][][]|  
+ []
+
+[9]
+Overfull \hbox (9.46062pt too wide) in paragraph at lines 413--416
+\OT1/ptm/m/n/12 This fea-ture in-volves per-form-ing lemma-ti-za-tion to iden-t
+ify the base form of words and mor-pho-log-i-cal
+ []
+
+
+Overfull \hbox (4.11893pt too wide) in paragraph at lines 425--427
+[]\OT1/ptm/m/n/12 The sys-tem shall an-a-lyze the mor-phol-ogy of Malay-alam wo
+rds to de-ter-mine their gram-mat-i-cal
+ []
+
+
+Overfull \hbox (17.79929pt too wide) in paragraph at lines 427--429
+[]\OT1/ptm/m/n/12 The sys-tem shall han-dle vari-a-tions in word forms and in-f
+lec-tions com-monly found in Malay-alam. 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+
+Overfull \hbox (5.52174pt too wide) has occurred while \output is active
+[][][][][][][]|  
+ []
+
+[10]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+
+Overfull \hbox (5.52174pt too wide) has occurred while \output is active
+[][][][][][][]|  
+ []
+
+[11]
+Overfull \hbox (13.65936pt too wide) in paragraph at lines 480--482
+[]\OT1/ptm/m/n/12 The sys-tem shall han-dle com-plex sen-tence struc-tures, in-
+clud-ing co-or-di-na-tion and sub-or-di-na-tion. 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+
+Overfull \hbox (5.52174pt too wide) has occurred while \output is active
+[][][][][][][]|  
+ []
+
+[12]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+
+Overfull \hbox (5.52174pt too wide) has occurred while \output is active
+[][][][][][][]|  
+ []
+
+[13]
+Overfull \hbox (14.43857pt too wide) in paragraph at lines 541--543
+[]\OT1/ptm/m/n/12 The sys-tem shall sup-port stan-dard part-of-speech tag sets 
+for Malay-alam, en-sur-ing com-pat-i-bil-ity
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+
+Overfull \hbox (5.52174pt too wide) has occurred while \output is active
+[][][][][][][]|  
+ []
+
+[14]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+
+Overfull \hbox (5.52174pt too wide) has occurred while \output is active
+[][][][][][][]|  
+ []
+
+[15]
+Overfull \hbox (9.77176pt too wide) in paragraph at lines 601--606
+\OT1/ptm/m/n/12 Rationale: Se-man-tic anal-y-sis in-volves pro-cess-ing text to
+ un-der-stand its mean-ing, re-quir-ing sig-nif-i-cant
+ []
+
+
+Overfull \hbox (8.09126pt too wide) in paragraph at lines 601--606
+\OT1/ptm/m/n/12 com-pu-ta-tional re-sources. Ef-fi-cient per-for-mance is cru-c
+ial for real-time or near real-time ap-pli-ca-tions,
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+
+Overfull \hbox (5.52174pt too wide) has occurred while \output is active
+[][][][][][][]|  
+ []
+
+[16]
+Overfull \hbox (5.55919pt too wide) in paragraph at lines 651--658
+\OT1/ptm/m/n/12 in-ter-op-er-abil-ity al-lows in-te-gra-tion with other NLP com
+-po-nents. Testa-bil-ity en-sures thor-ough test-ing,
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+
+Overfull \hbox (5.52174pt too wide) has occurred while \output is active
+[][][][][][][]|  
+ []
+
+[17]
+Overfull \hbox (15.00365pt too wide) in paragraph at lines 672--675
+\OT1/ptm/m/n/12 Sen-tence De-tec-tor and Cor-rec-tion. In-ter-na-tional Jour-na
+l of En-gi-neer-ing Re-search & Tech-nol-ogy
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+
+Overfull \hbox (5.52174pt too wide) has occurred while \output is active
+[][][][][][][]|  
+ []
+
+[18] (./SRS.aux) ) 
+Here is how much of TeX's memory you used:
+ 2972 strings out of 478287
+ 46224 string characters out of 5849290
+ 356672 words of memory out of 5000000
+ 21154 multiletter control sequences out of 15000+600000
+ 488622 words of font info for 59 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,12n,62p,627b,406s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</
+usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/urw/times/utmr8a.pfb>
+Output written on SRS.pdf (22 pages, 173212 bytes).
+PDF statistics:
+ 96 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+
