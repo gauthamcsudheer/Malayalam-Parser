@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.8)  11 MAR 2024 08:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.8)  11 MAR 2024 16:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -248,27 +248,15 @@ Overfull \hbox (5.52174pt too wide) has occurred while \output is active
  []
 
 [4]
-Overfull \hbox (8.4033pt too wide) in paragraph at lines 138--143
-\OT1/ptm/m/n/12 This Soft-ware Re-quire-ments Spec-i-fi-ca-tion (SRS) doc-u-men
-t out-lines the spec-i-fi-ca-tions for de-vel-op-ing
+Overfull \hbox (32.52315pt too wide) in paragraph at lines 138--139
+\OT1/ptm/m/n/12 anal-y-sis, ma-chine trans-la-tion, and text sum-ma-riza-tion. 
+By fo-cus-ing on the unique lin-guis-tic char-ac-ter-is-tics
  []
 
 
-Overfull \hbox (19.29927pt too wide) in paragraph at lines 160--162
-\OT1/ptm/m/n/12 com-mu-ni-ca-tion with Malayalam-speaking au-di-ences, sup-port
--ing mar-ket ex-pan-sion and cus-tomer
- []
-
-
-Overfull \hbox (14.66756pt too wide) in paragraph at lines 165--166
-[]\OT1/ptm/b/n/12 Innovation: \OT1/ptm/m/n/12 In-vest-ment in lan-guage pro-ces
-s-ing tech-nolo-gies demon-strates in-no-va-tion, en-sur-ing
- []
-
-
-Overfull \hbox (28.46725pt too wide) in paragraph at lines 165--166
-\OT1/ptm/m/n/12 its ob-jec-tives, scope, and key stake-hold-ers, and de-scribes
- how the project aligns with or-ga-ni-za-tional
+Overfull \hbox (14.0075pt too wide) in paragraph at lines 138--139
+\OT1/ptm/m/n/12 lin-guis-tic re-sources, the project aims to con-tribute to the
+ ad-vance-ment of NLP re-search and tech-nol-ogy
  []
 
 
@@ -285,12 +273,22 @@ Overfull \hbox (5.52174pt too wide) has occurred while \output is active
  []
 
 [1]
+Overfull \hbox (14.66756pt too wide) in paragraph at lines 159--160
+[]\OT1/ptm/b/n/12 Innovation: \OT1/ptm/m/n/12 In-vest-ment in lan-guage pro-ces
+s-ing tech-nolo-gies demon-strates in-no-va-tion, en-sur-ing
+ []
+
+
+Overfull \hbox (28.46725pt too wide) in paragraph at lines 159--160
+\OT1/ptm/m/n/12 its ob-jec-tives, scope, and key stake-hold-ers, and de-scribes
+ how the project aligns with or-ga-ni-za-tional
+ []
+
 <architecture.png, id=24, 575.14874pt x 413.545pt>
 File: architecture.png Graphic file (type png)
 <use architecture.png>
-Package pdftex.def Info: architecture.png  used on input line 188.
+Package pdftex.def Info: architecture.png  used on input line 179.
 (pdftex.def)             Requested size: 284.52756pt x 204.58865pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -305,19 +303,19 @@ Overfull \hbox (5.52174pt too wide) has occurred while \output is active
  []
 
 [2]
-Overfull \hbox (14.84647pt too wide) in paragraph at lines 207--210
+Overfull \hbox (14.84647pt too wide) in paragraph at lines 198--201
 []\OT1/ptm/m/n/12 Interface with ex-ter-nal sys-tems or ap-pli-ca-tions, such a
 s text in-put sources or lin-guis-tic databases,
  []
 
 
-Overfull \hbox (2.73921pt too wide) in paragraph at lines 207--210
+Overfull \hbox (2.73921pt too wide) in paragraph at lines 198--201
 \OT1/ptm/m/n/12 for data in-te-gra-tion and en-hanced func-tion-al-ity within b
 roader lin-guis-tic anal-y-sis frame-works. 
  []
 
 
-Overfull \hbox (24.09995pt too wide) in paragraph at lines 213--216
+Overfull \hbox (24.09995pt too wide) in paragraph at lines 204--207
 \OT1/ptm/m/n/12 For cre-at-ing the Malay-alam Parser, the op-er-at-ing en-vi-ro
 n-ment en-com-passes the fol-low-ing spec-i-fi-ca-tions: 
  []
@@ -336,25 +334,25 @@ Overfull \hbox (5.52174pt too wide) has occurred while \output is active
  []
 
 [3 <./architecture.png>]
-Overfull \hbox (10.97159pt too wide) in paragraph at lines 220--223
+Overfull \hbox (10.97159pt too wide) in paragraph at lines 211--214
 []\OT1/ptm/m/n/12 Minimum hard-ware re-quire-ments in-clude a mod-ern pro-ces-s
 or (e.g., In-tel Core i5 or equiv-a-lent),
  []
 
 
-Overfull \hbox (23.51147pt too wide) in paragraph at lines 228--231
+Overfull \hbox (23.51147pt too wide) in paragraph at lines 219--222
 []\OT1/ptm/m/n/12 The soft-ware should be com-pat-i-ble with pop-u-lar op-er-at
 -ing sys-tems used for soft-ware de-vel-op-ment
  []
 
 
-Overfull \hbox (24.49509pt too wide) in paragraph at lines 240--241
+Overfull \hbox (24.49509pt too wide) in paragraph at lines 231--232
 []\OT1/ptm/m/n/12 The Malay-alam Parser may re-quire in-te-gra-tion with var-i-
 ous soft-ware com-po-nents and ap-pli-ca-tions
  []
 
 
-Overfull \hbox (7.35968pt too wide) in paragraph at lines 247--248
+Overfull \hbox (7.35968pt too wide) in paragraph at lines 238--239
 \OT1/ptm/m/n/12 The de-vel-op-ment of the Malay-alam Parser is sub-ject to var-
 i-ous con-straints and lim-i-ta-tions, in-clud-ing: 
  []
@@ -373,39 +371,45 @@ Overfull \hbox (5.52174pt too wide) has occurred while \output is active
  []
 
 [4]
-Overfull \hbox (1.43175pt too wide) in paragraph at lines 250--253
+Overfull \hbox (1.43175pt too wide) in paragraph at lines 241--244
 []\OT1/ptm/b/n/12 Corporate or Reg-u-la-tory Poli-cies: \OT1/ptm/m/n/12 Com-pli
 -ance with data pro-tec-tion reg-u-la-tions and pri-vacy
  []
 
 
-Overfull \hbox (10.05896pt too wide) in paragraph at lines 250--253
+Overfull \hbox (10.05896pt too wide) in paragraph at lines 241--244
 \OT1/ptm/m/n/12 poli-cies is manda-tory. The Malay-alam Parser must ad-here to 
 all ap-pli-ca-ble laws and reg-u-la-tions
  []
 
 
-Overfull \hbox (18.08684pt too wide) in paragraph at lines 253--257
+Overfull \hbox (18.08684pt too wide) in paragraph at lines 244--248
 []\OT1/ptm/b/n/12 Hardware Lim-i-ta-tions: \OT1/ptm/m/n/12 The soft-ware must b
 e op-ti-mized to op-er-ate within hard-ware lim-i-ta-tions,
  []
 
 
-Overfull \hbox (9.11053pt too wide) in paragraph at lines 257--261
+Overfull \hbox (9.11053pt too wide) in paragraph at lines 248--252
 \OT1/ptm/m/n/12 and data for-mats to fa-cil-i-tate in-ter-op-er-abil-ity with o
 ther lan-guage pro-cess-ing tools or databases. 
  []
 
 
-Overfull \hbox (20.93124pt too wide) in paragraph at lines 272--276
+Overfull \hbox (20.93124pt too wide) in paragraph at lines 259--263
 \OT1/ptm/m/n/12 pro-gram-ming stan-dards, and cod-ing guide-lines is paramount.
  De-vel-op-ers must fol-low es-tab-lished
  []
 
 
-Overfull \hbox (17.94276pt too wide) in paragraph at lines 272--276
+Overfull \hbox (17.94276pt too wide) in paragraph at lines 259--263
 \OT1/ptm/m/n/12 best prac-tices and or-ga-ni-za-tional stan-dards to en-sure ma
 in-tain-abil-ity, read-abil-ity, and con-sis-tency
+ []
+
+
+Overfull \hbox (1.58708pt too wide) in paragraph at lines 267--271
+\OT1/ptm/m/n/12 Malay-alam Parser will rely on third-party or com-mer-cial com-
+po-nents. The project is in-tended
  []
 
 
@@ -422,27 +426,21 @@ Overfull \hbox (5.52174pt too wide) has occurred while \output is active
  []
 
 [5]
-Overfull \hbox (24.15834pt too wide) in paragraph at lines 288--299
+Overfull \hbox (24.15834pt too wide) in paragraph at lines 275--286
 \OT1/ptm/m/n/12 de-ploy-ment of the Malay-alam Parser will meet the spec-i-fied
  re-quire-ments, in-clud-ing com-pat-i-bil-ity
  []
 
 
-Overfull \hbox (2.16217pt too wide) in paragraph at lines 299--303
+Overfull \hbox (2.16217pt too wide) in paragraph at lines 286--290
 []\OT1/ptm/b/n/12 Constraints and Lim-i-ta-tions: \OT1/ptm/m/n/12 The project a
 s-sumes that con-straints and lim-i-ta-tions iden-ti-fied
  []
 
 
-Overfull \hbox (21.73524pt too wide) in paragraph at lines 303--307
-[]\OT1/ptm/b/n/12 External De-pen-den-cies: \OT1/ptm/m/n/12 The project does no
-t an-tic-i-pate heavy re-liance on ex-ter-nal de-pen-den-cies
- []
-
-
-Overfull \hbox (2.17609pt too wide) in paragraph at lines 316--324
-\OT1/ptm/m/n/12 friendly ap-pli-ca-tions that en-hance the learn-ing and anal-y
--sis ex-pe-ri-ence for users. These ap-pli-ca-tions
+Overfull \hbox (13.7439pt too wide) in paragraph at lines 290--294
+\OT1/ptm/m/n/12 reused soft-ware com-po-nents from other projects. Any de-pen-d
+en-cies aris-ing dur-ing de-vel-op-ment
  []
 
 
@@ -473,19 +471,19 @@ Overfull \hbox (5.52174pt too wide) has occurred while \output is active
  []
 
 [7]
-Overfull \hbox (2.75243pt too wide) in paragraph at lines 364--366
+Overfull \hbox (2.75243pt too wide) in paragraph at lines 351--353
 \OT1/ptm/m/n/12 The sys-tem fea-tures for the Malay-alam Parser are or-ga-nized
  to high-light the ma-jor ser-vices pro-vided
  []
 
 
-Overfull \hbox (14.95538pt too wide) in paragraph at lines 366--368
+Overfull \hbox (14.95538pt too wide) in paragraph at lines 353--355
 []\OT1/ptm/b/n/12 Text Pars-ing: \OT1/ptm/m/n/12 The parser breaks down Malay-a
 lam lan-guage text into its con-stituent com-po-nents
  []
 
 
-Overfull \hbox (1.99446pt too wide) in paragraph at lines 368--370
+Overfull \hbox (1.99446pt too wide) in paragraph at lines 355--357
 []\OT1/ptm/b/n/12 Grammatical Anal-y-sis: \OT1/ptm/m/n/12 It iden-ti-fies the p
 arts of speech, syn-tac-tic struc-ture, and gram-mat-i-cal
  []
@@ -504,15 +502,21 @@ Overfull \hbox (5.52174pt too wide) has occurred while \output is active
  []
 
 [8]
-Overfull \hbox (3.37587pt too wide) in paragraph at lines 397--399
+Overfull \hbox (3.37587pt too wide) in paragraph at lines 384--386
 []\OT1/ptm/m/n/12 The sys-tem shall to-k-enize words in Malay-alam text, con-si
 d-er-ing com-pound words and af-fixes. 
  []
 
 
-Overfull \hbox (2.79944pt too wide) in paragraph at lines 401--403
+Overfull \hbox (2.79944pt too wide) in paragraph at lines 388--390
 []\OT1/ptm/m/n/12 The sys-tem shall han-dle vari-a-tions in spelling and word f
 orms com-monly found in Malay-alam
+ []
+
+
+Overfull \hbox (9.46062pt too wide) in paragraph at lines 400--403
+\OT1/ptm/m/n/12 This fea-ture in-volves per-form-ing lemma-ti-za-tion to iden-t
+ify the base form of words and mor-pho-log-i-cal
  []
 
 
@@ -529,19 +533,13 @@ Overfull \hbox (5.52174pt too wide) has occurred while \output is active
  []
 
 [9]
-Overfull \hbox (9.46062pt too wide) in paragraph at lines 413--416
-\OT1/ptm/m/n/12 This fea-ture in-volves per-form-ing lemma-ti-za-tion to iden-t
-ify the base form of words and mor-pho-log-i-cal
- []
-
-
-Overfull \hbox (4.11893pt too wide) in paragraph at lines 425--427
+Overfull \hbox (4.11893pt too wide) in paragraph at lines 412--414
 []\OT1/ptm/m/n/12 The sys-tem shall an-a-lyze the mor-phol-ogy of Malay-alam wo
 rds to de-ter-mine their gram-mat-i-cal
  []
 
 
-Overfull \hbox (17.79929pt too wide) in paragraph at lines 427--429
+Overfull \hbox (17.79929pt too wide) in paragraph at lines 414--416
 []\OT1/ptm/m/n/12 The sys-tem shall han-dle vari-a-tions in word forms and in-f
 lec-tions com-monly found in Malay-alam. 
  []
@@ -574,7 +572,7 @@ Overfull \hbox (5.52174pt too wide) has occurred while \output is active
  []
 
 [11]
-Overfull \hbox (13.65936pt too wide) in paragraph at lines 480--482
+Overfull \hbox (13.65936pt too wide) in paragraph at lines 467--469
 []\OT1/ptm/m/n/12 The sys-tem shall han-dle com-plex sen-tence struc-tures, in-
 clud-ing co-or-di-na-tion and sub-or-di-na-tion. 
  []
@@ -593,21 +591,7 @@ Overfull \hbox (5.52174pt too wide) has occurred while \output is active
  []
 
 [12]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-
-Overfull \hbox (5.52174pt too wide) has occurred while \output is active
-[][][][][][][]|  
- []
-
-[13]
-Overfull \hbox (14.43857pt too wide) in paragraph at lines 541--543
+Overfull \hbox (14.43857pt too wide) in paragraph at lines 525--527
 []\OT1/ptm/m/n/12 The sys-tem shall sup-port stan-dard part-of-speech tag sets 
 for Malay-alam, en-sur-ing com-pat-i-bil-ity
  []
@@ -625,7 +609,7 @@ Overfull \hbox (5.52174pt too wide) has occurred while \output is active
 [][][][][][][]|  
  []
 
-[14]
+[13]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -639,14 +623,14 @@ Overfull \hbox (5.52174pt too wide) has occurred while \output is active
 [][][][][][][]|  
  []
 
-[15]
-Overfull \hbox (9.77176pt too wide) in paragraph at lines 601--606
+[14]
+Overfull \hbox (9.77176pt too wide) in paragraph at lines 585--590
 \OT1/ptm/m/n/12 Rationale: Se-man-tic anal-y-sis in-volves pro-cess-ing text to
  un-der-stand its mean-ing, re-quir-ing sig-nif-i-cant
  []
 
 
-Overfull \hbox (8.09126pt too wide) in paragraph at lines 601--606
+Overfull \hbox (8.09126pt too wide) in paragraph at lines 585--590
 \OT1/ptm/m/n/12 com-pu-ta-tional re-sources. Ef-fi-cient per-for-mance is cru-c
 ial for real-time or near real-time ap-pli-ca-tions,
  []
@@ -664,8 +648,22 @@ Overfull \hbox (5.52174pt too wide) has occurred while \output is active
 [][][][][][][]|  
  []
 
+[15]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+
+Overfull \hbox (5.52174pt too wide) has occurred while \output is active
+[][][][][][][]|  
+ []
+
 [16]
-Overfull \hbox (5.55919pt too wide) in paragraph at lines 651--658
+Overfull \hbox (5.55919pt too wide) in paragraph at lines 635--642
 \OT1/ptm/m/n/12 in-ter-op-er-abil-ity al-lows in-te-gra-tion with other NLP com
 -po-nents. Testa-bil-ity en-sures thor-ough test-ing,
  []
@@ -684,7 +682,7 @@ Overfull \hbox (5.52174pt too wide) has occurred while \output is active
  []
 
 [17]
-Overfull \hbox (15.00365pt too wide) in paragraph at lines 672--675
+Overfull \hbox (15.00365pt too wide) in paragraph at lines 657--660
 \OT1/ptm/m/n/12 Sen-tence De-tec-tor and Cor-rec-tion. In-ter-na-tional Jour-na
 l of En-gi-neer-ing Re-search & Tech-nol-ogy
  []
@@ -710,12 +708,12 @@ Here is how much of TeX's memory you used:
  21154 multiletter control sequences out of 15000+600000
  488622 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,12n,62p,627b,406s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,12n,62p,668b,404s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</
 usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/urw/times/utmr8a.pfb>
-Output written on SRS.pdf (22 pages, 173212 bytes).
+Output written on SRS.pdf (22 pages, 172949 bytes).
 PDF statistics:
  96 PDF objects out of 1000 (max. 8388607)
  61 compressed objects within 1 object stream

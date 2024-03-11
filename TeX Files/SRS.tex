@@ -135,16 +135,13 @@
 	\section{Introduction}
 	
 	\subsection{Purpose}
-	This Software Requirements Specification (SRS) document outlines the specifications for
-	developing a Malayalam Parser. The goal is to create an NLP-based system capable of
-	accurately parsing and understanding Malayalam text data. This document covers
-	functional and non-functional requirements, system scope, and serves as a communication
-	tool between stakeholders.
+	This system aims to enhance the understanding and analysis of Malayalam text data, enabling more accurate and efficient processing of information, including but not limited to retrieval, sentiment analysis, machine translation, and text summarization. By focusing on the unique linguistic characteristics of Malayalam, the project seeks to overcome the challenges posed by the language's morphology, syntax, and semantics. Through the development of innovative algorithms, data structures, and linguistic resources, the project aims to contribute to the advancement of NLP research and technology in the context of the Malayalam language.
 	
 	\begin{itemize}[label=-]
-		\item The Malayalam Parser system will focus primarily on analyzing and parsing written text in the Malayalam language.
-		\item Initially, the system will target general-purpose parsing tasks but can be extended to handle domain-specific or specialized parsing tasks in the future.
-		\item The scope includes the development of necessary algorithms, data structures and linguistic resources required for accurate parsing of Malayalam text.
+		\item The primary focus of the Malayalam Parser system is to analyze and parse written text in the Malayalam language. This involves tasks such as tokenization, part-of-speech tagging, parsing, and semantic analysis.
+		\item Initially, the system will target general-purpose parsing tasks, which are applicable to a wide range of text data. These tasks form the foundation of the parsing capabilities of the system.
+		\item The system is designed to be extensible, allowing for the inclusion of domain-specific or specialized parsing tasks in the future. This flexibility ensures that the system can adapt to different needs and requirements over time.
+		\item In addition to algorithms and data structures, the project also involves the development of linguistic resources that are crucial for parsing Malayalam text. These resources may include lexicons, grammars, and annotated corpora.
 	\end{itemize}
 	
 	\subsection{Product Scope}
@@ -152,15 +149,12 @@
 	down sentences to figure out their grammar, structure, and meaning using advanced
 	language processing techniques. It helps with tasks like identifying different parts of
 	speech, understanding how sentences are put together, and analyzing the overall meaning
-	of text.\\
+	of text.\\\\
 	The Malayalam Parser directly contributes to corporate goals and business strategies by
 	enabling:
 	
 	\begin{itemize}[label=-]
-		\item \textbf{Effective Communication:} By accurately parsing Malayalam text, the tool facilitates clear communication with Malayalam-speaking audiences, supporting
-		market expansion and customer engagement.
-		
-		\item \textbf{Informed Decision-Making:} Extracting insights from Malayalam text aids in	data-driven decision-making, enhancing strategic planning and execution.
+		\item \textbf{Informed Decision-Making:} Implementation of parsing tasks including tokenization, part-of-speech tagging, parsing, and semantic analysis for Malayalam text. Extracting insights from Malayalam text aids in	data-driven decision-making, enhancing strategic planning and execution.
 		
 		\item \textbf{Innovation:} Investment in language processing technologies demonstrates innovation, ensuring the organization remains competitive and adaptable to technological advancements. The Vision and Scope document typically provides an	overarching vision for the project, outlines its objectives, scope, and key	stakeholders, and describes how the project aligns with organizational goals and strategies. By referring to this document, stakeholders can gain a comprehensive understanding of the project's vision, objectives, and scope without unnecessary	repetition of information.
 	\end{itemize}
@@ -179,9 +173,6 @@
 	language processing capabilities in Malayalam. While it operates autonomously, it may
 	interface with other systems or applications, such as text input sources or linguistic
 	databases, to facilitate seamless integration within broader linguistic analysis frameworks.
-	This section does not include a diagram but provides a detailed understanding of the
-	software's context within the larger system landscape. It emphasizes the software's role as a standalone entity dedicated to Malayalam language parsing, with potential interfaces to
-	external systems for enhanced functionality and interoperability.
 	
 	\begin{figure}[t]
 		\centering
@@ -226,12 +217,12 @@
 	
 	\begin{itemize}[label=-]
 		\item The software should be compatible with popular operating systems used for
-		software development and deployment, including Windows, macOS, and Linux
+		software development and deployment, including Windows, MacOS, and Linux
 		distributions.
 		\item Specific operating system versions supported include:
-		\item Windows 10 or later
-		\item MacOS 10.13 High Sierra or later
-		\item Ubuntu 18.04 LTS or later
+		\subitem Windows 10 or later
+		\subitem MacOS 10.13 High Sierra or later
+		\subitem Ubuntu 18.04 LTS or later
 	\end{itemize}
 	
 	\textbf{Software Components and Applications}
@@ -258,10 +249,6 @@
 		systems is essential for seamless integration. The Malayalam Parser must support
 		standard interfaces and data formats to facilitate interoperability with other
 		language processing tools or databases.
-		\item \textbf{Specific Technologies, Tools, and Databases:} The use of specific technologies,
-		tools, and databases may be mandated by project requirements or organizational
-		standards. Developers must adhere to designated technologies and tools approved
-		for the project.
 		\item \textbf{Language Requirements:} The Malayalam Parser must be designed and
 		implemented to meet the linguistic complexities of the Malayalam language. This
 		includes handling unique grammar rules, character encoding, and text processing
@@ -274,12 +261,12 @@
 		Developers must follow established best practices and organizational standards to
 		ensure maintainability, readability, and consistency of the codebase.
 	\end{itemize}
-
+	
 	\subsection{Assumptions and Dependencies}
 	\begin{enumerate}
 		\item \textbf{Third-Party or Commercial Components:} It is assumed that the development of
-		the Malayalam Parser will not heavily rely on third-party or commercial components.
-		The project is intended to be developed from scratch, without significant
+		the Malayalam Parser will rely on third-party or commercial components.
+		The project is intended to be developed from existing models, without significant
 		dependencies on pre-existing software solutions or proprietary libraries.
 		\item \textbf{Development Environment:} The assumption is made that the development
 		environment for the Malayalam Parser will be properly configured and equipped
@@ -300,9 +287,9 @@
 		identified in the SRS, such as corporate policies, regulatory requirements, and
 		hardware limitations, will be properly addressed and accounted for during the
 		development process.
-		\item \textbf{External Dependencies:} The project does not anticipate heavy reliance on external
-		dependencies or reused software components from other projects. However, if any
-		dependencies arise during development, they will be clearly documented and
+		\item \textbf{External Dependencies:} The project does anticipate reliance on external
+		dependencies or reused software components from other projects. Any
+		dependencies arising during development will be clearly documented and
 		managed accordingly.
 		\item \textbf{Availability of Resources:} It is assumed that the necessary resources, including
 		human resources, budget allocation, and development timelines, will be available
@@ -318,7 +305,7 @@
 	for developing apps focused on language learning, text analysis, and speech recognition.
 	This versatility opens up opportunities for creating interactive and innovative tools that
 	cater to different learning styles and linguistic analysis needs. By leveraging the project's
-	capabilities, developers can create user-friendly applications that enhance the learning and
+	capabilities, we can create user-friendly applications that enhance the learning and
 	analysis experience for users. These applications can play a significant role in promoting
 	the Malayalam language and its usage in various contexts.
 	
@@ -339,7 +326,7 @@
 	\subsection{Software Interfaces}
 	The Malayalam parser integrates with various software components, including databases
 	such as SQLite, PostgreSQL, and MongoDB for data storage and retrieval. It is designed
-	to run on popular operating systems like Windows 10 or later, macOS 10.13 High Sierra or
+	to run on popular operating systems like Windows 10 or later, MacOS 10.13 High Sierra or
 	later, and Ubuntu 18.04 LTS or later. Development and NLP tasks are facilitated by Python
 	(version 3.6 or later) along with libraries like NLTK, Spacy, and TensorFlow. These tools
 	aid in implementing NLP algorithms and processing linguistic data. The system may also
@@ -459,7 +446,7 @@
 		\item The system shall be able to handle sentence inputs of up to Y characters in length.
 	\end{enumerate}
 
-	\subsection{Syntax Tree generation}
+	\subsection{Syntax Tree Generation}
 	
 	\subsubsection{Description and Priority}
 	Syntax tree generation involves creating syntax trees that represent the grammatical
@@ -481,7 +468,6 @@
 		subordination.
 		\item The system shall provide options for visualizing syntax trees, such as tree
 		diagrams or textual representations.
-		\item The system shall allow users to navigate and explore syntax trees interactively.
 		\item The system shall process sentences efficiently, aiming for a tree generation speed
 		of at least X trees per second.
 	\end{enumerate}
@@ -512,8 +498,6 @@
 		results.
 		\item The system shall handle errors gracefully, providing informative messages for
 		incorrect inputs.
-		\item It shall process text efficiently, aiming for a response time of less than 1 second for
-		short to medium-length texts.
 		\item It shall process text efficiently, aiming for a response time of less than 1 second for
 		short to medium-length texts.
 		\item It shall be able to process text with a wide range of vocabulary and language
@@ -656,6 +640,7 @@
 	These characteristics collectively ensure the parser's efficiency, effectiveness, and
 	adaptability.
 	
+	\newpage
 	\section*{References}
 	\begin{enumerate}
 		\item Asopa, S., \& Sharma, N. (2021) A Hybrid Parser Model for Hindi Language. Indian
@@ -672,6 +657,7 @@
 		\item Mestry, A., Shende, S., Mahadik, A., \& Virnodkar, S. (2014). A Parser: Simple
 		English Sentence Detector and Correction. International Journal of Engineering
 		Research \& Technology (IJERT).
+		
 	\end{enumerate}
 	
 \end{document}
