@@ -48,7 +48,7 @@
 				{\fontsize{16pt}{19.2pt}\selectfont
 					Software Requirement Specification}}\medskip
 			{\fontsize{14pt}{16.8pt}\selectfont
-				\\On\medskip\\Malayalam Parser For Dataset Creation}
+				\\on\medskip\\Malayalam Parser for Dataset Creation}
 		}
 		
 		
@@ -58,9 +58,9 @@
 		
 		{\fontsize{14pt}{16.8pt}\selectfont
 			\textbf{
-				By\\
+				by\\
 				Fathima Jennath (U2103089)\\
-				Gautham C Sudheer(U2103092)\\
+				Gautham C Sudheer (U2103092)\\
 				Godwin Gino (U2103096)\\
 				Mohammed Basil (U2103139)
 			}
@@ -99,14 +99,15 @@
 				{\fontsize{16pt}{19.2pt}\selectfont
 					Software Requirement Specification}}\medskip
 			{\fontsize{14pt}{16.8pt}\selectfont
-				\\On\medskip\\Malayalam Parser For Dataset Creation}
+				\\on\medskip\\Malayalam Parser for Dataset Creation}
 		}
 		
-		\bigskip
+		\bigskip \bigskip \bigskip
+		\bigskip \bigskip \bigskip
 		
-		{\setstretch{4.0}
+		{\setstretch{3.0}
 			
-			\textbf{{\fontsize{14pt}{16.8pt}\selectfont Prepared By\\}}
+			\textbf{{\fontsize{14pt}{16.8pt}\selectfont Prepared by\\}}
 			
 			U2103089 Fathima Jennath\\
 			U2103092 Gautham C Sudheer\\
@@ -115,10 +116,11 @@
 		}
 	
 		\bigskip \bigskip \bigskip
+		\bigskip \bigskip \bigskip
 	
 		\setstretch{1.5}
 	
-		{\fontsize{16pt}{19.2pt}\selectfont \textbf{Guided By: } Dr. Mary Priya Sebastain\\
+		{\fontsize{16pt}{19.2pt}\selectfont \textbf{Guided By: } Dr. Mary Priya Sebastian\\
 		\hspace{1.8cm}Associate Professor\\
 		\hspace{5.2cm}Dept. of Computer Science, RSET\\}
 		
@@ -127,6 +129,7 @@
 	\newpage
 	\pagestyle{headerstyle}
 	
+	\renewcommand{\contentsname}{Table of Contents}
 	\tableofcontents
 	
 	\newpage
@@ -135,7 +138,7 @@
 	\section{Introduction}
 	
 	\subsection{Purpose}
-	This system aims to enhance the understanding and analysis of Malayalam text data, enabling more accurate and efficient processing of information, including but not limited to retrieval, sentiment analysis, machine translation, and text summarization. By focusing on the unique linguistic characteristics of Malayalam, the project seeks to overcome the challenges posed by the language's morphology, syntax, and semantics. Through the development of innovative algorithms, data structures, and linguistic resources, the project aims to contribute to the advancement of NLP research and technology in the context of the Malayalam language.
+	The system aims to enhance the understanding and analysis of Malayalam text data, enabling more accurate and efficient processing of information, including but not limited to retrieval, sentiment analysis, machine translation, and text summarization. By focusing on the unique linguistic characteristics of Malayalam, the project seeks to overcome the challenges posed by the language's morphology, syntax, and semantics. Through the development of innovative algorithms, data structures, and linguistic resources, the project aims to contribute to the advancement of NLP research and technology in the context of the Malayalam language.
 	
 	\begin{itemize}[label=-]
 		\item The primary focus of the Malayalam Parser system is to analyze and parse written text in the Malayalam language. This involves tasks such as tokenization, part-of-speech tagging, parsing, and semantic analysis.
@@ -145,18 +148,16 @@
 	\end{itemize}
 	
 	\subsection{Product Scope}
-	The Malayalam Parser is a smart tool that understands written Malayalam text. It breaks
+	The Malayalam Parser is a smart tool that understands Malayalam text. It breaks
 	down sentences to figure out their grammar, structure, and meaning using advanced
 	language processing techniques. It helps with tasks like identifying different parts of
 	speech, understanding how sentences are put together, and analyzing the overall meaning
-	of text.\\\\
-	The Malayalam Parser directly contributes to corporate goals and business strategies by
-	enabling:
+	of text.\\
 	
 	\begin{itemize}[label=-]
 		\item \textbf{Informed Decision-Making:} Implementation of parsing tasks including tokenization, part-of-speech tagging, parsing, and semantic analysis for Malayalam text. Extracting insights from Malayalam text aids in	data-driven decision-making, enhancing strategic planning and execution.
 		
-		\item \textbf{Innovation:} Investment in language processing technologies demonstrates innovation, ensuring the organization remains competitive and adaptable to technological advancements. The Vision and Scope document typically provides an	overarching vision for the project, outlines its objectives, scope, and key	stakeholders, and describes how the project aligns with organizational goals and strategies. By referring to this document, stakeholders can gain a comprehensive understanding of the project's vision, objectives, and scope without unnecessary	repetition of information.
+		\item \textbf{Innovation:} Developing a Malayalam parser for dataset creation is significant as it encompasses crucial linguistic tasks such as tokenization, part-of-speech tagging, and named entity recognition. This effort is essential for advancing natural language processing capabilities in Malayalam, enabling the development of robust models for sentiment analysis, machine translation, question answering, and domain-specific parsing. The creation of annotated datasets is vital to train and evaluate these models, contributing to the overall improvement of Malayalam language processing technologies.
 	\end{itemize}
 
 	\section{Overall Description}
@@ -177,7 +178,6 @@
 	\begin{figure}[t]
 		\centering
 		\includegraphics[width=10cm]{architecture.png}
-		\bigskip
 	\end{figure}
 	
 	\newpage
@@ -193,11 +193,7 @@
 		analysis tailored for the Malayalam language.
 		\item Support for handling compound words, inflections, and variations in word forms
 		commonly found in Malayalam text.
-		\item Resolve ambiguity in sentence structure and meaning to ensure precise linguistic
-		analysis.
-		\item Interface with external systems or applications, such as text input sources or linguistic
-		databases, for data integration and enhanced functionality within broader linguistic
-		analysis frameworks.
+		\item Generation of a part-of-speech tagged dataset, named entity dataset, and sentimental tagged dataset, contributing to the advancement of language processing technologies in Malayalam
 	\end{itemize}
 
 	\subsection{Operating Environment}
@@ -238,21 +234,18 @@
 	The development of the Malayalam Parser is subject to various constraints and limitations, including:
 	
 	\begin{itemize}[label=-]
-		\item \textbf{Corporate or Regulatory Policies:} Compliance with data protection regulations
-		and privacy policies is mandatory. The Malayalam Parser must adhere to all
-		applicable laws and regulations governing the handling of user data and privacy.
 		\item \textbf{Hardware Limitations:} The software must be optimized to operate within
 		hardware limitations, including timing and memory constraints. Performance
 		optimizations are crucial to ensure efficient operation across different hardware
 		configuration.
-		\item \textbf{Interfaces to Other Applications:} Compatibility with external applications or
-		systems is essential for seamless integration. The Malayalam Parser must support
-		standard interfaces and data formats to facilitate interoperability with other
-		language processing tools or databases.
+		\item \textbf{Integration with External Systems:}
+		The parser must support standard interfaces and data formats for interoperability with other language processing tools or databases. Ensuring smooth integration is a technical requirement.
 		\item \textbf{Language Requirements:} The Malayalam Parser must be designed and
 		implemented to meet the linguistic complexities of the Malayalam language. This
 		includes handling unique grammar rules, character encoding, and text processing
 		requirements inherent to Malayalam.
+		\item \textbf{Character Encoding and Localization:}
+		Proper handling of character encoding specific to Malayalam and localization considerations are crucial. The parser should accurately interpret and process Malayalam characters.
 		\item \textbf{Security Considerations:} Security measures such as encryption, access control,
 		and data integrity must be incorporated into the design and implementation of the
 		Malayalam Parser to safeguard against security threats and vulnerabilities.
@@ -352,8 +345,10 @@
 	\begin{enumerate}
 		\item \textbf{Text Parsing:} The parser breaks down Malayalam language text into its constituent
 		components such as words, phrases, and sentences.
-		\item \textbf{Grammatical Analysis:} It identifies the parts of speech, syntactic structure, and
-		grammatical relationships within Malayalam sentences.
+		\item \textbf{Lemmatization and Morphological analysis:} Identifying the base forms of words
+		and analyzing word forms to determine grammatical properties in Malayalam text .
+		\item \textbf{Dependency Parsing:} Identifying the syntactic dependencies between words in a
+		Malayalam sentence.
 		\item \textbf{Semantic Analysis:} The system determines the meaning and interpretation of
 		Malayalam text, capturing semantic relationships between words and phrases.
 		\item \textbf{Part-of-Speech Tagging:} Each word in a Malayalam sentence is assigned
@@ -642,22 +637,51 @@
 	
 	\newpage
 	\section*{References}
-	\begin{enumerate}
-		\item Asopa, S., \& Sharma, N. (2021) A Hybrid Parser Model for Hindi Language. Indian
-		Journal of Computer Science and Engineering (IJCSE), Vol. 12 No.1.
-		\item Chen, D., \& Manning, C. D. (2014). A Fast and Accurate Dependency Parser using
-		Neural Networks. Proceedings of the 2014 Conference on Empirical Methods in
-		Natural Language Processing (EMNLP)
-		\item Nair, L. R. (2013). Language Parsing and Syntax of Malayalam Language. 2nd
-		International Symposium on Computer, Communication, Control and Automation
-		(3CA 2013).
-		\item Berger, A. L., Della Pietra, V. J., \& Della Pietra, S. A. (1996). A Maximum Entropy
-		Approach to Natural Language Processing. Association for Computational
-		Linguistics, Vol 22, No I.
-		\item Mestry, A., Shende, S., Mahadik, A., \& Virnodkar, S. (2014). A Parser: Simple
-		English Sentence Detector and Correction. International Journal of Engineering
-		Research \& Technology (IJERT).
+	\addcontentsline{toc}{section}{References}
 		
+	\begin{enumerate}[label=\arabic*.]
+		\item Asopa, S., \& Sharma, N. (2021) A Hybrid Parser Model for Hindi Language. Indian Journal
+		of Computer Science and Engineering (IJCSE), Vol. 12(1).
+		\item Chen, D., \& Manning, C. D. (2014). A Fast and Accurate Dependency Parser using Neural
+		Networks. Proceedings of the 2014 Conference on Empirical Methods in Natural
+		Language Processing (EMNLP).
+		\item Nair, L. R. (2013). Language Parsing and Syntax of Malayalam Language. 2nd International
+		Symposium on Computer, Communication, Control and Automation (3CA 2013).
+		\item Berger, A. L., Della Pietra, V. J., \& Della Pietra, S. A. (1996). A Maximum Entropy
+		Approach to Natural Language Processing. Association for Computational Linguistics, Vol
+		22(1).
+		\item Mestry, A., Shende, S., Mahadik, A., \& Virnodkar, S. (2014). A Parser: Simple English
+		Sentence Detector and Correction. International Journal of Engineering Research and Technology (IJERT).
+		\item Sethi, N., Agrawal, P., Madaan, V., \& Singh, S. K. (2016). A Novel Approach to Paraphrase
+		Hindi Sentences using Natural Language Processing. Indian Journal of Science and
+		Technology, Vol 9(28).
+		\item Smith, D. A., \& Eisner, J. (2008). Dependency Parsing by Belief Propagation. Proceedings of
+		the 2008 Conference on Empirical Methods in Natural Language Processing, Page 145-156.
+		\item Bharati, A., Kulkarni, A., \& Chaudhury, S. (2007). English Parsers: Some Information-based
+		Observations.
+		\item Jayan, J. P., \& R, R. (2009). A Morphological Analyzer for Malayalam - A Comparison of
+		Different Approaches. International Journal of Computer Science and Information
+		Technology. Vol 2(2), Page 155-160.
+		\item Vaidya, A., Choi, J. D., Palmer, M., \& Narasimhan, B. (2011). Analysis of the Hindi
+		Proposition Bank using Dependency Structure. Proceedings of the Fifth Law Workshop (LAW
+		V), Page 21-29.
+		\item Rajan, M., T.S, R., \& Bhojane, V. (2014). Information Retrieval in Malayalam Using
+		Natural Language Processing. International Journal of Scientific \& Engineering Research,
+		Vol 5(6)
+		\item Rajan, M., Thirumalai, R., \& Kumar, V. (2006). Development of a Tamil Parser using
+		Natural Language Processing Techniques. A survey of the state of the art in tamil language
+		technology Vol 6(10).
+		\item Venkatesh, R., Kumar, S., \& Arumugam, P. (2014). Building a Lexical Analyzer for
+		Tamil Texts using NLP Approaches. 2014 International Conference on Advances in ICT for
+		Emerging Regions (ICTer).
+		\item Thavareesan, S., \& Mahesan, S. (2019). Sentiment Analysis in Tamil Texts: A Study
+		on Machine Learning Techniques and Feature Representation.2019 IEEE 14th Conference on
+		Industrial and Information Systems (ICIIS).
+		\item Pai, T. V., Devi, J. A., \& Aithal, P. S. (2020). A Systematic Literature Review of
+		Lexical Analyzer Implementation Techniques in Compiler Design. International Journal of
+		Applied Engineering and Management Letters (IJAEML), Vol 4(2), Page 285-301.
+		\item Simmons, R. F., \& Burger, J. F. (1968). A Semantic Analyzer for English Sentences.
+		Mechanical Translation and Computational Linguistics, Vol 11.
 	\end{enumerate}
 	
 \end{document}
