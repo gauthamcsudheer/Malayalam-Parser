@@ -38,7 +38,7 @@
 \contentsline {paragraph}{\ }{9}{}%
 \contentsline {section}{\numberline {3.4}Description of Implementation Strategies}{9}{}%
 \contentsline {paragraph}{\ }{9}{}%
-\contentsline {section}{\numberline {3.5}Module Division}{9}{}%
-\contentsline {paragraph}{\ }{9}{}%
-\contentsline {section}{\numberline {3.6}Work Schedule - Gantt Chart}{9}{}%
-\contentsline {paragraph}{\ }{9}{}%
+\contentsline {section}{\numberline {3.5}Module Division}{11}{}%
+\contentsline {paragraph}{\ }{11}{}%
+\contentsline {section}{\numberline {3.6}Work Schedule - Gantt Chart}{12}{}%
+\contentsline {paragraph}{\ }{12}{}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.8)  8 APR 2024 23:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.8)  9 APR 2024 14:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -527,22 +527,43 @@ Package pdftex.def Info: logo (1).jpg  used on input line 375.
 
  <./logo (1).jpg>] [7]
 Chapter 3.
+<./architecture.jpg, id=66, 963.6pt x 542.025pt>
+File: ./architecture.jpg Graphic file (type jpg)
+<use ./architecture.jpg>
+Package pdftex.def Info: ./architecture.jpg  used on input line 408.
+(pdftex.def)             Requested size: 569.05511pt x 320.09798pt.
+
+Overfull \hbox (113.811pt too wide) in paragraph at lines 408--409
+ [][] 
+ []
+
 [8
 
-] [9] [10
+ <./architecture.jpg>] [9] [10]
+<./gantt_chart.jpg, id=77, 648.17157pt x 350.81062pt>
+File: ./gantt_chart.jpg Graphic file (type jpg)
+<use ./gantt_chart.jpg>
+Package pdftex.def Info: ./gantt_chart.jpg  used on input line 522.
+(pdftex.def)             Requested size: 512.1496pt x 277.20692pt.
 
-] [11] (main1.aux)
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 522--523
+ [][] 
+ []
+
+[11] [12 <./gantt_chart.jpg>] [13
+
+] [14] (main1.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 12173 strings out of 474485
- 244033 string characters out of 5743735
+ 12188 strings out of 474485
+ 244610 string characters out of 5743735
  1933542 words of memory out of 5000000
- 34310 multiletter control sequences out of 15000+600000
- 571186 words of font info for 85 fonts, out of 8000000 for 9000
+ 34325 multiletter control sequences out of 15000+600000
+ 571189 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,8n,117p,820b,361s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
@@ -556,9 +577,9 @@ ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Admin/
 AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Use
 rs/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10
 .pfb>
-Output written on main1.pdf (20 pages, 693729 bytes).
+Output written on main1.pdf (23 pages, 811766 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
+ 128 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
