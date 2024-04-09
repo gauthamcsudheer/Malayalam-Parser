@@ -36,9 +36,13 @@
 \contentsline {paragraph}{\ }{9}{}%
 \contentsline {section}{\numberline {3.3}Proposed Methodology/Algorithms}{9}{}%
 \contentsline {paragraph}{\ }{9}{}%
-\contentsline {section}{\numberline {3.4}Description of Implementation Strategies}{9}{}%
+\contentsline {section}{\numberline {3.4}User Interface Design}{9}{}%
 \contentsline {paragraph}{\ }{9}{}%
-\contentsline {section}{\numberline {3.5}Module Division}{11}{}%
+\contentsline {section}{\numberline {3.5}Database Design}{10}{}%
+\contentsline {paragraph}{\ }{10}{}%
+\contentsline {section}{\numberline {3.6}Description of Implementation Strategies}{10}{}%
+\contentsline {paragraph}{\ }{10}{}%
+\contentsline {section}{\numberline {3.7}Module Division}{11}{}%
 \contentsline {paragraph}{\ }{11}{}%
-\contentsline {section}{\numberline {3.6}Work Schedule - Gantt Chart}{12}{}%
+\contentsline {section}{\numberline {3.8}Work Schedule - Gantt Chart}{12}{}%
 \contentsline {paragraph}{\ }{12}{}%
