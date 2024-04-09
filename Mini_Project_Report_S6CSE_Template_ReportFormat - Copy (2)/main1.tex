@@ -1,0 +1,653 @@
+\documentclass[12pt,a4paper,titlepage]{report}
+\usepackage{graphicx}
+\usepackage[left=2.8cm, right=2.2cm, top=3cm, bottom=2.5cm]{geometry}
+\usepackage{latexsym}		% to get LASY symbols
+\usepackage{epsfig}			% to insert PostScript figures
+\usepackage{eufrak}
+\usepackage{type1cm}
+\usepackage{newsec}
+\usepackage{titlesec}
+\usepackage{longtable}
+\usepackage{url}
+\usepackage[export]{adjustbox}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{pdfpages}
+\usepackage{caption}
+\usepackage{listings}
+\usepackage{float}
+\usepackage{acro}
+
+\definecolor{customgreen}{rgb}{0,0.6,0}
+\definecolor{customgray}{rgb}{0.5,0.5,0.5}
+\definecolor{custommauve}{rgb}{0.6,0,0.8}
+\lstdefinelanguage{HTML}{
+	sensitive=true,
+	keywords={},
+	otherkeywords={<, >, /},
+	morecomment=[s]{<!--}{-->},
+	morestring=[b]"
+}
+
+
+\lstset{ 
+	basicstyle=\small,        % the size of the fonts that are used for the code
+	breaklines=true,                 % sets automatic line breaking
+	commentstyle=\color{customgreen},    % comment style
+	firstnumber=1,                % start line enumeration with line 1000
+	frame=single,	                   % adds a frame around the code
+	keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+	keywordstyle=\color{blue},       % keyword style
+	numbers=left,                    % where to put the line-numbers; possible values are (none, left, right)
+	numbersep=10pt,                   % how far the line-numbers are from the code
+	numberstyle=\tiny\color{customgray}, % the style that is used for the line-numbers
+	rulecolor=\color{black},         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+	showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+	showstringspaces=false,          % underline spaces within strings only
+	showtabs=false,                  % show tabs within strings adding particular underscores
+	stepnumber=1,                    % the step between two line-numbers. If it's 1, each line will be numbered
+	stringstyle=\color{custommauve},     % string literal style
+	tabsize=2,	                   % sets default tabsize to 2 spaces
+	title=\lstname                   % show the filename of files included with \lstinputlisting; also try caption instead of title
+}
+
+
+\titleformat{\chapter}[display]
+{\normalfont\Large\bfseries\centering}{\chaptertitlename\
+	\thechapter}{25pt}{\Large}
+\titleformat{\section}{\normalfont\bfseries}{\noindent\thesection}{20pt}{}
+\titleformat{\subsection}{\normalfont\small\bfseries}{\thesubsection}{15pt}{\small}
+\titlespacing*{\chapter}{0pt}{0pt}{40pt}
+
+
+\begin{document}
+	\titlepage
+	\thispagestyle{empty}
+	\begin{center}
+		\includegraphics[scale=0.3]{logo1.png}\\[0.5cm]
+		\large \textit{Mini Project Report On}\\[0.6cm]
+		\Large \textbf{Malayalam Parser for Dataset Creation }\\[0.6cm]
+		\textit{Submitted in partial fulfillment of the
+			requirements for the award of the degree of}\\[0.6cm]
+		{\huge {$\mathfrak {Bachelor\; of\; Technology}$}}\\[.2cm]
+		%{\Large {$\mathfrak {In}$}}\\[.5cm]
+		%{\Large {$\mathfrak {Computer\; Science\; \&\; Engineering}$}}\\[2cm]
+		\textit{in}\\[.2cm]
+		{\Large \bf \itshape{{Computer\; Science\; \&\; Engineering}}}\\[0.4cm]
+		\large \bfseries{By}\\[.4cm]
+		\large \bfseries{ Fathima Jennath N.K (U2103089) }\\[0.2cm]
+		\large \bfseries{ Gautham C Sudheer (U2103092) }\\[0.2cm]
+		\large \bfseries{ Godwin Gino (U2103096) }\\[0.2cm]
+		\large \bfseries{ Mohammed Basil (U2103139) }\\[0.6cm]
+		\large \bfseries{Under the guidance of}\\[0.75cm]
+		\large \bfseries{Dr.Mary Priya Sebastian}\\[0.75cm]
+%		\includegraphics[width=8.0cm]{logo (1).jpg}\\[0.5cm]
+		\large \textbf{Department of Computer\; Science\; \&\; Engineering}\\
+		\large \textbf{Rajagiri School of Engineering \&\ Technology (Autonomous)}\\
+		\small \bfseries{(Affiliated to APJ Abdul Kalam Technological University)}\\
+		\large \textbf{Rajagiri Valley, Kakkanad, Kochi, 682039}\\
+		\large \bfseries{May 2024}
+	\end{center}
+	
+	\newpage
+	\thispagestyle{empty}
+	\begin{center}
+	%	\textbf {DEPARTMENT OF COMPUTER SCIENCE \&\ ENGINEERING}\\
+	%	\small \textbf{RAJAGIRI SCHOOL OF ENGINEERING \&\ TECHNOLOGY (AUTONOMOUS)}\\
+	
+	%	\small \textbf{RAJAGIRI VALLEY, KAKKANAD, KOCHI, 682039}\\
+     %   \small \bfseries{(Affiliated to APJ Abdul Kalam Technological University)}\\[0.5cm]
+		%\begin{figure}[htbp]
+		%	\centering
+			%\includegraphics[scale=0.40]{logo (1).jpg}
+         %   \includegraphics[width=8.0cm]{logo (1).jpg}\\[0.5cm]
+		%\end{figure}
+		\large \bfseries{\huge{CERTIFICATE}}\\[5cm]
+	\end{center}
+	
+	\renewcommand{\baselinestretch}{1.2}\normalsize
+	
+	\emph{This is to certify that the mini project report entitled \textbf{"Malayalam Parser for Dataset Creation”} is a bonafide record of the work done by \textbf{Fathima Jennath N.K (U2103089)}, \textbf{Gautham C Sudheer (U2103092)}, \textbf{Godwin Gino (U2103096)}, \textbf{Mohammed Basil (U2103139)}, submitted to the APJ Abdul Kalam Technological University in 
+		partial fulfillment of the requirements for the award of the degree of Bachelor of Technology (B. Tech.) in Computer Science and Engineering during the academic year 2023-2024.}\\[2.5cm]
+	
+\begin{flushleft}
+	
+	
+	\begin{longtable}{p{10.3cm} p{8cm} p{5.25cm}}
+	%	\small\textbf{Name of Guide}    &\small\textbf{Name of Coordinator} \\
+		{Dr.Mary Priya Sebastian}& {Dr.Saritha S}\\
+		{Associate Professor}& {Professor}\\
+		{Dept. of CSE}&  {Dept. of CSE}\\
+		{RSET} ~&{RSET} \\
+		
+	\end{longtable}
+\end{flushleft}
+	
+\begin{center}
+	%\small\textbf{Name of HoD}\\
+	{Dr.Preetha K.G}\\
+	{Head of the Department}\\
+	{Dept. of CSE}\\
+	{RSET}
+\end{center}	
+
+	
+	
+
+    
+	
+	\renewcommand{\baselinestretch}{1.5}\normalsize
+	\newpage
+	%\renewcommand\abstractname{ACKNOWLEDGEMENTS}
+    \chapter*{ACKNOWLEDGEMENTS}
+	%\begin{abstract}
+		\pagenumbering{roman}
+		\setcounter{page}{1}
+		\addcontentsline{toc}{chapter}{Acknowledgements}
+		\vspace{1.5cm}
+		%\begin{spacing}{}
+		\paragraph\ I wish to express my sincere gratitude towards Dr P. S. Sreejith, Principal of RSET, and Dr. Preetha K.G., Head of the Department of Computer Science and Engineering for providing me with the opportunity to undertake my mini project, "Malayalam Parser for Dataset Creation".
+		\paragraph\ I am highly indebted to my project coordinators, \textbf{Dr.Saritha S}, Professor, Department of Computer Science and Engineering for their valuable support.
+		
+		\paragraph\ It is indeed my pleasure and a moment of satisfaction for me to express my sincere
+		gratitude to my project guide \textbf{Dr.Mary Priya Sebastian} for her patience and all the priceless advice and  wisdom she has shared with me.
+		\paragraph\ Last but not the least, I would like to express my sincere gratitude towards all other teachers and friends for their continuous support and constructive ideas.
+		
+		%\end{spacing}
+		\begin{flushright}
+			\textbf{Fathima Jennath NK}\\
+			\textbf{Gautham C Sudheer}\\
+			\textbf{Godwin Gino}\\
+			\textbf{Mohammed Basil}
+		\end{flushright}
+		
+		
+	%\end{abstract}
+   
+	
+	\newpage
+ 
+	\renewcommand{\baselinestretch}{1.5}\normalsize
+	%\thispagestyle{empty}
+	%\renewcommand\abstractname{ABSTRACT}
+
+    \chapter*{Abstract}
+	%\begin{abstract}
+	%	\pagenumbering{roman}
+	%	\setcounter{page}{3}
+		\addcontentsline{toc}{chapter}{Abstract}
+		\vspace{1.5cm}
+		\paragraph\ \ \ \ The “Malayalam Parser for Dataset Creation” project aims to address the scarcity of annotated datasets in the Malayalam language for Natural Language Processing (NLP) applications. The primary objective is to develop a robust Malayalam parser capable of analyzing the syntactic and
+		semantic structures of Malayalam sentences. The creation of this parser involves several key steps, including data collection from diverse sources, preprocessing to ensure data quality, and man-ual annotation of a representative subset of the data with grammatical and syntactic information.
+		The parser development process encompasses the selection of an appropriate parsing approach,whether rule-based, statistical, or machine learning-based. The model is trained using the annotated Malayalam dataset, focusing on capturing the unique linguistic nuances of the Malayalam language. Evaluation metrics are employed to assess the parser’s performance on a separate test
+		set, guiding iterative refinement and enhancement. The resulting Malayalam parser serves as a valuable tool for the analysis of grammatical structures in new Malayalam text data. Its application contributes to the creation of high-quality Malayalam datasets, crucial for advancing NLP research
+		and applications in the Malayalam language. This project encourages collaboration with linguists,researchers, and the Malayalam-speaking community to ensure linguistic accuracy and relevance in the development of the parser. The “Malayalam Parser for Dataset Creation” project aligns with the broader goal of promoting linguistic diversity in NLP, addressing the challenges posed by the scarcity of resources for underrepresented languages. Through the development of this parser, the project aims to facilitate further research and innovation in Malayalam NLP, opening avenues for the exploration of various language-related tasks and applications.
+		
+		%\end{spacing}
+	%\end{abstract}
+	
+	
+	\newpage
+	\normalsize{}
+	
+	%\pagenumbering{roman}
+	%\setcounter{page}{4}
+	%\begin{spacing}{}
+	\tableofcontents
+	%\end{spacing}
+	% \thispagestyle{empty}
+	\newpage
+	
+
+	\listoffigures
+	\addcontentsline{toc}{chapter}{List of Figures}
+	% \thispagestyle{empty}
+	\newpage
+	
+
+   % \pagenumbering{roman}
+	%\setcounter{page}{9}
+	\listoftables
+	\addcontentsline{toc}{chapter}{List of Tables}
+%	\addcontentsline{toc}{chapter}{List of Abbreviations}
+%	\listof{Abbreviations}
+	% \thispagestyle{empty}
+    \newpage
+    
+    \chapter*{List of Abbreviations}
+    \addcontentsline{toc}{chapter}{List of Abbreviations}
+    \begin{itemize}
+    	\item NLP - Natural Language Processing
+    	\item NER - Named Entity Recognition
+    	\item POS - Part-of-Speech
+    \end{itemize}
+    
+     
+    
+    \newpage
+    
+	\cleardoublepage
+	
+	\pagenumbering{arabic}
+	\setcounter{page}{1}
+	%\begin{spacing}{}
+	\chapter{Introduction}
+	
+	\section{Background}
+	
+	Malayalam is spoken widely in Kerala and neighboring areas but has not received as much attention in the tech world as bigger languages like English. This lack of attention has led to a scarcity of tools for analyzing Malayalam text, despite its complex grammar and word forms.
+	
+	Our project aims to address this issue by creating a specialized system for Malayalam that can understand and process Malayalam text more effectively than current tools. This system will facilitate tasks such as sentiment analysis, translation, and summarization, benefiting areas such as education and business.
+	
+	We are designing our system to be adaptable and scalable, ensuring that it can evolve to meet diverse needs. Our ultimate goal is to establish a strong foundation for Malayalam language technology, paving the way for future improvements and innovations.
+	
+	In short, our project focuses on using technology to make working with Malayalam text more efficient, enabling individuals to achieve more in various fields.
+	
+	
+	
+	
+	
+	\section{Problem Definition}
+	
+	The aim of the project is to create a Malayalam Parser for Dataset Creation, involving data collection, preprocessing, manual annotation, and training using various parsing approaches to address the scarcity of annotated datasets in Malayalam for NLP applications.
+	
+	
+	\section{Scope and Motivation}
+	
+		\textbf{Scope:}
+		
+		The Malayalam Parser project aims to develop an advanced tool capable of
+		understanding and processing Malayalam text efficiently. It encompasses essential
+		tasks such as tokenization, part-of-speech tagging, parsing, and semantic analysis,
+		providing a comprehensive breakdown of Malayalam sentences. The system's scope
+		extends to facilitating tasks such as identifying different parts of speech and
+		extracting meaningful insights from text. Additionally, the parser's design includes
+		provisions for future expansion, allowing for the incorporation of domain-specific or specialized parsing tasks. This flexibility ensures that the parser can adapt to
+		evolving needs and requirements, making it applicable across various domains and
+		applications.
+		
+		\textbf{Motivation:}
+		
+	    The motivation behind the Malayalam Parser project stems from the necessity for effective tools to process Malayalam text, essential for informed decision-making and strategic planning. By implementing parsing tasks such as tokenization, part-of-
+		speech tagging, parsing, and semantic analysis, the system enables data-driven decision-making processes, enhancing strategic planning and execution.Furthermore, the project's innovation lies in the creation of annotated datasets,crucial for training and evaluating models for sentiment analysis, machine translation,question answering, and domain-specific parsing. Through these efforts, the project aims to advance natural language processing capabilities in Malayalam, contributing to the improvement of Malayalam language processing technologies and fostering innovation in linguistic research and technology development.
+	
+	
+	
+
+	\begin{center}
+		\begin{tabular}{|c|p{12cm}|}
+			\hline
+			\textbf{Parsing Tasks} & \textbf{Description} \\
+			\hline
+			Tokenization & Breaking down sentences into individual words or tokens. \\
+			\hline
+			Part-of-Speech Tagging & Assigning grammatical tags to each word in a sentence. \\
+			\hline
+			Parsing & Analyzing the structure of sentences to understand their grammatical relationships. \\
+			\hline
+			Semantic Analysis & Extracting the meaning and context from sentences. \\
+			\hline
+		\end{tabular}
+		\captionof{table}{Description of parsing tasks}
+		\label{tab:parsing_tasks}
+	\end{center}
+
+	
+	\section{Objectives}
+	
+	\begin{itemize}
+		\item Develop parsing algorithms to accurately identify linguistic
+		components such as words, phrases, and sentences in Malayalam
+		text, laying the foundation for comprehensive analysis.
+		\item Implement functionalities to determine the grammatical structure,
+		syntax, and semantics of Malayalam sentences, facilitating precise
+		linguistic analysis and comprehension.
+		\item Incorporate part-of-speech tagging, syntactic parsing, and
+		semantic analysis capabilities tailored specifically for the
+		Malayalam language, enabling detailed linguistic processing.
+		\item Enhance the Malayalam Parser system to effectively handle
+		compound words, inflections, and variations in word forms
+		commonly encountered in Malayalam text, ensuring robust parsing
+		capabilities.
+		\item Ensure compatibility and interoperability with existing linguistic
+		analysis frameworks, facilitating seamless integration and
+		utilization of the Malayalam Parser within broader NLP
+		applications.
+		\item Continuously refine and optimize the Malayalam Parser system to
+		improve efficiency, accuracy, and adaptability in analyzing and
+		processing Malayalam text data.
+	\end{itemize}
+	
+	\section{Challenges}
+	\begin{enumerate}
+		\item Morphological Complexity: Malayalam words can change a lot by adding suffixes, making it hard for the parser to figure out their basic forms and parts of speech. This makes it tough to understand the meaning and grammar of sentences.
+		\item Limited Resources: The scarcity of Malayalam-specific NLP tools and datasets complicates the development and training process. Adapting existing tools from other languages or creating new ones becomes necessary, potentially slowing down progress and hindering the effectiveness of the parser.
+		\item Syntactic Freedom: Malayalam's relatively flexible sentence structure allows for varied word orders, challenging parsing algorithms in determining precise word relationships. This freedom introduces complexity in identifying grammatical elements like subjects, objects, and verbs, especially when word order isn't a definitive indicator.
+		\item Data Annotation: The process of manually annotating data for parts of speech (POS), named entities, and intents is meticulous and time-consuming, requiring expertise in Malayalam grammar. It's crucial to ensure the quality and comprehensiveness of annotated training data for the parser's success, although this can be resource-intensive.
+		\item Model Selection and Training: Optimal performance of POS tagging, named entity recognition, and intent recognition tasks relies on choosing suitable algorithms and training them effectively. However, training on potentially limited or imbalanced datasets necessitates careful optimization, such as data augmentation and hyperparameter tuning, to mitigate any shortcomings. 
+	\end{enumerate}
+	
+	
+	
+	
+	\section{Assumptions}
+	
+	\begin{enumerate}
+		\item Availability of Training Data: The project assumes a certain amount of high-quality Malayalam text data will be available for annotation and training the parser for POS tagging, NER, and intent recognition.
+		\item Effectiveness of Algorithms: The project assumes that the selected algorithms for POS tagging, NER, and intent recognition will be capable of accurately handling the linguistic complexities inherent in the Malayalam language.
+		\item Computational Resources: Adequate computational resources are assumed to be accessible for training the parser models, as this process can be computationally demanding.
+		\item Annotation Quality: The project assumes the quality of the annotations in the training data, including accuracy and consistency, as these factors greatly influence the performance of the parser models.
+		
+	\end{enumerate}
+	
+	
+	\section{Societal / Industrial Relevance}
+	
+	The project aims to preserve and promote Malayalam, enhancing understanding and analysis of Malayalam text, providing datasets for parts-of-speech tagging, named entity recognition, and intent recognition. It supports research and learning in NLP and Malayalam linguistics, improving access to information for Malayalam speakers online. The project also supports the development of local language technologies for industries in Malayalam-speaking regions, expanding market opportunities in e-commerce and social media.
+	
+
+	\section{Organization of the Report}
+	
+	The organization of the report are as follows:
+	\begin{itemize}
+		\item 	\textbf{Chapter 1-Introduction:}The introduction covers the background of the project, the problem definition, the scope and motivation, the objectives,the societal and industrial relevance, the assumptions and the challenges faced by the project.
+		
+		\item \textbf{Chapter 2-Software Requirements Specification:} This chapter outlines the functional and nonfunctional requirements of the NLP tools for Malayalam. It defines the overall description of the software, external interface requirements, system features, and other nonfunctional requirements necessary for the development and deployment of the tools.
+		
+		\item \textbf{Chapter 3-System Architecture and Design:} The system architecture and design chapter provides an overview of the project’s technical framework. It includes discussions on the system overview, architectural design, identified datasets, proposed algorithms, implementation strategies, module division, and a work schedule presented as a Gantt chart for project planning and management.
+	\end{itemize}
+
+	
+	
+	
+	
+
+	
+	\chapter{Software Requirements Specification}
+	Insert your SRS document here.
+	
+	\section{Introduction}
+	\paragraph\ 
+	
+	\begin{figure}[htbp]
+		\centering
+		%\includegraphics[scale=0.40]{logo (1).jpg}
+		\includegraphics[width=8.0cm]{logo (1).jpg}\\[0.5cm]
+		\caption{Insert your images here, and provide necessary captions}
+	\end{figure}
+	
+	\section{Overall Description}
+	\paragraph\ 
+	
+	\section{External Interface Requirements}
+	\paragraph\ 
+	
+	You can insert equations into your file using the below code:
+	
+
+	\begin{eqnarray}
+		a & = & b + c \\
+		& = & y - z
+	\end{eqnarray}
+	
+	\section{System Features}
+	\paragraph\ 
+	
+	\section{Other Nonfunctional Requirements}
+	\paragraph\ 
+	
+
+	
+	
+	
+	\chapter{System Architecture and Design}
+	\section{System Overview }
+	\paragraph\ 
+	The process of developing a Malayalam parser involves several key stages to effectively process Malayalam text for tasks such as sentiment analysis, named entity recognition, and part-of-speech (POS) tagging. It begins with data collection, where Malayalam text is gathered from online sources using web scraping techniques. This collected text is then cleaned to remove any irrelevant information, errors, or special characters.
+	In the cleaning phase, language filtering is applied to ensure the text is in Malayalam. Following data cleaning, the text undergoes preprocessing, which include tokenization to break the text into individual words or tokens. Stemming is then applied to reduce inflected words to their base form, simplifying the text for analysis.
+	A crucial step is building a training corpus of preprocessed Malayalam text labeled with the desired information, such as sentiment labels, named entities, and part-of-speech tags. Features are extracted from the preprocessed text and serve as inputs to the machine learning model.
+	A suitable machine learning model is selected and trained on the extracted features and labeled training data. The model's performance is evaluated on a separate set of data to assess its accuracy and effectiveness to new, unseen data.
+	Finally, the trained model is used to process new Malayalam text, tagging it with sentiment labels, named entities, part-of-speech tags, or other relevant information. Linguists can add custom rules to refine the model's output for better accuracy, particularly in cases where the model may not perform optimally.
+	In summary, the development of a Malayalam parser involves collecting, cleaning, and preprocessing text, building a training corpus, extracting features, training and evaluating a machine learning model, and processing new text. This process enables the effective analysis and processing of Malayalam text for various natural language processing tasks, contributing to the advancement of language technology in the Malayalam language.
+	
+	
+	\section{Dataset identified}
+	\paragraph\ 
+	This section describes the data source used in the project. Brief its properties and refer it to
+	the appropriate location. Sample subsets of the dataset can be highlighted.
+	
+	\section{Proposed Methodology/Algorithms}
+	\paragraph\ 
+	This section describes in detail the methodologies or algorithms associated with your work.
+	Algorithms should be written in appropriate format.
+	
+	
+	
+	
+	
+	\section{Description of Implementation Strategies}
+	\paragraph\
+	This section details the important implementation strategies used in your project. For
+	example, (1) if you are doing a audio/ video capture, what is your python library and
+	associated methods for doing that (2) if you are designing a CNN, how did you do that in the
+	language which you are using for implementation (3) what are the different methods in the
+	language you will use to evaluate your work. Small snippets of code can be supplemented to
+	support your strategy.
+	
+	\section{Module Division}
+	\paragraph\ 
+	This section describes the different modules involved in this project and a small description
+	of the same is expected. This section ends with the information of which module is assigned
+	to each project member.
+
+	\section{Work Schedule - Gantt Chart}
+	\paragraph\ 
+	Outline the work schedule in the appropriate chart format.
+	
+
+	
+%	\chapter{Results and Discussions}
+	
+	
+%	\section{Overview}
+%	\paragraph\
+%	This section describes the overall results achieved in terms of the end results, quantitative	results and further analysis. One paragraph of textual description is expected.
+	
+	
+%	\section{Testing}
+%	\paragraph\
+	
+%	For a webapp/database project, screenshots of results in chronological order can be added	in this section. Other types of projects also can have this section with less length.
+	
+	
+%	\section{Quantitative Results}
+%	\paragraph\
+%	The quantitative results of the project (eg- numerical values like accuracy, precision, rmse,	confusion matrix etc ) can be supplemented in this section. Important note is textual description of all results is mandatory. Give appropriate titles for the tabular results.
+	
+	
+%	\section{Graphical Analysis}
+%	\paragraph\
+%	The graphical analysis of the project can be given in this section. Choose your graph	representation in accordance with your project. Important note is textual description of allvresults is mandatory. Give appropriate titles for the graphical results. In this section, comparison of your results with other paper titles mentioned in Chapter 2 are also encouraged.
+	
+	
+%	\section{Discussion}
+%	\paragraph\
+%	This section describes a summary of the results. You are also welcome to substantiate the reason behind your results or also the deviation of the results.
+	
+%	\chapter{Conclusion}
+	
+	
+%	\section{Conclusion}
+%	\paragraph\
+%	This section describes the conclusion of the project in one page. Write one or two paragraphs.
+	
+	
+%	\section{Future Scope}
+%	\paragraph\
+%	In this section outline the future scope/extensions possible in the project in four or five	sentences.
+	
+%	\newpage
+%	\normalsize{}
+
+%	\chapter*{List of Publications}
+%	\addcontentsline{toc}{chapter}{Publications}
+%	\begin{enumerate}
+%		\item Publication 1
+%		\item Publication 2
+%	\end{enumerate}
+		
+		
+%	\clearpage
+%	\renewcommand{\bibname}{References} 
+%	\addcontentsline{toc}{chapter}{References}
+	
+	\begin{thebibliography}{99}
+	\bibitem a Asopa, S., and Sharma, N. (2021) A Hybrid Parser Model for Hindi Language. Indian Journal of Computer Science and Engineering (IJCSE), Vol. 12(1).
+	\bibitem b Chen, D., and Manning, C. D. (2014). A Fast and Accurate Dependency Parser using Neural Networks. Proceedings of the 2014 Conference on Empirical Methods in Natural Language	Processing (EMNLP).
+	\bibitem c Nair, L. R. (2013). Language Parsing and Syntax of Malayalam Language. 2nd International
+	Symposium on Computer, Communication, Control and Automation (3CA 2013).
+	\bibitem d Berger, A. L., Della Pietra, V. J., and Della Pietra, S. A. (1996). A Maximum Entropy
+	Approach to Natural Language Processing. Association for Computational Linguistics, Vol
+	22(1).
+	\bibitem e Mestry, A., Shende, S., Mahadik, A., and Virnodkar, S. (2014). A Parser: Simple English
+	Sentence Detector and Correction. International Journal of Engineering Research and Technology
+	(IJERT).
+	\bibitem f Sethi, N., Agrawal, P., Madaan, V., and Singh, S. K. (2016). A Novel Approach to Paraphrase
+	Hindi Sentences using Natural Language Processing. Indian Journal of Science and Technology,
+	Vol 9(28).
+	\bibitem g Smith, D. A., and Eisner, J. (2008). Dependency Parsing by Belief Propagation. Proceedings
+	of the 2008 Conference on Empirical Methods in Natural Language Processing, Page 145-
+	156.
+	
+	\bibitem h Bharati, A., Kulkarni, A., and Chaudhury, S. (2007). English Parsers: Some Information-
+	based Observations.
+	
+	\bibitem i Jayan, J. P., and R, R. (2009). A Morphological Analyzer for Malayalam - A Comparison of
+	Different Approaches. International Journal of Computer Science and Information Technology.
+	Vol 2(2), Page 155-160.
+	
+	\bibitem j Vaidya, A., Choi, J. D., Palmer, M., and Narasimhan, B. (2011). Analysis of the Hindi
+	Proposition Bank using Dependency Structure. Proceedings of the Fifth Law Workshop
+	(LAW V), Page 21-29.
+	\bibitem k Rajan, M., T.S, R., and Bhojane, V. (2014). Information Retrieval in Malayalam Using Natural
+	Language Processing. International Journal of Scientific and Engineering Research, Vol 5(6)
+	\bibitem l Rajan, M., Thirumalai, R., and Kumar, V. (2006). Development of a Tamil Parser using
+	Natural Language Processing Techniques. A survey of the state of the art in tamil language
+	technology Vol 6(10).
+	\bibitem m Venkatesh, R., Kumar, S., and Arumugam, P. (2014). Building a Lexical Analyzer for Tamil
+	Texts using NLP Approaches. 2014 International Conference on Advances in ICT for Emerging
+	Regions (ICTer).
+	\bibitem n Thavareesan, S., and Mahesan, S. (2019). Sentiment Analysis in Tamil Texts: A Study on
+	Machine Learning Techniques and Feature Representation.2019 IEEE 14th Conference on
+	Industrial and Information Systems (ICIIS).
+	\bibitem o Pai, T. V., Devi, J. A., and Aithal, P. S. (2020). A Systematic Literature Review of Lexical
+	Analyzer Implementation Techniques in Compiler Design. International Journal of Applied
+	Engineering and Management Letters (IJAEML), Vol 4(2), Page 285-301.
+	\bibitem p Simmons, R. F., and Burger, J. F. (1968). A Semantic Analyzer for English Sentences.
+	Mechanical Translation and Computational Linguistics, Vol 11.
+	
+	
+	\end{thebibliography}
+	
+	
+%	\clearpage
+%	\addcontentsline{toc}{chapter}{Appendix A: Presentation}
+%	\chapter*{}
+%	\paragraph\ 
+%	\vspace{75mm}
+%	\begin{center}
+%		\textbf{\huge{Appendix A: }}
+%		\textbf{\huge{Presentation}}
+%	\end{center}
+%	\includepdf[pages=-]{1.pdf}
+	
+%	\clearpage
+	%\clearpage
+	
+%	\addcontentsline{toc}{chapter}{Appendix B: Vision, Mission, Programme Outcomes and Course Outcomes}
+%	\chapter*{}
+%	\paragraph\ 
+%	\vspace{75mm}
+%	\begin{center}
+%		\textbf{\huge{Appendix B: }}
+%		\textbf{\huge{Vision, Mission, Programme Outcomes and Course Outcomes}}
+%	\end{center}
+%	\includepdf[pages=-]{2.pdf}
+%	\clearpage
+%	\clearpage
+%	 \newpage
+	%\cleardoublepage
+%	\thispagestyle{empty}
+%	\begin{center}
+		%	\textbf {DEPARTMENT OF COMPUTER SCIENCE \&\ ENGINEERING}\\
+		%	\small \textbf{RAJAGIRI SCHOOL OF ENGINEERING \&\ TECHNOLOGY (AUTONOMOUS)}\\
+		%	\small \textbf{RAJAGIRI VALLEY, KAKKANAD, KOCHI, 682039}\\
+		%	\small \bfseries{(Affiliated to APJ Abdul Kalam Technological University)}\\[0.5cm]
+		%	\begin{figure}[htbp]
+			%		\centering
+			%\includegraphics[scale=0.40]{logo (1).jpg}
+			%		\includegraphics[width=8.0cm]{logo (1).jpg}\\[0.5cm]
+			%	\end{figure}
+%		\large \bfseries{Vision, Mission, Programme Outcomes and Course Outcomes}
+%	\end{center}
+	%	\pagenumbering{roman}
+	%	\setcounter{page}{2}
+%	\addcontentsline{toc}{chapter}{Vision, Mission, POs, PSOs and COs}
+%	\vspace{1.5cm}
+%	\renewcommand{\baselinestretch}{1.2}\normalsize
+	
+%	\textbf{Institute Vision} \\
+%	To evolve into a premier technological institution, moulding eminent professionals with creative minds, innovative ideas and sound practical skill, and to shape a future where technology works for the enrichment of mankind. \\ \\
+	
+%	\textbf{Institute Mission} \\
+%	To impart state-of-the-art knowledge to individuals in various technological disciplines and to inculcate in them a high degree of social consciousness and human values, thereby enabling them to face the challenges of life with courage and conviction. \\ \\
+	
+%	\textbf{Department Vision} \\
+%	To become a centre of excellence in Computer Science and Engineering, moulding professionals catering to the research and professional needs of national and international organizations. \\ \\
+	
+%	\textbf{Department Mission} \\
+%	To inspire and nurture students, with up-to-date knowledge in Computer Science and Engineering, ethics, team spirit, leadership abilities, innovation and creativity to come out with solutions meeting societal needs. \\ \\
+	
+%	\textbf{Programme Outcomes (PO)} \\
+%	Engineering Graduates will be able to: \\ \\
+%	\textbf{1. 	Engineering Knowledge}: Apply the knowledge of mathematics, science, engineering fundamentals, and an engineering specialization to the solution of complex engineering problems. \\ \\
+%	\textbf{2.	Problem analysis}: Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences. \\ \\
+%	\textbf{3.	Design/development of solutions}: Design solutions for complex engineering problems and design system components or processes that meet the specified needs with appropriate consideration for the public health and safety, and the cultural, societal, and environmental considerations. \\ \\
+%	\textbf{4. Conduct investigations of complex problems}: Use research-based knowledge including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions. \\ \\
+%	\textbf{5.	Modern Tool Usage}: Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modeling to complex engineering activities with an understanding of the limitations. \\ \\
+%	\textbf{6.	The engineer and society}: Apply reasoning informed by the contextual knowledge to assess societal, health, safety, legal, and cultural issues and the consequent responsibilities relevant to the professional engineering practice. \\ \\
+%	\textbf{7.	Environment and sustainability}: Understand the impact of the professional engineering solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development. \\ \\
+%	\textbf{8.	Ethics}: Apply ethical principles and commit to professional ethics and responsibilities and norms of the engineering practice. \\ \\
+%	\textbf{9. Individual and Team work}: Function effectively as an individual, and as a member or leader in teams, and in multidisciplinary settings. \\ \\
+%	\textbf{10.	Communication}: Communicate effectively with the engineering community and with society at large. Be able to comprehend and write effective reports documentation. Make effective presentations, and give and receive clear instructions. \\ \\
+%	\textbf{11.	Project management and finance}: Demonstrate knowledge and understanding of engineering and management principles and apply these to one's own work, as a member and leader in a team. Manage projects in multidisciplinary environments. \\ \\
+%	\textbf{12.	Life-long learning}: Recognize the need for, and have the preparation and ability to engage in independent and lifelong learning in the broadest context of technological change. \\ \\
+	
+%	\textbf{Programme Specific Outcomes (PSO)} \\
+%	A graduate of the Computer Science and Engineering Program will demonstrate: \\ \\
+%	\textbf{PSO1: Computer Science Specific Skills} \\
+%	The ability to identify, analyze and design solutions for complex engineering problems in multidisciplinary areas by understanding the core principles and concepts of computer science and thereby engage in national grand challenges. \\ \\
+%	\textbf{PSO2: Programming and Software Development Skills} \\
+%	The ability to acquire programming efficiency by designing algorithms and applying standard practices in software project development to deliver quality software products meeting the demands of the industry. \\ \\
+%	\textbf{PSO3: Professional Skills} \\
+%	The ability to apply the fundamentals of computer science in competitive research and to develop innovative products to meet the societal needs thereby evolving as an eminent researcher and entrepreneur. \\ \\
+	
+%	\textbf{Course Outcomes} \\
+	
+
+	
+%	\clearpage
+	
+%	\addcontentsline{toc}{chapter}{Appendix C: CO-PO-PSO Mapping}
+%	\chapter*{}
+%	\paragraph\ 
+%	\vspace{75mm}
+%	\begin{center}
+%		\textbf{\huge{Appendix C: }}
+%		\textbf{\huge{CO-PO-PSO Mapping}}
+%	\end{center}
+%	\includepdf[pages=-]{3.pdf}
+%	\clearpage
+%	\clearpage
+	
+\end{document}
