@@ -705,32 +705,76 @@
 	\subsection{Semantic Analysis}
 	\subsubsection{Description and Priority}
 	\paragraph\
+	Semantic Analysis is a critical feature of the system, with a high priority. It involves determining
+	the meaning and interpretation of Malayalam text, capturing semantic relationships between words
+	and phrases.
 	
 	\subsubsection{Stimulus/Response Sequences}
-	\paragraph\
+	Stimulus: User inputs Malayalam text for analysis.
+	\newline
+	Response: The system processes the text to extract meaning and semantic relationships.
 	
 	\subsubsection{Functional Requirements}
-	\paragraph\
+	\begin{enumerate}
+		\item  The system shall identify subject-verb-object relationships in Malayalam sentences.
+		\item It shall detect and interpret negation, conjunctions, and other semantic features in the text.
+		\item The system shall extract key concepts and entities from the text.
+		\item It shall handle ambiguous phrases and provide contextually appropriate interpretations.
+		\item The system shall support the identification of sentiment and emotions expressed in the text.
+		\item It shall provide an API or interface for developers to access the semantic analysis results.
+		\item The system shall handle errors gracefully, providing informative messages for incorrect
+		inputs.
+		\item It shall process text efficiently, aiming for a response time of less than 1 second for short to
+		medium-length texts.
+		\item It shall be able to process text with a wide range of vocabulary and language complexity
+		levels, including formal and informal language variants.
+	\end{enumerate}
 	
 	\subsection{Part-of-Speech tagging}
 	\subsubsection{Description and Priority}
 	\paragraph\
+	Part-of-Speech Tagging is a critical feature of the system, with a high priority. It involves assigning
+	grammatical tags to words in Malayalam sentences, indicating their syntactic role and category.
 	
 	\subsubsection{Stimulus/Response Sequences}
-	\paragraph\
+	Stimulus: User inputs Malayalam text for analysis.
+	\newline
+	Response: The system processes the text and assigns appropriate part-of-speech tags to each word.
 	
 	\subsubsection{Functional Requirements}
-	\paragraph\
+	\begin{enumerate}
+		\item  The system shall identify the part of speech for each word in the input Malayalam text.
+		\item It shall handle compound words and inflected forms, assigning appropriate tags based on
+		their usage in context.
+		\item The system shall support standard part-of-speech tag sets for Malayalam, ensuring compatibility
+		with existing linguistic resources.
+		\item It shall provide an option to output the tagged text in a readable format for users.
+		\item The system shall be able to handle texts with varying levels of complexity and vocabulary.
+		\item It shall provide an API or interface for developers to access the tagged text and integrate it
+		into their applications.
+		\item The system shall handle errors gracefully, providing informative messages for incorrect
+		inputs.
+	\end{enumerate}
 	
 	\subsection{Performance Requirements}
 	\subsubsection{Description and Priority}
 	\paragraph\
-	
+	Performance optimization involves improving the efficiency and speed of the system. It is of low
+	priority as it is desirable but not critical for basic functionality.
 	\subsubsection{Stimulus/Response Sequences}
-	\paragraph\
+	Stimulus: System performance falls below specified thresholds.
+	\newline
+	Response: The system implements optimization techniques to improve performance
 	
 	\subsubsection{Functional Requirements}
-	\paragraph\
+	\begin{enumerate}
+		\item  The system shall monitor performance metrics, such as processing speed and resource usage.
+		\item The system shall identify performance bottlenecks and areas for improvement.
+		\item The system shall implement optimizations, such as algorithmic improvements or resource
+		management strategies, to enhance performance.
+		\item The system shall provide configuration options for adjusting performance settings based on
+		user needs
+	\end{enumerate}
 	
 	
 	\section{Other Nonfunctional Requirements}
@@ -864,17 +908,28 @@
 	Algorithms should be written in appropriate format.
 	
 	\section{User Interface Design}
-	\paragraph\
-	The user interface design (wireframe designs) can be highlighted in this section. The figures
-	titles should be in a chronological order and self explanatory.
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=16cm]{./ui.jpg}
+		
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=14cm]{./landing.jpg}
+		\caption{Landing page}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=14cm]{./result.jpg}
+		\caption{Result page}
+	\end{figure}
 	
 	
 	
-	\section{Database Design}
-	\paragraph\
-	The detailed database design and its schema is expected in this section. The database used
-	in the work can be mentioned here. The reason for choosing the database can be
-	substantiated in this section.
+	
 	
 	\section{Description of Implementation Strategies}
 	\paragraph\
@@ -956,11 +1011,33 @@
 	\end{itemize}
 	
 	\section{Module Division}
-	\paragraph\ 
-	This section describes the different modules involved in this project and a small description
-	of the same is expected. This section ends with the information of which module is assigned
-	to each project member.
-	
+	\begin{itemize}
+	\item Module 1: Data Collection and Preprocessing (Team Member 1: Mohammed Basil)
+	\begin{itemize}
+	\item Data Acquisition: Collect Malayalam text data from various sources such as websites, documents, or databases.
+	\item Data Cleaning: Preprocess collected data to remove noise, inconsistencies, or irrelevant information.
+	\item Language Identification: Determine the language of the text to ensure only Malayalam language text is processed.
+	\item Tokenization: Divide the preprocessed text into individual tokens or words following Malayalam language rules and conventions.
+\end{itemize}
+	\item Module 2: UI Design (Team Member 2: Godwin Gino)
+	\begin{itemize}
+	\item User Interface Components: Design and implement user interface elements such as input fields, buttons, text areas, and output displays.
+	\item Interaction Logic: Manage user interactions, including event handling, input validation, and feedback mechanisms.
+	\item Layout and Styling: Define layout structure, visual design, and styling for an intuitive and aesthetically pleasing user experience.
+\end{itemize}
+	\item Module 3: Rule Set Generation (Team Member 3: Fathima Jennath)
+	\begin{itemize}
+	\item Rule Extraction: Extract linguistic rules and patterns from annotated data or linguistic resources specific to Malayalam language parsing.
+	\item Rule Representation: Represent extracted rules in a formal format suitable for integration into the parsing module.
+	\item Rule Validation and Optimization: Validate generated rules for accuracy and completeness, optimizing them for efficient parsing of Malayalam text.
+\end{itemize}
+	\item Module 4: Machine Learning and Dataset Generation (Team Member 4: Gautham C Sudheer)
+	\begin{itemize}
+	\item Dataset Collection and Annotation: Acquire or generate a dataset of Malayalam text samples, annotating them with linguistic information.
+	\item Feature Extraction: Identify relevant features or attributes from the annotated dataset using techniques like bag-of-words or word embeddings.
+	\item Model Training and Evaluation: Train machine learning models for tasks such as part-of-speech tagging or named entity recognition, evaluating their performance using metrics like accuracy.
+\end{itemize}
+\end{itemize}
 	\section{Work Schedule - Gantt Chart}
 	
 	\begin{figure}[H]

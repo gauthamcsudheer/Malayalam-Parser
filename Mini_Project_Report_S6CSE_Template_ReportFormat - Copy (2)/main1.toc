@@ -68,59 +68,49 @@
 \contentsline {subsubsection}{Description and Priority}{17}{}%
 \contentsline {paragraph}{\ }{17}{}%
 \contentsline {subsubsection}{Stimulus/Response Sequences}{17}{}%
-\contentsline {paragraph}{\ }{17}{}%
 \contentsline {subsubsection}{Functional Requirements}{17}{}%
-\contentsline {paragraph}{\ }{17}{}%
-\contentsline {subsection}{\numberline {2.4.6}Part-of-Speech tagging}{17}{}%
-\contentsline {subsubsection}{Description and Priority}{17}{}%
-\contentsline {paragraph}{\ }{17}{}%
-\contentsline {subsubsection}{Stimulus/Response Sequences}{17}{}%
-\contentsline {paragraph}{\ }{17}{}%
-\contentsline {subsubsection}{Functional Requirements}{17}{}%
-\contentsline {paragraph}{\ }{17}{}%
-\contentsline {subsection}{\numberline {2.4.7}Performance Requirements}{17}{}%
-\contentsline {subsubsection}{Description and Priority}{17}{}%
-\contentsline {paragraph}{\ }{17}{}%
-\contentsline {subsubsection}{Stimulus/Response Sequences}{17}{}%
-\contentsline {paragraph}{\ }{17}{}%
-\contentsline {subsubsection}{Functional Requirements}{17}{}%
-\contentsline {paragraph}{\ }{17}{}%
-\contentsline {section}{\numberline {2.5}Other Nonfunctional Requirements}{18}{}%
-\contentsline {subsection}{\numberline {2.5.1}Performance Requirements}{18}{}%
-\contentsline {subsubsection}{Parsing Malayalam Text}{18}{}%
+\contentsline {subsection}{\numberline {2.4.6}Part-of-Speech tagging}{18}{}%
+\contentsline {subsubsection}{Description and Priority}{18}{}%
 \contentsline {paragraph}{\ }{18}{}%
-\contentsline {subsubsection}{Lemmatization and Morphological Analysis}{18}{}%
-\contentsline {paragraph}{\ }{18}{}%
-\contentsline {subsubsection}{Dependency Parsing}{18}{}%
-\contentsline {paragraph}{\ }{18}{}%
-\contentsline {subsubsection}{Syntax Tree Generation}{18}{}%
-\contentsline {paragraph}{\ }{18}{}%
-\contentsline {subsubsection}{Semantic Analysis}{18}{}%
-\contentsline {paragraph}{\ }{18}{}%
-\contentsline {subsubsection}{Part-of-Speech tagging}{19}{}%
+\contentsline {subsubsection}{Stimulus/Response Sequences}{18}{}%
+\contentsline {subsubsection}{Functional Requirements}{18}{}%
+\contentsline {subsection}{\numberline {2.4.7}Performance Requirements}{19}{}%
+\contentsline {subsubsection}{Description and Priority}{19}{}%
 \contentsline {paragraph}{\ }{19}{}%
-\contentsline {subsubsection}{Performance Optimization}{19}{}%
+\contentsline {subsubsection}{Stimulus/Response Sequences}{19}{}%
+\contentsline {subsubsection}{Functional Requirements}{19}{}%
+\contentsline {section}{\numberline {2.5}Other Nonfunctional Requirements}{19}{}%
+\contentsline {subsection}{\numberline {2.5.1}Performance Requirements}{19}{}%
+\contentsline {subsubsection}{Parsing Malayalam Text}{19}{}%
 \contentsline {paragraph}{\ }{19}{}%
-\contentsline {subsection}{\numberline {2.5.2}Safety Requirements}{19}{}%
-\contentsline {paragraph}{\ }{19}{}%
-\contentsline {subsection}{\numberline {2.5.3}Security Requirements}{20}{}%
+\contentsline {subsubsection}{Lemmatization and Morphological Analysis}{20}{}%
 \contentsline {paragraph}{\ }{20}{}%
-\contentsline {subsection}{\numberline {2.5.4}Software Quality Attributes}{20}{}%
+\contentsline {subsubsection}{Dependency Parsing}{20}{}%
 \contentsline {paragraph}{\ }{20}{}%
-\contentsline {chapter}{\numberline {3}System Architecture and Design}{21}{}%
-\contentsline {section}{\numberline {3.1}System Overview }{21}{}%
+\contentsline {subsubsection}{Syntax Tree Generation}{20}{}%
+\contentsline {paragraph}{\ }{20}{}%
+\contentsline {subsubsection}{Semantic Analysis}{20}{}%
+\contentsline {paragraph}{\ }{20}{}%
+\contentsline {subsubsection}{Part-of-Speech tagging}{20}{}%
+\contentsline {paragraph}{\ }{20}{}%
+\contentsline {subsubsection}{Performance Optimization}{21}{}%
 \contentsline {paragraph}{\ }{21}{}%
-\contentsline {section}{\numberline {3.2}Dataset identified}{22}{}%
+\contentsline {subsection}{\numberline {2.5.2}Safety Requirements}{21}{}%
+\contentsline {paragraph}{\ }{21}{}%
+\contentsline {subsection}{\numberline {2.5.3}Security Requirements}{21}{}%
+\contentsline {paragraph}{\ }{21}{}%
+\contentsline {subsection}{\numberline {2.5.4}Software Quality Attributes}{22}{}%
 \contentsline {paragraph}{\ }{22}{}%
-\contentsline {section}{\numberline {3.3}Proposed Methodology/Algorithms}{22}{}%
-\contentsline {paragraph}{\ }{22}{}%
-\contentsline {section}{\numberline {3.4}User Interface Design}{22}{}%
-\contentsline {paragraph}{\ }{22}{}%
-\contentsline {section}{\numberline {3.5}Database Design}{23}{}%
+\contentsline {chapter}{\numberline {3}System Architecture and Design}{23}{}%
+\contentsline {section}{\numberline {3.1}System Overview }{23}{}%
 \contentsline {paragraph}{\ }{23}{}%
-\contentsline {section}{\numberline {3.6}Description of Implementation Strategies}{23}{}%
-\contentsline {paragraph}{\ }{23}{}%
-\contentsline {section}{\numberline {3.7}Module Division}{24}{}%
+\contentsline {section}{\numberline {3.2}Dataset identified}{24}{}%
 \contentsline {paragraph}{\ }{24}{}%
-\contentsline {section}{\numberline {3.8}Work Schedule - Gantt Chart}{25}{}%
-\contentsline {paragraph}{\ }{25}{}%
+\contentsline {section}{\numberline {3.3}Proposed Methodology/Algorithms}{24}{}%
+\contentsline {paragraph}{\ }{24}{}%
+\contentsline {section}{\numberline {3.4}User Interface Design}{25}{}%
+\contentsline {section}{\numberline {3.5}Description of Implementation Strategies}{26}{}%
+\contentsline {paragraph}{\ }{26}{}%
+\contentsline {section}{\numberline {3.6}Module Division}{28}{}%
+\contentsline {section}{\numberline {3.7}Work Schedule - Gantt Chart}{30}{}%
+\contentsline {paragraph}{\ }{30}{}%
