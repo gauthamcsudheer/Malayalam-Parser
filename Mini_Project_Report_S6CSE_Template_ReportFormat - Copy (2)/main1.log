@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.8)  11 APR 2024 21:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.8)  11 APR 2024 21:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -512,7 +512,7 @@ Chapter 1.
 
 
 ]
-Overfull \hbox (30.13356pt too wide) in paragraph at lines 278--291
+Overfull \hbox (30.13356pt too wide) in paragraph at lines 280--293
  [] 
  []
 
@@ -521,7 +521,7 @@ Chapter 2.
 [6
 
 ] [7] [8] [9] [10] [11]
-Overfull \hbox (0.12477pt too wide) in paragraph at lines 554--563
+Overfull \hbox (0.12477pt too wide) in paragraph at lines 556--565
 [] [][] \OT1/cmr/m/n/12 The Malay-alam parser in-te-grates with var-i-ous soft-
 ware com-po-nents, in-clud-ing databases
  []
@@ -531,10 +531,10 @@ Chapter 3.
 <./architecture.jpg, id=110, 963.6pt x 542.025pt>
 File: ./architecture.jpg Graphic file (type jpg)
 <use ./architecture.jpg>
-Package pdftex.def Info: ./architecture.jpg  used on input line 894.
+Package pdftex.def Info: ./architecture.jpg  used on input line 896.
 (pdftex.def)             Requested size: 540.60236pt x 304.09433pt.
 
-Overfull \hbox (85.35825pt too wide) in paragraph at lines 894--895
+Overfull \hbox (85.35825pt too wide) in paragraph at lines 896--897
  [][] 
  []
 
@@ -544,27 +544,27 @@ Overfull \hbox (85.35825pt too wide) in paragraph at lines 894--895
 <./ui.jpg, id=114, 1284.8pt x 717.68124pt>
 File: ./ui.jpg Graphic file (type jpg)
 <use ./ui.jpg>
-Package pdftex.def Info: ./ui.jpg  used on input line 914.
+Package pdftex.def Info: ./ui.jpg  used on input line 916.
 (pdftex.def)             Requested size: 455.24408pt x 254.2913pt.
  [24 <./architecture.jpg>]
 <./landing.jpg, id=118, 471.26062pt x 355.3275pt>
 File: ./landing.jpg Graphic file (type jpg)
 <use ./landing.jpg>
-Package pdftex.def Info: ./landing.jpg  used on input line 920.
+Package pdftex.def Info: ./landing.jpg  used on input line 922.
 (pdftex.def)             Requested size: 398.33858pt x 300.34901pt.
 <./result.jpg, id=119, 440.39531pt x 538.26094pt>
 File: ./result.jpg Graphic file (type jpg)
 <use ./result.jpg>
-Package pdftex.def Info: ./result.jpg  used on input line 926.
+Package pdftex.def Info: ./result.jpg  used on input line 928.
 (pdftex.def)             Requested size: 398.33858pt x 486.8779pt.
  [25 <./ui.jpg> <./landing.jpg>] [26 <./result.jpg>] [27] [28]
 <./ganttchart.jpg, id=133, 963.6pt x 542.025pt>
 File: ./ganttchart.jpg Graphic file (type jpg)
 <use ./ganttchart.jpg>
-Package pdftex.def Info: ./ganttchart.jpg  used on input line 1045.
+Package pdftex.def Info: ./ganttchart.jpg  used on input line 1047.
 (pdftex.def)             Requested size: 512.1496pt x 288.09067pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 1045--1046
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 1047--1048
  [][] 
  []
 
@@ -592,7 +592,7 @@ ype1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Admin/AppData/Local/Programs/MiK
 TeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Admin/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Admin/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10.pfb>
-Output written on main1.pdf (41 pages, 625659 bytes).
+Output written on main1.pdf (41 pages, 625627 bytes).
 PDF statistics:
  178 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
