@@ -403,20 +403,17 @@
 	\chapter{System Architecture and Design}
 	\section{System Overview }
 	
-	\begin{figure}[H]
-		\centering
-			\includegraphics[width=20cm]{./architecture.jpg}
-			\caption{Architecture diagram}
-	\end{figure}
+	
 	
 	\paragraph\
-	The process of developing a Malayalam parser involves several key stages to effectively process Malayalam text for tasks such as sentiment analysis, named entity recognition, and part-of-speech (POS) tagging. It begins with data collection, where Malayalam text is gathered from online sources using web scraping techniques. This collected text is then cleaned to remove any irrelevant information, errors, or special characters.
-	In the cleaning phase, language filtering is applied to ensure the text is in Malayalam. Following data cleaning, the text undergoes preprocessing, which include tokenization to break the text into individual words or tokens. Stemming is then applied to reduce inflected words to their base form, simplifying the text for analysis.
-	A crucial step is building a training corpus of preprocessed Malayalam text labeled with the desired information, such as sentiment labels, named entities, and part-of-speech tags. Features are extracted from the preprocessed text and serve as inputs to the machine learning model.
-	A suitable machine learning model is selected and trained on the extracted features and labeled training data. The model's performance is evaluated on a separate set of data to assess its accuracy and effectiveness to new, unseen data.
-	Finally, the trained model is used to process new Malayalam text, tagging it with sentiment labels, named entities, part-of-speech tags, or other relevant information. Linguists can add custom rules to refine the model's output for better accuracy, particularly in cases where the model may not perform optimally.
-	In summary, the development of a Malayalam parser involves collecting, cleaning, and preprocessing text, building a training corpus, extracting features, training and evaluating a machine learning model, and processing new text. This process enables the effective analysis and processing of Malayalam text for various natural language processing tasks, contributing to the advancement of language technology in the Malayalam language.
-	
+	The aim of the project to develop a Malayalam parser is to create a system that can effectively process Malayalam text for tasks such as sentiment analysis, named entity recognition, and part-of-speech (POS) tagging. The process begins with data collection, where Malayalam text is gathered from online sources using web scraping techniques. This collected text is then cleaned to remove any irrelevant information, errors, or special characters.
+	\newline
+	Language filtering is applied in the cleaning phase to ensure the text is in Malayalam. Following data cleaning, the text undergoes preprocessing, which includes tokenization to break the text into individual words or tokens. Stemming is then applied to reduce inflected words to their base form, simplifying the text for analysis. A crucial step is building a training corpus of preprocessed Malayalam text labeled with the desired information, such as sentiment labels, named entities, and part-of-speech tags. Features are extracted from the preprocessed text and serve as inputs to the machine learning model. A suitable machine learning model is selected and trained on the extracted features and labeled training data. The model's performance is evaluated on a separate set of data to assess its accuracy and effectiveness on new, unseen data. Finally, the trained model is used to process new Malayalam text, tagging it with sentiment labels, named entities, part-of-speech tags, or other relevant information. Linguists can add custom rules to refine the model's output for better accuracy. 
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=19cm]{./architecture.jpg}
+		\caption{Architecture diagram}
+	\end{figure}
 	
 	\section{Dataset identified}
 	\paragraph\ 
