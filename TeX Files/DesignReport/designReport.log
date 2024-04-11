@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.14)  12 APR 2024 00:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.14)  12 APR 2024 00:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -464,15 +464,15 @@ nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `english'. on input line 63.
-<logo1.png, id=1, 284.7438pt x 419.6478pt>
-File: logo1.png Graphic file (type png)
-<use logo1.png>
-Package pdftex.def Info: logo1.png  used on input line 67.
+<rset.png, id=1, 284.7438pt x 419.6478pt>
+File: rset.png Graphic file (type png)
+<use rset.png>
+Package pdftex.def Info: rset.png  used on input line 67.
 (pdftex.def)             Requested size: 85.4238pt x 125.89531pt.
  [1
 
-{C:/Users/csgau/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./logo1.png>
-]
+{C:/Users/csgau/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./rset.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 111--112
 
  []
@@ -547,24 +547,24 @@ Overfull \hbox (85.35825pt too wide) in paragraph at lines 900--901
 [23
 
 ]
-<./ui.jpg, id=115, 1284.8pt x 717.68124pt>
-File: ./ui.jpg Graphic file (type jpg)
-<use ./ui.jpg>
-Package pdftex.def Info: ./ui.jpg  used on input line 920.
-(pdftex.def)             Requested size: 455.24408pt x 254.2913pt.
+<./ui.png, id=115, 965.85844pt x 555.57562pt>
+File: ./ui.png Graphic file (type png)
+<use ./ui.png>
+Package pdftex.def Info: ./ui.png  used on input line 920.
+(pdftex.def)             Requested size: 455.24408pt x 261.8581pt.
  [24 <./architecture.jpg>]
-<./landing.jpg, id=119, 471.26062pt x 355.3275pt>
-File: ./landing.jpg Graphic file (type jpg)
-<use ./landing.jpg>
-Package pdftex.def Info: ./landing.jpg  used on input line 926.
-(pdftex.def)             Requested size: 398.33858pt x 300.34901pt.
-<./result.jpg, id=120, 440.39531pt x 538.26094pt>
-File: ./result.jpg Graphic file (type jpg)
-<use ./result.jpg>
-Package pdftex.def Info: ./result.jpg  used on input line 932.
-(pdftex.def)             Requested size: 398.33858pt x 486.8779pt.
- [25 <./ui.jpg> <./landing.jpg>] [26 <./result.jpg>] [27] [28]
-<./ganttchart.jpg, id=134, 963.6pt x 542.025pt>
+<./LandingPage.png, id=119, 1517.67pt x 985.6825pt>
+File: ./LandingPage.png Graphic file (type png)
+<use ./LandingPage.png>
+Package pdftex.def Info: ./LandingPage.png  used on input line 926.
+(pdftex.def)             Requested size: 398.33858pt x 258.70793pt.
+<./Result.png, id=120, 1517.67pt x 1817.79124pt>
+File: ./Result.png Graphic file (type png)
+<use ./Result.png>
+Package pdftex.def Info: ./Result.png  used on input line 932.
+(pdftex.def)             Requested size: 398.33858pt x 477.10802pt.
+ [25 <./ui.png> <./LandingPage.png>] [26 <./Result.png>] [27] [28]
+<./ganttchart.jpg, id=137, 963.6pt x 542.025pt>
 File: ./ganttchart.jpg Graphic file (type jpg)
 <use ./ganttchart.jpg>
 Package pdftex.def Info: ./ganttchart.jpg  used on input line 1051.
@@ -584,10 +584,10 @@ L3 programming layer <2024-01-04>
  ) 
 Here is how much of TeX's memory you used:
  12213 strings out of 474486
- 244923 string characters out of 5743755
+ 244944 string characters out of 5743755
  1935542 words of memory out of 5000000
  34349 multiletter control sequences out of 15000+600000
- 571506 words of font info for 86 fonts, out of 8000000 for 9000
+ 571507 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,8n,117p,1121b,353s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\csgau\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
@@ -598,9 +598,9 @@ ype1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/csgau/AppData/Local/Programs/MiK
 TeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/csgau/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/csgau/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10.pfb>
-Output written on designReport.pdf (41 pages, 736043 bytes).
+Output written on designReport.pdf (41 pages, 1573473 bytes).
 PDF statistics:
- 179 PDF objects out of 1000 (max. 8388607)
+ 182 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
