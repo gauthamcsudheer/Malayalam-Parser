@@ -104,13 +104,9 @@
 \contentsline {chapter}{\numberline {3}System Architecture and Design}{23}{}%
 \contentsline {section}{\numberline {3.1}System Overview }{23}{}%
 \contentsline {paragraph}{\ }{23}{}%
-\contentsline {section}{\numberline {3.2}Dataset identified}{24}{}%
-\contentsline {paragraph}{\ }{24}{}%
-\contentsline {section}{\numberline {3.3}Proposed Methodology/Algorithms}{24}{}%
-\contentsline {paragraph}{\ }{24}{}%
-\contentsline {section}{\numberline {3.4}User Interface Design}{25}{}%
-\contentsline {section}{\numberline {3.5}Description of Implementation Strategies}{26}{}%
+\contentsline {section}{\numberline {3.2}User Interface Design}{24}{}%
+\contentsline {section}{\numberline {3.3}Description of Implementation Strategies}{26}{}%
 \contentsline {paragraph}{\ }{26}{}%
-\contentsline {section}{\numberline {3.6}Module Division}{28}{}%
-\contentsline {section}{\numberline {3.7}Work Schedule - Gantt Chart}{30}{}%
-\contentsline {paragraph}{\ }{30}{}%
+\contentsline {section}{\numberline {3.4}Module Division}{27}{}%
+\contentsline {section}{\numberline {3.5}Work Schedule - Gantt Chart}{29}{}%
+\contentsline {paragraph}{\ }{29}{}%
