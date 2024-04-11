@@ -364,40 +364,320 @@
 	
 	
 	\chapter{Software Requirements Specification}
-	Insert your SRS document here.
+	
 	
 	\section{Introduction}
-	\paragraph\ 
+	\subsection{Purpose}
+	\paragraph\
+	The system aims to enhance the understanding and analysis of Malayalam text data, enabling more
+	accurate and efficient processing of information, including but not limited to retrieval, sentiment
+	analysis, machine translation, and text summarization. By focusing on the unique linguistic characteristics
+	of Malayalam, the project seeks to overcome the challenges posed by the language’s morphology,
+	syntax, and semantics. Through the development of innovative algorithms, data structures, and
+	linguistic resources, the project aims to contribute to the advancement of NLP research and technology
+	in the context of the Malayalam language.
+	\begin{itemize}
+		\item 	 The primary focus of the Malayalam Parser system is to analyze and parse written text in
+		the Malayalam language. This involves tasks such as tokenization, part-of-speech tagging,
+		parsing, and semantic analysis.
+		\item Initially, the system will target general-purpose parsing tasks, which are applicable to a wide
+		range of text data. These tasks form the foundation of the parsing capabilities of the system.
+		\item The system is designed to be extensible, allowing for the inclusion of domain-specific or
+		specialized parsing tasks in the future. This flexibility ensures that the system can adapt to
+		different needs and requirements over time.
+		\item In addition to algorithms and data structures, the project also involves the development of
+		linguistic resources that are crucial for parsing Malayalam text. These resources may include
+		lexicons, grammars, and annotated corpora.
+	\end{itemize}
+		
 	
-	\begin{figure}[htbp]
-		\centering
-		%\includegraphics[scale=0.40]{logo (1).jpg}
-		\includegraphics[width=8.0cm]{logo (1).jpg}\\[0.5cm]
-		\caption{Insert your images here, and provide necessary captions}
-	\end{figure}
+    \subsection{Product Scope}
+    \paragraph\
+    The Malayalam Parser is a smart tool that understands Malayalam text. It breaks down sentences to
+    figure out their grammar, structure, and meaning using advanced language processing techniques.
+    It helps with tasks like identifying different parts of speech, understanding how sentences are put
+    together, and analyzing the overall meaning of text.
+    \begin{enumerate}
+    	
+    	\item \textbf{Informed Decision-Making:} Implementation of parsing tasks including tokenization, part-of-speech tagging, parsing, and semantic analysis for Malayalam text. Extracting insights from Malayalam text aids in data-driven decision-making, enhancing strategic planning and
+    	execution.
+    	\item \textbf{Innovation:} Developing a Malayalam parser for dataset creation is significant as it encompasses
+    	crucial linguistic tasks such as tokenization, part-of-speech tagging, and named entity recognition.
+    	This effort is essential for advancing natural language processing capabilities in Malayalam,
+    	enabling the development of robust models for sentiment analysis, machine translation,
+    	question answering, and domain-specific parsing. The creation of annotated datasets is vital
+    	to train and evaluate these models, contributing to the overall improvement of Malayalam
+    	language processing technologies.
+    \end{enumerate}
+	
 	
 	\section{Overall Description}
-	\paragraph\ 
+	\subsection{Product Perspective}
+	\paragraph\
+	This software represents a new, standalone product developed to fulfill the crucial task of parsing
+	and analyzing Malayalam language text. Unlike existing systems or components, this software
+	is designed from the ground up to specialize in the intricacies of Malayalam language parsing,
+	catering to the specific needs of users requiring accurate linguistic analysis in Malayalam.
+	The Malayalam Parser software does not belong to a product family but serves as an independent
+	solution, tailored specifically for parsing Malayalam text. It is not intended as a replacement for
+	existing systems but rather as a complementary tool to enhance language processing capabilities in
+	Malayalam. While it operates autonomously, it may interface with other systems or applications,
+	such as text input sources or linguistic databases, to facilitate seamless integration within broader
+	linguistic analysis frameworks.
 	
+	\subsection{Product Functions}
+	\paragraph\
+	Major Functions of the Malayalam Parser:
+	\begin{itemize}
+		\item  Parse and analyze Malayalam language text to identify linguistic components such as words,
+		phrases, and sentences.
+		\item Determine grammatical structure, syntax, and semantics of Malayalam sentences to facilitate
+		accurate linguistic analysis.
+		\item Provide functionality for part-of-speech tagging, syntactic parsing, and semantic analysis
+		tailored for the Malayalam language.
+		\item Support for handling compound words, inflections, and variations in word forms commonly
+		found in Malayalam text.
+		\item Generation of a part-of-speech tagged dataset, named entity dataset, and sentimental tagged
+		dataset, contributing to the advancement of language processing technologies in Malayalam
+	\end{itemize}
+    \subsection{Operating Environment}
+    For creating the Malayalam Parser, the operating environment encompasses the following specifications:
+    \newline
+    \textbf{Hardware Platform}
+    \begin{itemize}
+    	\item The software should be compatible with standard computing hardware commonly used for
+    	software development and deployment.
+    	\item Minimum hardware requirements include a modern processor (e.g., Intel Core i5 or equivalent),
+    	sufficient RAM (at least 4GB), and available storage space for software installation and data
+    	processing.
+    \end{itemize}
+    \textbf{Operating System and Versions}
+    \begin{itemize}
+    	\item The software should be compatible with popular operating systems used for software development
+    	and deployment, including Windows, MacOS, and Linux distributions.
+    	\item Specific operating system versions supported include:
+    	\newline
+    	Windows 10 or later
+    	\newline
+    	MacOS 10.13 High Sierra or later
+    	\newline
+    	Ubuntu 18.04 LTS or later
+    \end{itemize}
+    \textbf{Software Components and Applications}
+    \begin{itemize}
+    	\item The Malayalam Parser may require integration with various software components and applications
+    	for development, testing, and deployment purposes.
+    	\item Development tools such as Python (version 3.6 or later), Java Development Kit (JDK),
+    	or other programming languages and frameworks suitable for NLP development may be
+    	necessary.
+    	\item Libraries and frameworks for natural language processing, such as NLTK (Natural Language
+    	Toolkit), spacey or TensorFlow, may be utilized.
+    	\item Database systems such as SQLite, PostgreSQL, or MongoDB may be employed for data
+    	storage and retrieval if necessary.
+    \end{itemize}
+	
+	\subsection{Design and Implementation Constraints}
+	\paragraph\
+	The development of the Malayalam Parser is subject to various constraints and limitations, including:
+	\begin{itemize}
+	\item \textbf{Hardware Limitations:} The software must be optimized to operate within hardware limitations,
+	including timing and memory constraints. Performance optimizations are crucial to ensure
+	efficient operation across different hardware configuration.
+	\item \textbf{Integration with External Systems:} The parser must support standard interfaces and data
+	formats for interoperability with other language processing tools or databases. Ensuring
+	smooth integration is a technical requirement.
+	\item \textbf{Language Requirements:} The Malayalam Parser must be designed and implemented to
+	meet the linguistic complexities of the Malayalam language. This includes handling unique
+	grammar rules, character encoding, and text processing requirements inherent to Malayalam.
+	\item \textbf{Character Encoding and Localization:} Proper handling of character encoding specific
+	to Malayalam and localization considerations are crucial. The parser should accurately
+	interpret and process Malayalam characters.
+	\item \textbf{Security Considerations:} Security measures such as encryption, access control, and data
+	integrity must be incorporated into the design and implementation of the Malayalam Parser
+	to safeguard against security threats and vulnerabilities.
+	\item \textbf{Design Conventions and Programming Standards:} Adherence to design conventions,
+	programming standards, and coding guidelines is paramount. Developers must follow established
+	best practices and organizational standards to ensure maintainability, readability, and consistency
+	of the codebase.
+\end{itemize}
+
+\subsection{Assumptions and Dependencies}
+\paragraph\
+\begin{enumerate}
+	\item  \textbf{Third-Party or Commercial Components:} It is assumed that the development of the
+	Malayalam Parser will rely on third-party or commercial components. The project is intended
+	to be developed from existing models, without significant dependencies on pre-existing
+	software solutions or proprietary libraries.
+	\item \textbf{Development Environment:} The assumption is made that the development environment
+	for the Malayalam Parser will be properly configured and equipped with necessary tools,
+	including programming languages, development frameworks, and version control systems.
+	\item \textbf{Operating Environment:} It is assumed that the operating environment for testing and
+	deployment of the Malayalam Parser will meet the specified requirements, including compatibility
+	with supported operating systems and hardware configurations.
+	\item \textbf{Constraints and Limitations:} The project assumes that constraints and limitations identified
+	in the SRS, such as corporate policies, regulatory requirements, and hardware limitations,
+	will be properly addressed and accounted for during the development process.
+	\item \textbf{External Dependencies:} The project does anticipate reliance on external dependencies or
+	reused software components from other projects. Any dependencies arising during development
+	will be clearly documented and managed accordingly.
+	\item \textbf{Availability of Resources:} It is assumed that the necessary resources, including human
+	resources, budget allocation, and development timelines, will be available and allocated
+	appropriately to support the successful development and completion of the Malayalam Parser
+	project.
+\end{enumerate}
 	\section{External Interface Requirements}
-	\paragraph\ 
+	\subsection{User Interfaces}
+	\paragraph\
+	The project has the potential to be utilized in various future applications, particularly in educational
+	tools designed for teaching purposes. Additionally, it can serve as a foundation for developing apps focused on language learning, text analysis, and speech recognition. This versatility opens
+	up opportunities for creating interactive and innovative tools that cater to different learning styles
+	and linguistic analysis needs. By leveraging the project’s capabilities, we can create user-friendly
+	applications that enhance the learning and analysis experience for users. These applications can
+	play a significant role in promoting the Malayalam language and its usage in various contexts.
+	 
+	\subsection{Hardware Interfaces}
+	\paragraph\
+	The software interacts with the hardware components of the system through various interfaces,
+	each with specific communication protocols. It communicates with the CPU to execute algorithms,
+	process data, and manage computational tasks, utilizing the CPU’s instruction set architecture.
+	The software uses RAM for temporary storage of linguistic data, parsing results, and intermediate
+	processing steps, managing memory efficiently for complex linguistic analyses. For long-term
+	storage, the software reads and writes data to the storage device, employing file systems for dataset
+	management and data integrity. Optionally, the software can access external datasets, online
+	resources, or collaboration tools through a network interface, using standard networking protocols
+	such as HTTP or FTP for data exchange. User interaction and data visualization are facilitated
+	through input/output devices such as keyboards, mouse, and monitors, utilizing standard interfaces
+	for user input and output display.
 	
-	You can insert equations into your file using the below code:
+	\subsection{Software Interfaces}
+	\paragraph\
+	The Malayalam parser integrates with various software components, including databases such as
+	SQLite, PostgreSQL, and MongoDB for data storage and retrieval. It is designed to run on popular
+	operating systems like Windows 10 or later, MacOS 10.13 High Sierra or later, and Ubuntu 18.04
+	LTS or later. Development and NLP tasks are facilitated by Python (version 3.6 or later) along with
+	libraries like NLTK, Spacy, and TensorFlow. These tools aid in implementing NLP algorithms
+	and processing linguistic data. The system may also include integrated commercial components
+	for specific functionalities, each with its own data formats, configurations, and communication
+	protocols. To ensure consistent data sharing, the system may implement global data areas or
+	standardized data formats, depending on the software components involved. Detailed application programming interface (API) protocols should be referenced for precise communication details.
 	
+	\subsection{Communication Interfaces}
+	\paragraph\
+	The software requires communication functions for fetching inputs from websites, email, and
+	network server communications. It needs to support standard email protocols like SMTP for
+	sending emails, following MIME standards for message formatting. For web scraping, it should
+	interact with web servers using HTTP or HTTPS for secure communication, and handle HTML
+	parsing for extracting data from web pages. Network server communication may require protocols
+	like FTP or SFTP for file transfers, adhering to communication standards for compatibility and
+	security. Secure protocols such as SMTPS, SFTP, or TLS should be used for data transmission,
+	with defined data transfer rates and synchronization mechanisms for efficiency. 
 	
-	\begin{eqnarray}
-		a & = & b + c \\
-		& = & y - z
-	\end{eqnarray}
+    
 	
 	\section{System Features}
 	\paragraph\ 
 	
 	\section{Other Nonfunctional Requirements}
-	\paragraph\ 
+	\subsection{Performance Requirements}
 	
+	\subsubsection{Parsing Malayalam Text}
+	\paragraph\
+	Rationale: Parsing text should be fast to provide timely analysis for user interactions or batch
+	processing.
+	\newline
+	Requirement: The system should be able to parse Malayalam text at a rate of at least 1000
+	characters per second.
 	
+	\subsubsection{Lemmatization and Morphological Analysis}
+	\paragraph\
+	Rationale: Lemmatization and morphological analysis are core linguistic processes that should not
+	introduce significant delays.
+	\newline
+	Requirement: The system should be able to perform lemmatization and morphological analysis for
+	at least 100 words per second.
 	
+	\subsubsection{Dependency Parsing}
+	\paragraph\
+	Rationale: Dependency parsing is computationally intensive but crucial for understanding sentence
+	structures.
+	\newline
+	Requirement: The system should be able to perform dependency parsing for at least 50 sentences
+	per second.
+	
+	\subsubsection{Syntax Tree Generation}
+	\paragraph\
+	Rationale: Syntax tree generation requires complex computations and should be efficient for real-time applications.
+	\newline
+	Requirement: The system should be able to generate syntax trees for at least 20 sentences per
+	second.
+	
+	\subsubsection{Semantic Analysis}
+	\paragraph\
+	Rationale: Semantic analysis involves processing text to understand its meaning, requiring significant
+	computational resources. Efficient performance is crucial for real-time or near real-time applications,
+	such as chatbots or text summarization systems.
+	\newline
+	Requirement: The system should be able to perform semantic analysis for a minimum of 1000
+	words per second, ensuring timely and responsive processing for various use cases.
+	
+	\subsubsection{Part-of-Speech tagging}
+	\paragraph\
+	Rationale: Part-of-speech tagging is a fundamental task in natural language processing, providing
+	essential grammatical information about words in a sentence. Efficient tagging is necessary for
+	various downstream tasks such as parsing, machine translation, and information extraction.
+	\newline
+	Requirement: The system should be able to perform part-of-speech tagging for a minimum of 1000
+	words per second, ensuring fast and responsive tagging for different text lengths and complexities.
+	
+	\subsubsection{Performance Optimization}
+	\paragraph\
+	Rationale: Performance optimization ensures that the system meets its performance requirements
+	under varying loads and conditions.
+	\newline
+	Requirement: The system should implement optimization strategies to maintain performance levels
+	even under heavy loads, ensuring that response times do not exceed specified thresholds.
+	
+
+	 
+   \subsection{Safety Requirements}
+   \paragraph\
+   Loss, Damage, or Harm Concerns: The product must ensure user and property safety, preventing
+   physical harm or damage. It must also safeguard sensitive data from unauthorized access.
+   \newline 
+   Actions to be Taken: The product should provide clear instructions and warnings to prevent misuse
+   or accidental damage. Regular maintenance and updates are crucial for safe operation.
+   \newline
+    Actions to
+   be Prevented: Unauthorized modifications and operations that could lead to data loss or corruption
+   should be prevented.
+   \newline
+   External Policies or Regulations: Compliance with safety standards and regulations is essential,
+   including guidelines from regulatory bodies and industry standards organizations.
+   \newline
+   Safety Certifications: Obtaining safety certifications demonstrates compliance with standards and
+   builds user trust in the product’s safety.
+   
+   \subsection{Security Requirements}
+   \paragraph\
+   The system must prioritize the security and privacy of the data used or created by the system.
+   It should implement robust measures to prevent unauthorized access, disclosure, or modification
+   of sensitive information, such as annotated dataset files. User identity authentication should be
+   incorporated to verify the identity of users accessing the system, ensuring that only authorized
+   users can access or modify the dataset files. The system must comply with external policies and
+   regulations regarding security and privacy issues, adhering to guidelines set by regulatory bodies
+   or industry standards organizations. Obtaining security and privacy certifications is essential to
+   demonstrate compliance with these standards, reassuring users of the parser’s commitment to data
+   security and privacy protection.
+   
+   \subsection{Software Quality Attributes}
+   \paragraph\
+   The Malayalam parser for dataset creation must prioritize correctness and reliability, ensuring
+   accurate parsing and consistent results. Maintainability is crucial for easy updates, while usability
+   requires an intuitive interface. Portability enables the parser to run on different platforms, and
+   interoperability allows integration with other NLP components. Testability ensures thorough testing,
+   and adaptability allows for evolving requirements. These characteristics collectively ensure the
+   parser’s efficiency, effectiveness, and adaptability.
+   
 	
 	
 	\chapter{System Architecture and Design}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.8)  11 APR 2024 19:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.8)  11 APR 2024 20:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -518,68 +518,66 @@ Overfull \hbox (30.13356pt too wide) in paragraph at lines 278--291
 
 [2] [3] [4] [5]
 Chapter 2.
-<logo (1).jpg, id=56, 1027.84pt x 458.71375pt>
-File: logo (1).jpg Graphic file (type jpg)
-<use logo (1).jpg>
-Package pdftex.def Info: logo (1).jpg  used on input line 375.
-(pdftex.def)             Requested size: 227.62204pt x 101.58228pt.
 [6
 
- <./logo (1).jpg>] [7]
+] [7] [8] [9] [10] [11]
+Overfull \hbox (0.12477pt too wide) in paragraph at lines 554--563
+[] [][] \OT1/cmr/m/n/12 The Malay-alam parser in-te-grates with var-i-ous soft-
+ware com-po-nents, in-clud-ing databases
+ []
+
+[12] [13] [14] [15]
 Chapter 3.
-<./architecture.jpg, id=66, 963.6pt x 542.025pt>
+<./architecture.jpg, id=87, 963.6pt x 542.025pt>
 File: ./architecture.jpg Graphic file (type jpg)
 <use ./architecture.jpg>
-Package pdftex.def Info: ./architecture.jpg  used on input line 414.
+Package pdftex.def Info: ./architecture.jpg  used on input line 694.
 (pdftex.def)             Requested size: 540.60236pt x 304.09433pt.
 
-Overfull \hbox (85.35825pt too wide) in paragraph at lines 414--415
+Overfull \hbox (85.35825pt too wide) in paragraph at lines 694--695
  [][] 
  []
 
-[8
+[16
 
-] [9 <./architecture.jpg>] [10]
-<./ganttchart.jpg, id=77, 963.6pt x 542.025pt>
+] [17 <./architecture.jpg>] [18]
+<./ganttchart.jpg, id=98, 963.6pt x 542.025pt>
 File: ./ganttchart.jpg Graphic file (type jpg)
 <use ./ganttchart.jpg>
-Package pdftex.def Info: ./ganttchart.jpg  used on input line 532.
+Package pdftex.def Info: ./ganttchart.jpg  used on input line 812.
 (pdftex.def)             Requested size: 512.1496pt x 288.09067pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 532--533
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 812--813
  [][] 
  []
 
-[11] [12 <./ganttchart.jpg>] [13
+[19] [20 <./ganttchart.jpg>] [21
 
-] [14] (main1.aux)
+] [22] (main1.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 12188 strings out of 474485
- 244603 string characters out of 5743735
+ 12185 strings out of 474485
+ 244523 string characters out of 5743735
  1933542 words of memory out of 5000000
- 34325 multiletter control sequences out of 15000+600000
- 571189 words of font info for 85 fonts, out of 8000000 for 9000
+ 34322 multiletter control sequences out of 15000+600000
+ 571497 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,8n,117p,1114b,361s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,8n,117p,1114b,353s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1200.pk><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmbx12.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Admin/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Admin/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Admin/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Admin/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Use
-rs/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10
-.pfb>
-Output written on main1.pdf (23 pages, 840196 bytes).
+TeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Admin/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Admin/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10.pfb>
+Output written on main1.pdf (31 pages, 469885 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
+ 142 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -20,29 +20,67 @@
 \contentsline {section}{\numberline {1.8}Organization of the Report}{5}{}%
 \contentsline {chapter}{\numberline {2}Software Requirements Specification}{6}{}%
 \contentsline {section}{\numberline {2.1}Introduction}{6}{}%
+\contentsline {subsection}{\numberline {2.1.1}Purpose}{6}{}%
 \contentsline {paragraph}{\ }{6}{}%
-\contentsline {section}{\numberline {2.2}Overall Description}{6}{}%
-\contentsline {paragraph}{\ }{6}{}%
-\contentsline {section}{\numberline {2.3}External Interface Requirements}{6}{}%
-\contentsline {paragraph}{\ }{6}{}%
-\contentsline {section}{\numberline {2.4}System Features}{7}{}%
+\contentsline {subsection}{\numberline {2.1.2}Product Scope}{7}{}%
 \contentsline {paragraph}{\ }{7}{}%
-\contentsline {section}{\numberline {2.5}Other Nonfunctional Requirements}{7}{}%
+\contentsline {section}{\numberline {2.2}Overall Description}{7}{}%
+\contentsline {subsection}{\numberline {2.2.1}Product Perspective}{7}{}%
 \contentsline {paragraph}{\ }{7}{}%
-\contentsline {chapter}{\numberline {3}System Architecture and Design}{8}{}%
-\contentsline {section}{\numberline {3.1}System Overview }{8}{}%
+\contentsline {subsection}{\numberline {2.2.2}Product Functions}{8}{}%
 \contentsline {paragraph}{\ }{8}{}%
-\contentsline {section}{\numberline {3.2}Dataset identified}{9}{}%
+\contentsline {subsection}{\numberline {2.2.3}Operating Environment}{8}{}%
+\contentsline {subsection}{\numberline {2.2.4}Design and Implementation Constraints}{9}{}%
 \contentsline {paragraph}{\ }{9}{}%
-\contentsline {section}{\numberline {3.3}Proposed Methodology/Algorithms}{9}{}%
-\contentsline {paragraph}{\ }{9}{}%
-\contentsline {section}{\numberline {3.4}User Interface Design}{9}{}%
-\contentsline {paragraph}{\ }{9}{}%
-\contentsline {section}{\numberline {3.5}Database Design}{10}{}%
+\contentsline {subsection}{\numberline {2.2.5}Assumptions and Dependencies}{10}{}%
 \contentsline {paragraph}{\ }{10}{}%
-\contentsline {section}{\numberline {3.6}Description of Implementation Strategies}{10}{}%
-\contentsline {paragraph}{\ }{10}{}%
-\contentsline {section}{\numberline {3.7}Module Division}{11}{}%
+\contentsline {section}{\numberline {2.3}External Interface Requirements}{11}{}%
+\contentsline {subsection}{\numberline {2.3.1}User Interfaces}{11}{}%
 \contentsline {paragraph}{\ }{11}{}%
-\contentsline {section}{\numberline {3.8}Work Schedule - Gantt Chart}{12}{}%
+\contentsline {subsection}{\numberline {2.3.2}Hardware Interfaces}{11}{}%
+\contentsline {paragraph}{\ }{11}{}%
+\contentsline {subsection}{\numberline {2.3.3}Software Interfaces}{12}{}%
 \contentsline {paragraph}{\ }{12}{}%
+\contentsline {subsection}{\numberline {2.3.4}Communication Interfaces}{12}{}%
+\contentsline {paragraph}{\ }{12}{}%
+\contentsline {section}{\numberline {2.4}System Features}{12}{}%
+\contentsline {paragraph}{\ }{12}{}%
+\contentsline {section}{\numberline {2.5}Other Nonfunctional Requirements}{13}{}%
+\contentsline {subsection}{\numberline {2.5.1}Performance Requirements}{13}{}%
+\contentsline {subsubsection}{Parsing Malayalam Text}{13}{}%
+\contentsline {paragraph}{\ }{13}{}%
+\contentsline {subsubsection}{Lemmatization and Morphological Analysis}{13}{}%
+\contentsline {paragraph}{\ }{13}{}%
+\contentsline {subsubsection}{Dependency Parsing}{13}{}%
+\contentsline {paragraph}{\ }{13}{}%
+\contentsline {subsubsection}{Syntax Tree Generation}{13}{}%
+\contentsline {paragraph}{\ }{13}{}%
+\contentsline {subsubsection}{Semantic Analysis}{13}{}%
+\contentsline {paragraph}{\ }{13}{}%
+\contentsline {subsubsection}{Part-of-Speech tagging}{14}{}%
+\contentsline {paragraph}{\ }{14}{}%
+\contentsline {subsubsection}{Performance Optimization}{14}{}%
+\contentsline {paragraph}{\ }{14}{}%
+\contentsline {subsection}{\numberline {2.5.2}Safety Requirements}{14}{}%
+\contentsline {paragraph}{\ }{14}{}%
+\contentsline {subsection}{\numberline {2.5.3}Security Requirements}{15}{}%
+\contentsline {paragraph}{\ }{15}{}%
+\contentsline {subsection}{\numberline {2.5.4}Software Quality Attributes}{15}{}%
+\contentsline {paragraph}{\ }{15}{}%
+\contentsline {chapter}{\numberline {3}System Architecture and Design}{16}{}%
+\contentsline {section}{\numberline {3.1}System Overview }{16}{}%
+\contentsline {paragraph}{\ }{16}{}%
+\contentsline {section}{\numberline {3.2}Dataset identified}{17}{}%
+\contentsline {paragraph}{\ }{17}{}%
+\contentsline {section}{\numberline {3.3}Proposed Methodology/Algorithms}{17}{}%
+\contentsline {paragraph}{\ }{17}{}%
+\contentsline {section}{\numberline {3.4}User Interface Design}{17}{}%
+\contentsline {paragraph}{\ }{17}{}%
+\contentsline {section}{\numberline {3.5}Database Design}{18}{}%
+\contentsline {paragraph}{\ }{18}{}%
+\contentsline {section}{\numberline {3.6}Description of Implementation Strategies}{18}{}%
+\contentsline {paragraph}{\ }{18}{}%
+\contentsline {section}{\numberline {3.7}Module Division}{19}{}%
+\contentsline {paragraph}{\ }{19}{}%
+\contentsline {section}{\numberline {3.8}Work Schedule - Gantt Chart}{20}{}%
+\contentsline {paragraph}{\ }{20}{}%
