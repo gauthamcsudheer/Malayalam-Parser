@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.8)  9 APR 2024 19:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.8)  11 APR 2024 19:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -540,17 +540,17 @@ Overfull \hbox (113.811pt too wide) in paragraph at lines 408--409
 [8
 
  <./architecture.jpg>] [9] [10]
-<./gantt_chart.jpg, id=77, 648.17157pt x 350.81062pt>
-File: ./gantt_chart.jpg Graphic file (type jpg)
-<use ./gantt_chart.jpg>
-Package pdftex.def Info: ./gantt_chart.jpg  used on input line 535.
-(pdftex.def)             Requested size: 512.1496pt x 277.20692pt.
+<./ganttchart.jpg, id=77, 963.6pt x 542.025pt>
+File: ./ganttchart.jpg Graphic file (type jpg)
+<use ./ganttchart.jpg>
+Package pdftex.def Info: ./ganttchart.jpg  used on input line 535.
+(pdftex.def)             Requested size: 512.1496pt x 288.09067pt.
 
 Overfull \hbox (56.90549pt too wide) in paragraph at lines 535--536
  [][] 
  []
 
-[11] [12 <./gantt_chart.jpg>] [13
+[11] [12 <./ganttchart.jpg>] [13
 
 ] [14] (main1.aux)
  ***********
@@ -560,7 +560,7 @@ L3 programming layer <2024-01-04>
  ) 
 Here is how much of TeX's memory you used:
  12188 strings out of 474485
- 244610 string characters out of 5743735
+ 244603 string characters out of 5743735
  1933542 words of memory out of 5000000
  34325 multiletter control sequences out of 15000+600000
  571189 words of font info for 85 fonts, out of 8000000 for 9000
@@ -577,7 +577,7 @@ ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Admin/
 AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Use
 rs/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10
 .pfb>
-Output written on main1.pdf (23 pages, 812177 bytes).
+Output written on main1.pdf (23 pages, 840575 bytes).
 PDF statistics:
  128 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
