@@ -595,6 +595,7 @@
 	\end{enumerate}
 	
 	\subsection{Parsing Malayalam Text}
+	
 	\subsubsection{Description and Priority}
 	\paragraph\
 	This feature involves analyzing and understanding the linguistic structure of Malayalam text,
@@ -627,31 +628,79 @@
 	\subsection{Lemmatization and Morphological Analysis}
 	\subsubsection{Description and Priority}
 	\paragraph\
+	This feature involves performing lemmatization to identify the base form of words and morphological
+	analysis to understand the grammatical properties of words. It is of high priority as it enhances the
+	accuracy of language analysis.
 	
 	\subsubsection{Stimulus/Response Sequences}
-	\paragraph\
+	Stimulus: User inputs a Malayalam word
+	\newline
+	Response: The system lemmatizes the word and performs morphological analysis to determine its
+	grammatical properties.
 	
 	\subsubsection{Functional Requirements}
-	\paragraph\
+	
+	\begin{enumerate}
+		\item  The system shall lemmatize Malayalam words to identify their base forms.
+		\item The system shall analyze the morphology of Malayalam words to determine their grammatical
+		properties.
+		\item The system shall handle variations in word forms and inflections commonly found in Malayalam.
+		\item The system shall provide error messages for invalid inputs or unsupported characters.
+		\item The system shall process words efficiently, aiming for a lemmatization speed of at least X
+		words per second.
+		\item The system shall be able to handle word inputs of up to Y characters in length.
+	\end{enumerate}
 	
 	\subsection{Dependency Parsing}
 	\subsubsection{Description and Priority}
 	\paragraph\
+	Dependency parsing involves identifying the syntactic dependencies between words in a sentence,
+	which is crucial for understanding the relationships within the sentence. It is of high priority as it
+	provides valuable linguistic information for further analysis.
 	
 	\subsubsection{Stimulus/Response Sequences}
-	\paragraph\
+	Stimulus: User inputs a Malayalam sentence.
+	\newline
+	Response:The system parses the sentence to identify syntactic dependencies between words.
+	
 	
 	\subsubsection{Functional Requirements}
-	\paragraph\
+
+	\begin{enumerate}
+		\item  The system shall parse Malayalam sentences to identify syntactic dependencies between
+		words.
+		\item The system shall generate dependency trees that represent the syntactic structure of parsed
+		sentences.
+		\item The system shall handle complex sentence structures and dependencies between words.
+		\item The system shall provide error messages for invalid inputs or unsupported characters.
+		\item The system shall process sentences efficiently, aiming for a parsing speed of at least X
+		sentences per second.
+		\item The system shall be able to handle sentence inputs of up to Y characters in length.
+	\end{enumerate}
 	\subsection{Syntax Tree Generation}
 	\subsubsection{Description and Priority}
 	\paragraph\
+	Syntax tree generation involves creating syntax trees that represent the grammatical structure of
+	sentences. It is of high priority as it provides a visual representation of the sentence’s structure,
+	aiding in linguistic analysis.
 	
 	\subsubsection{Stimulus/Response Sequences}
-	\paragraph\
+	Stimulus: User inputs a Malayalam sentence.
+	\newline
+	Response: The system analyzes the sentence’s grammatical structure and generates a syntax tree.
 	
 	\subsubsection{Functional Requirements}
-	\paragraph\
+	\begin{enumerate}
+		\item  The system shall generate syntax trees for Malayalam sentences based on their grammatical
+		structure.
+		\item The system shall use standard tree representation formats (e.g., Penn Treebank format) for
+		generated syntax trees.
+		\item The system shall handle complex sentence structures, including coordination and subordination.
+		\item The system shall provide options for visualizing syntax trees, such as tree diagrams or textual
+		representations.
+		\item The system shall process sentences efficiently, aiming for a tree generation speed of at least
+		X trees per second.
+	\end{enumerate}
 	
 	\subsection{Semantic Analysis}
 	\subsubsection{Description and Priority}
