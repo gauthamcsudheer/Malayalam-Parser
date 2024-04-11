@@ -29,76 +29,76 @@
 \contentsline {paragraph}{\ }{7}{}%
 \contentsline {subsection}{\numberline {2.2.2}Product Functions}{8}{}%
 \contentsline {paragraph}{\ }{8}{}%
-\contentsline {subsection}{\numberline {2.2.3}Operating Environment}{8}{}%
-\contentsline {subsection}{\numberline {2.2.4}Design and Implementation Constraints}{9}{}%
-\contentsline {paragraph}{\ }{9}{}%
-\contentsline {subsection}{\numberline {2.2.5}Assumptions and Dependencies}{10}{}%
-\contentsline {section}{\numberline {2.3}External Interface Requirements}{11}{}%
-\contentsline {subsection}{\numberline {2.3.1}User Interfaces}{11}{}%
-\contentsline {paragraph}{\ }{11}{}%
-\contentsline {subsection}{\numberline {2.3.2}Hardware Interfaces}{11}{}%
-\contentsline {paragraph}{\ }{11}{}%
+\contentsline {subsection}{\numberline {2.2.3}Operating Environment}{9}{}%
+\contentsline {subsection}{\numberline {2.2.4}Design and Implementation Constraints}{10}{}%
+\contentsline {paragraph}{\ }{10}{}%
+\contentsline {subsection}{\numberline {2.2.5}Assumptions and Dependencies}{11}{}%
+\contentsline {section}{\numberline {2.3}External Interface Requirements}{12}{}%
+\contentsline {subsection}{\numberline {2.3.1}User Interfaces}{12}{}%
+\contentsline {paragraph}{\ }{12}{}%
+\contentsline {subsection}{\numberline {2.3.2}Hardware Interfaces}{12}{}%
+\contentsline {paragraph}{\ }{12}{}%
 \contentsline {subsection}{\numberline {2.3.3}Software Interfaces}{12}{}%
 \contentsline {paragraph}{\ }{12}{}%
-\contentsline {subsection}{\numberline {2.3.4}Communication Interfaces}{12}{}%
-\contentsline {paragraph}{\ }{12}{}%
+\contentsline {subsection}{\numberline {2.3.4}Communication Interfaces}{13}{}%
+\contentsline {paragraph}{\ }{13}{}%
 \contentsline {section}{\numberline {2.4}System Features}{13}{}%
 \contentsline {paragraph}{\ }{13}{}%
-\contentsline {subsection}{\numberline {2.4.1}Parsing Malayalam Text}{13}{}%
-\contentsline {subsubsection}{Description and Priority}{13}{}%
-\contentsline {paragraph}{\ }{13}{}%
-\contentsline {subsubsection}{Stimulus/Response Sequences}{13}{}%
-\contentsline {subsubsection}{Functional Requirements}{14}{}%
-\contentsline {subsection}{\numberline {2.4.2}Lemmatization and Morphological Analysis}{14}{}%
+\contentsline {subsection}{\numberline {2.4.1}Parsing Malayalam Text}{14}{}%
 \contentsline {subsubsection}{Description and Priority}{14}{}%
 \contentsline {paragraph}{\ }{14}{}%
 \contentsline {subsubsection}{Stimulus/Response Sequences}{14}{}%
 \contentsline {subsubsection}{Functional Requirements}{14}{}%
-\contentsline {subsection}{\numberline {2.4.3}Dependency Parsing}{15}{}%
+\contentsline {subsection}{\numberline {2.4.2}Lemmatization and Morphological Analysis}{15}{}%
 \contentsline {subsubsection}{Description and Priority}{15}{}%
 \contentsline {paragraph}{\ }{15}{}%
 \contentsline {subsubsection}{Stimulus/Response Sequences}{15}{}%
 \contentsline {subsubsection}{Functional Requirements}{15}{}%
-\contentsline {subsection}{\numberline {2.4.4}Syntax Tree Generation}{16}{}%
+\contentsline {subsection}{\numberline {2.4.3}Dependency Parsing}{16}{}%
 \contentsline {subsubsection}{Description and Priority}{16}{}%
 \contentsline {paragraph}{\ }{16}{}%
 \contentsline {subsubsection}{Stimulus/Response Sequences}{16}{}%
 \contentsline {subsubsection}{Functional Requirements}{16}{}%
+\contentsline {subsection}{\numberline {2.4.4}Syntax Tree Generation}{16}{}%
+\contentsline {subsubsection}{Description and Priority}{16}{}%
+\contentsline {paragraph}{\ }{16}{}%
+\contentsline {subsubsection}{Stimulus/Response Sequences}{17}{}%
+\contentsline {subsubsection}{Functional Requirements}{17}{}%
 \contentsline {subsection}{\numberline {2.4.5}Semantic Analysis}{17}{}%
 \contentsline {subsubsection}{Description and Priority}{17}{}%
 \contentsline {paragraph}{\ }{17}{}%
 \contentsline {subsubsection}{Stimulus/Response Sequences}{17}{}%
-\contentsline {subsubsection}{Functional Requirements}{17}{}%
+\contentsline {subsubsection}{Functional Requirements}{18}{}%
 \contentsline {subsection}{\numberline {2.4.6}Part-of-Speech tagging}{18}{}%
 \contentsline {subsubsection}{Description and Priority}{18}{}%
 \contentsline {paragraph}{\ }{18}{}%
 \contentsline {subsubsection}{Stimulus/Response Sequences}{18}{}%
-\contentsline {subsubsection}{Functional Requirements}{18}{}%
+\contentsline {subsubsection}{Functional Requirements}{19}{}%
 \contentsline {subsection}{\numberline {2.4.7}Performance Requirements}{19}{}%
 \contentsline {subsubsection}{Description and Priority}{19}{}%
 \contentsline {paragraph}{\ }{19}{}%
 \contentsline {subsubsection}{Stimulus/Response Sequences}{19}{}%
 \contentsline {subsubsection}{Functional Requirements}{19}{}%
-\contentsline {section}{\numberline {2.5}Other Nonfunctional Requirements}{19}{}%
-\contentsline {subsection}{\numberline {2.5.1}Performance Requirements}{19}{}%
-\contentsline {subsubsection}{Parsing Malayalam Text}{19}{}%
-\contentsline {paragraph}{\ }{19}{}%
+\contentsline {section}{\numberline {2.5}Other Nonfunctional Requirements}{20}{}%
+\contentsline {subsection}{\numberline {2.5.1}Performance Requirements}{20}{}%
+\contentsline {subsubsection}{Parsing Malayalam Text}{20}{}%
+\contentsline {paragraph}{\ }{20}{}%
 \contentsline {subsubsection}{Lemmatization and Morphological Analysis}{20}{}%
 \contentsline {paragraph}{\ }{20}{}%
 \contentsline {subsubsection}{Dependency Parsing}{20}{}%
 \contentsline {paragraph}{\ }{20}{}%
 \contentsline {subsubsection}{Syntax Tree Generation}{20}{}%
 \contentsline {paragraph}{\ }{20}{}%
-\contentsline {subsubsection}{Semantic Analysis}{20}{}%
-\contentsline {paragraph}{\ }{20}{}%
-\contentsline {subsubsection}{Part-of-Speech tagging}{20}{}%
-\contentsline {paragraph}{\ }{20}{}%
+\contentsline {subsubsection}{Semantic Analysis}{21}{}%
+\contentsline {paragraph}{\ }{21}{}%
+\contentsline {subsubsection}{Part-of-Speech tagging}{21}{}%
+\contentsline {paragraph}{\ }{21}{}%
 \contentsline {subsubsection}{Performance Optimization}{21}{}%
 \contentsline {paragraph}{\ }{21}{}%
 \contentsline {subsection}{\numberline {2.5.2}Safety Requirements}{21}{}%
 \contentsline {paragraph}{\ }{21}{}%
-\contentsline {subsection}{\numberline {2.5.3}Security Requirements}{21}{}%
-\contentsline {paragraph}{\ }{21}{}%
+\contentsline {subsection}{\numberline {2.5.3}Security Requirements}{22}{}%
+\contentsline {paragraph}{\ }{22}{}%
 \contentsline {subsection}{\numberline {2.5.4}Software Quality Attributes}{22}{}%
 \contentsline {paragraph}{\ }{22}{}%
 \contentsline {chapter}{\numberline {3}System Architecture and Design}{23}{}%
