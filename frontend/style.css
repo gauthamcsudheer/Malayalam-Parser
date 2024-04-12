@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppins, sans-serif;
+}
+.main-container{
+    margin: 1.7rem;
+}
+.main-heading h1{
+    font-size: 60.04px;
+}
+.description h2{
+    font-size: 20px;
+    color: #808080;
+    font-weight: 600;
+}
+.container{
+  display: flex;
+  justify-content:space-between;
+}
+.input-container {
+    width: 1000px;
+    margin-top: 50px;
+  }
+
+  #inputField {
+    width: 980px;
+    height: 100px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 20px;
+    
+  }
+
+.input-container button{
+    margin-top: 19px;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0 ;
+    border-radius: 10px;
+    background-color: #B4E944;
+    float: right;
+    transition: all 1s ease;
+    transform: scale(1);
+}
+
+.input-container button:hover{
+    transform: scale(1.1) perspective(1px);
+    cursor: pointer;
+}
+
+.img-container img{
+  padding-top: 20px;
+}
+.dataset-container{
+  margin-top: 140px;
+}
+.dataset-container h2{
+  font-weight: 500;
+}
+.ds-btns{
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  margin-top: 20px;
+}
+.ds-btns button{
+  border-radius: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  font-size: 20px;
+  background: rgb(180,233,68);
+  background: linear-gradient(90deg, rgba(180,233,68,1) 35%, rgba(138,185,39,1) 100%);
+  transition: all 1s ease;
+  transform: scale(1);
+}
+.ds-btns button:hover{
+  transform: scale(1.1) perspective(1px);
+  cursor: pointer;
+}
