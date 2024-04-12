@@ -8,7 +8,7 @@
     margin: 1.7rem;
 }
 .main-heading h1{
-    font-size: 60.04px;
+    font-size: 5rem;
 }
 .description h2{
     font-size: 20px;
@@ -30,7 +30,6 @@
     border-radius: 10px;
     font-size: 20px;
     padding-left: 20px;
-    
   }
 
 .input-container button{
@@ -55,9 +54,10 @@
 
 .img-container img{
   padding-top: 20px;
+  height: fit-content;
 }
 .dataset-container{
-  margin-top: 140px;
+  margin-top: 230px;
 }
 .dataset-container h2{
   font-weight: 500;
@@ -65,7 +65,7 @@
 .ds-btns{
   display: flex;
   justify-content: space-between;
-  max-width: 800px;
+  max-width: 850px;
   margin-top: 20px;
 }
 .ds-btns button{
@@ -81,6 +81,11 @@
   transition: all 1s ease;
   transform: scale(1);
 }
+
+.ds-btns button img{
+  margin-bottom: -8px;
+}
+
 .ds-btns button:hover{
   transform: scale(1.1) perspective(1px);
   cursor: pointer;
