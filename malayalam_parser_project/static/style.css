@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppins, sans-serif;
+}
+.main-container{
+    margin: 1.7rem;
+}
+.main-heading h1{
+    font-size: 5rem;
+}
+.description h2{
+    font-size: 20px;
+    color: #808080;
+    font-weight: 600;
+}
+.container{
+  display: flex;
+  justify-content:space-between;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container {
+    width: 1000px;
+    margin-top: 50px;
+  }
+
+  .custom-textarea {
+    width: 100%;
+    height: 200px;
+    resize: vertical;
+    overflow-y: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.input-container button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0 ;
+    border-radius: 10px;
+    background-color: #B4E944;
+    float: right;
+    transition: all 1s ease;
+    transform: scale(1);
+}
+
+.input-container button:hover{
+    transform: scale(1.1) perspective(1px);
+    cursor: pointer;
+}
+
+.img-container img{
+  padding-top: 20px;
+  height: fit-content;
+}
+.dataset-container{
+  margin-top: 40px;
+}
+.dataset-container h2{
+  font-weight: 500;
+}
+.ds-btns{
+  display: flex;
+  justify-content: space-between;
+  max-width: 850px;
+  margin-top: 20px;
+}
+.ds-btns button{
+  border-radius: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  font-size: 20px;
+  background: rgb(180,233,68);
+  background: linear-gradient(90deg, rgba(180,233,68,1) 35%, rgba(138,185,39,1) 100%);
+  transition: all 1s ease;
+  transform: scale(1);
+}
+
+.ds-btns button img{
+  margin-bottom: -8px;
+}
+
+.ds-btns button:hover{
+  transform: scale(1.1) perspective(1px);
+  cursor: pointer;
+}
+
+.results{
+  padding-top: 20px;
+  display: none;
+}
+
+table {
+  width: 100%;
+  
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+th {
+  background-color: #B4E944;
+  text-align: center;
+}
+.results-sentimental{
+  padding-top: 20px;
+}
+
