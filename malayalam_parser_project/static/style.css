@@ -64,6 +64,29 @@
     cursor: pointer;
 }
 
+.results {
+  display: none;
+}
+
+table {
+  width: 100%;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+th {
+  background-color: #B4E944;
+  text-align: center;
+}
+.results-sentimental{
+  padding-top: 20px;
+}
+
 .img-container img{
   padding-top: 20px;
   height: fit-content;
@@ -101,30 +124,5 @@
 .ds-btns button:hover{
   transform: scale(1.1) perspective(1px);
   cursor: pointer;
-}
-
-.results{
-  padding-top: 20px;
-  display: none;
-}
-
-table {
-  width: 100%;
-  
-}
-
-th, td {
-  padding: 10px;
-  text-align: left;
-  border: 1px solid #000;
-  text-align: center;
-}
-
-th {
-  background-color: #B4E944;
-  text-align: center;
-}
-.results-sentimental{
-  padding-top: 20px;
 }
 

@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Malayalam Parser</title>
     <link rel="stylesheet" href="{% static 'style.css' %}">
+
+    <link rel="shortcut icon" type="image/png" href="{% static 'favicon.ico' %}"/>
 </head>
 <body>
     <div class="main-container">
@@ -20,50 +22,40 @@
         <div class="container">
             <div class="text-container">
                 <div class="input-container">
-                    <textarea class="custom-textarea" placeholder="Try now, Enter the text here..."></textarea>
-                    <button>Submit</button>
+                  <textarea id="input-text" class="custom-textarea" placeholder="Try now, Enter the text here..."></textarea>
+                    <button id="submit-btn">Submit</button>
                 </div>
+                <!-- <div><h1>hello</h1></div> -->
                 <div class="results">
-                    <table>
-                    <thead>
-                      <tr>
-                        <th>Named Entity</th>
-                        <th>POS Tag</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>Row 1, Cell 1</td>
-                        <td>Row 1, Cell 2</td>
-                      </tr>
-                      <tr>
-                        <td>Row 2, Cell 1</td>
-                        <td>Row 2, Cell 2</td>
-                      </tr>
-                      <tr>
-                        <td>Row 3, Cell 1</td>
-                        <td>Row 3, Cell 2</td>
-                      </tr>
-                      <tr>
-                        <td>Row 4, Cell 1</td>
-                        <td>Row 4, Cell 2</td>
-                      </tr>
-                    </tbody>
+                    <table id="entities-table">
+                      <thead>
+                          <tr>
+                              <th>Entity</th>
+                              <th>Tag</th>
+                          </tr>
+                      </thead>
+                      <tbody></tbody>
                   </table>
-                  <div class="results-sentimental">
-                    <table id="Sentimental">
-                        <thead>
+
+                  <table id="pos-tags-table">
+                    <thead>
+                        <tr>
+                            <th>Token</th>
+                            <th>POS Tag</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                  </table>
+
+                  <table id="sentiment">
+                    <thead>
                         <tr>
                             <th>Sentimental Analysis</th>
                         </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>Row 1, Cell 1</td>
-                        </tr>
-                        </tbody>
-                    </table>
-                  </div>
+                    </thead>
+                    <tbody></tbody>
+                  </table>
+
                 </div>
                 <div class="dataset-container">
                     <h2>Click here to download and use our data sets</h2>
@@ -79,5 +71,155 @@
             </div>
         </div>
     </div>
+
+    <script>
+      document.getElementById('submit-btn').addEventListener('click', function() {
+          document.querySelector('.results').style.display = 'block';
+      });
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+        $('#submit-btn').click(function() {
+            var inputText = $('#input-text').val();
+            $.ajax({
+                type: 'POST',
+                url: '/parse/',
+                headers: {
+                    'X-Requested-With': 'XMLHttpRequest'
+                },
+                data: {
+                    'text': inputText,
+                    csrfmiddlewaretoken: '{{ csrf_token }}'
+                },
+                success: function(response) {
+                    var entities = response.entities;
+                    var posTags = response.pos_tags;
+                    var sentiment = response.sentiment;
+                    
+                    // Function to get expanded entity label
+                    function getExpandedEntityLabel(label) {
+                        switch (label) {
+                            case 'PERSON':
+                                return 'Person';
+                            case 'NORP':
+                                return 'Nationality or religious or political group';
+                            case 'FAC':
+                                return 'Facility';
+                            case 'ORG':
+                                return 'Organization';
+                            case 'GPE':
+                                return 'Geopolitical entity';
+                            case 'LOC':
+                                return 'Location';
+                            case 'PRODUCT':
+                                return 'Product';
+                            case 'EVENT':
+                                return 'Event';
+                            case 'WORK_OF_ART':
+                                return 'Work of art';
+                            case 'LAW':
+                                return 'Law';
+                            case 'LANGUAGE':
+                                return 'Language';
+                            case 'DATE':
+                                return 'Date';
+                            case 'TIME':
+                                return 'Time';
+                            case 'PERCENT':
+                                return 'Percentage';
+                            case 'MONEY':
+                                return 'Money';
+                            case 'QUANTITY':
+                                return 'Quantity';
+                            case 'ORDINAL':
+                                return 'Ordinal number';
+                            case 'CARDINAL':
+                                return 'Cardinal number';
+                            default:
+                                return label; // Return the label as is if not found in the switch statement
+                        }
+                    }
+
+                    // Function to get expanded POS tag
+                    function getExpandedPOSTag(tag) {
+                        switch (tag) {
+                            case 'ADJ':
+                                return 'Adjective';
+                            case 'ADP':
+                                return 'Adposition';
+                            case 'ADV':
+                                return 'Adverb';
+                            case 'AUX':
+                                return 'Auxiliary';
+                            case 'CCONJ':
+                                return 'Coordinating Conjunction';
+                            case 'DET':
+                                return 'Determiner';
+                            case 'INTJ':
+                                return 'Interjection';
+                            case 'NOUN':
+                                return 'Noun';
+                            case 'NUM':
+                                return 'Numeral';
+                            case 'PART':
+                                return 'Particle';
+                            case 'PRON':
+                                return 'Pronoun';
+                            case 'PROPN':
+                                return 'Proper Noun';
+                            case 'PUNCT':
+                                return 'Punctuation';
+                            case 'SCONJ':
+                                return 'Subordinating Conjunction';
+                            case 'SYM':
+                                return 'Symbol';
+                            case 'VERB':
+                                return 'Verb';
+                            case 'X':
+                                return 'Other';
+                            default:
+                                return tag; // Return the tag as is if not found in the switch statement
+                        }
+                    }
+                    
+                    // Populate Named Entities Table with expanded labels
+                    var tbodyEntities = $('#entities-table tbody');
+                    tbodyEntities.empty();
+                    entities.forEach(function(entity) {
+                        var tr = $('<tr>');
+                        tr.append($('<td>').text(entity[0])); // Named Entity
+                        var expandedLabel = getExpandedEntityLabel(entity[1]); // Get expanded form of entity label
+                        tr.append($('<td>').text(expandedLabel)); // Expanded Entity Label
+                        tbodyEntities.append(tr);
+                    });
+                    
+                    // Populate POS Tags Table with expanded forms
+                    var tbodyPosTags = $('#pos-tags-table tbody');
+                    tbodyPosTags.empty();
+                    posTags.forEach(function(tag) {
+                        var tr = $('<tr>');
+                        tr.append($('<td>').text(tag[0])); // Token
+                        var expandedTag = getExpandedPOSTag(tag[1]); // Get expanded form of POS tag
+                        tr.append($('<td>').text(expandedTag)); // Expanded POS Tag
+                        tbodyPosTags.append(tr);
+                    });
+
+                    // Populate Sentimental Table
+                    var tbodySentiment = $('#sentiment tbody');
+                    tbodySentiment.empty();
+                    var tr = $('<tr>');
+                    tr.append($('<td>').text(sentiment));
+                    tbodySentiment.append(tr);
+                },
+                error: function(xhr, errmsg, err) {
+                    console.error(xhr.status + ": " + xhr.responseText);
+                }
+            });
+        });
+    });
+    </script>
+
 </body>
 </html>
