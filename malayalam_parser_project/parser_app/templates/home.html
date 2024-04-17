@@ -25,7 +25,6 @@
                   <textarea id="input-text" class="custom-textarea" placeholder="Try now, Enter the text here..."></textarea>
                     <button id="submit-btn">Submit</button>
                 </div>
-                <!-- <div><h1>hello</h1></div> -->
                 <div class="results">
                     <table id="entities-table">
                       <thead>
@@ -73,10 +72,14 @@
     </div>
 
     <script>
-      document.getElementById('submit-btn').addEventListener('click', function() {
-          document.querySelector('.results').style.display = 'block';
-      });
+        document.getElementById('submit-btn').addEventListener('click', function() {
+            var resultsContainer = document.querySelector('.results');
+            resultsContainer.style.display = 'flex';
+            resultsContainer.style.flexDirection = 'column';
+            resultsContainer.style.gap = '20px';
+        });
     </script>
+    
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
