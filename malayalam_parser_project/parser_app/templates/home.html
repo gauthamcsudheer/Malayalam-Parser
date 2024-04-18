@@ -59,10 +59,10 @@
                 <div class="dataset-container">
                     <h2>Click here to download and use our data sets</h2>
                     <div class="ds-btns">
-                        <button>Named Entity <img src="{% static 'file_download.png' %}" alt=""></button>
-                        <button>POS Tagged <img src="{% static 'file_download.png' %}" alt=""></button>
-                        <button>Sentimental <img src="{% static 'file_download.png' %}" alt=""></button>
-                    </div>
+                        <button onclick="downloadFile('entities.csv')">Named Entity <img src="{% static 'file_download.png' %}" alt=""></button>
+                        <button onclick="downloadFile('pos_tags.csv')">POS Tagged <img src="{% static 'file_download.png' %}" alt=""></button>
+                        <button onclick="downloadFile('sentiment.csv')">Sentimental <img src="{% static 'file_download.png' %}" alt=""></button>
+                    </div>                   
                 </div>
             </div>
             <div class="img-container">
@@ -80,6 +80,17 @@
         });
     </script>
     
+    <script>
+        function downloadFile(filename) {
+            var link = document.createElement('a');
+            link.setAttribute('href', '{% static "" %}' + filename);
+            link.setAttribute('download', filename);
+            link.style.display = 'none';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+    </script>    
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
