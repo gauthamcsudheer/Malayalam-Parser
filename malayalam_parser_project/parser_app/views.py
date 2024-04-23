@@ -3,6 +3,7 @@ import spacy
 from textblob import TextBlob
 from django.http import JsonResponse
 from django.shortcuts import render
+from deep_translator import GoogleTranslator
 
 def home(request):
     return render(request, 'home.html')
@@ -22,10 +23,49 @@ def write_to_csv(data, filename):
         writer = csv.writer(file)
         writer.writerows(data)
 
+def is_malayalam(text):
+    # Check if the text contains Malayalam characters
+    malayalam_chars = [char for char in text if 0x0D00 <= ord(char) <= 0x0D7F]
+    return len(malayalam_chars) > 0
+
+def translate_to_english(text):
+    try:
+        translated_text = GoogleTranslator(source='malayalam', target='english').translate(text)
+        print(f"{text} -> {translated_text}")
+        return translated_text
+    except Exception as e:
+        print("Translation failed:", e)
+        return text  # Return the original text if translation fails
+
+def translate_to_malayalam(text):
+    try:
+        translated_text = GoogleTranslator(source='english', target='malayalam').translate(text)
+        print(f"{text} -> {translated_text}")
+        return translated_text
+    except Exception as e:
+        print("Translation failed:", e)
+        return text  # Return the original text if translation fails
+
+def translate_entities_and_tokens(entities, tokens):
+    translated_entities = [(translate_to_malayalam(entity), label) for entity, label in entities]
+    translated_tokens = [(translate_to_malayalam(token), pos) for token, pos in tokens]
+    return translated_entities, translated_tokens
+
 def parse_text(request):
     if request.method == 'POST' and request.META.get('HTTP_X_REQUESTED_WITH') == 'XMLHttpRequest':
         text = request.POST.get('text', '')
+
+        # Check if the text is in Malayalam
+        if is_malayalam(text):
+            text = translate_to_english(text)
+
         entities, pos_tags, sentiment, sentence = extract_entities_and_pos_and_sentiment(text)
+
+        # Translate entities and tokens back to Malayalam
+        translated_entities, translated_tokens = translate_entities_and_tokens(entities, pos_tags)
+
+        print(translated_tokens)
+
         # Write entities to CSV file
         write_to_csv(entities, './static/entities.csv')
         # Write POS tags to CSV file
@@ -34,6 +74,7 @@ def parse_text(request):
         with open('./static/sentiment.csv', 'a', newline='', encoding='utf-8') as file:
             writer = csv.writer(file)
             writer.writerow([sentence, sentiment])
-        return JsonResponse({'entities': entities, 'pos_tags': pos_tags, 'sentiment': sentiment})
+
+        return JsonResponse({'entities': translated_entities, 'pos_tags': translated_tokens, 'sentiment': sentiment})
     else:
         return JsonResponse({'error': 'Invalid request'})
