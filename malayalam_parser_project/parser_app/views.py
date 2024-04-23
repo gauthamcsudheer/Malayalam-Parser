@@ -71,31 +71,51 @@ def filter_translated_tokens(original_malayalam_text, translated_tokens, resembl
     return filtered_tokens
 
 def parse_text(request):
+
+    language = 0
+
     if request.method == 'POST' and request.META.get('HTTP_X_REQUESTED_WITH') == 'XMLHttpRequest':
         text = request.POST.get('text', '')
-        original_malayalam_text = text  # Save the original Malayalam text
+        
 
         # Check if the text is in Malayalam
         if is_malayalam(text):
+            language = 1
+            original_malayalam_text = text  # Save the original Malayalam text
             text = translate_to_english(text)
 
         entities, pos_tags, sentiment, sentence = extract_entities_and_pos_and_sentiment(text)
 
-        # Translate entities and tokens back to Malayalam
-        translated_entities, translated_tokens = translate_entities_and_tokens(entities, pos_tags)
+        if language:
+            # Translate entities and tokens back to Malayalam
+            translated_entities, translated_tokens = translate_entities_and_tokens(entities, pos_tags)
 
-        # Filter translated tokens using original Malayalam text
-        filtered_translated_tokens = filter_translated_tokens(original_malayalam_text, translated_tokens)
+            # Filter translated tokens using original Malayalam text
+            filtered_translated_tokens = filter_translated_tokens(original_malayalam_text, translated_tokens)
 
-        # Write entities to CSV file
-        write_to_csv(entities, './static/entities.csv')
-        # Write POS tags to CSV file
-        write_to_csv(pos_tags, './static/pos_tags.csv')
-        # Write sentiment and sentence to CSV file
-        with open('./static/sentiment.csv', 'a', newline='', encoding='utf-8') as file:
-            writer = csv.writer(file)
-            writer.writerow([sentence, sentiment])
+            print(translated_entities)
+            print(filtered_translated_tokens)
 
-        return JsonResponse({'entities': translated_entities, 'pos_tags': filtered_translated_tokens, 'sentiment': sentiment})
+            # Write entities to CSV file
+            write_to_csv(translated_entities, './static/entities.csv')
+            # Write POS tags to CSV file
+            write_to_csv(filtered_translated_tokens, './static/pos_tags.csv')
+            # Write sentiment and sentence to CSV file
+            with open('./static/sentiment.csv', 'a', newline='', encoding='utf-8') as file:
+                writer = csv.writer(file)
+                writer.writerow([original_malayalam_text, sentiment])
+
+            return JsonResponse({'entities': translated_entities, 'pos_tags': filtered_translated_tokens, 'sentiment': sentiment})
+        
+        else:
+            # Write entities to CSV file
+            write_to_csv(entities, './static/entities.csv')
+            # Write POS tags to CSV file
+            write_to_csv(pos_tags, './static/pos_tags.csv')
+            # Write sentiment and sentence to CSV file
+            with open('./static/sentiment.csv', 'a', newline='', encoding='utf-8') as file:
+                writer = csv.writer(file)
+                writer.writerow([sentence, sentiment])
+            return JsonResponse({'entities': entities, 'pos_tags': pos_tags, 'sentiment': sentiment})
     else:
         return JsonResponse({'error': 'Invalid request'})
