@@ -4,6 +4,7 @@ from textblob import TextBlob
 from django.http import JsonResponse
 from django.shortcuts import render
 from deep_translator import GoogleTranslator
+from difflib import SequenceMatcher
 
 def home(request):
     return render(request, 'home.html')
@@ -51,9 +52,28 @@ def translate_entities_and_tokens(entities, tokens):
     translated_tokens = [(translate_to_malayalam(token), pos) for token, pos in tokens]
     return translated_entities, translated_tokens
 
+def similar(a, b):
+    return SequenceMatcher(None, a, b).ratio()
+
+def filter_translated_tokens(original_malayalam_text, translated_tokens, resemblance_threshold=0.5):
+    filtered_tokens = []
+    for token, pos in translated_tokens:
+        if token is not None:
+            found_similar = False
+            for original_word in original_malayalam_text.split():
+                resemblance_score = similar(original_word, token)
+                print(f"Comparison: '{original_word}' vs '{token}', Similarity: {resemblance_score}")
+                if resemblance_score is not None and resemblance_score >= resemblance_threshold:
+                    found_similar = True
+                    break
+            if found_similar:
+                filtered_tokens.append((token, pos))
+    return filtered_tokens
+
 def parse_text(request):
     if request.method == 'POST' and request.META.get('HTTP_X_REQUESTED_WITH') == 'XMLHttpRequest':
         text = request.POST.get('text', '')
+        original_malayalam_text = text  # Save the original Malayalam text
 
         # Check if the text is in Malayalam
         if is_malayalam(text):
@@ -64,7 +84,8 @@ def parse_text(request):
         # Translate entities and tokens back to Malayalam
         translated_entities, translated_tokens = translate_entities_and_tokens(entities, pos_tags)
 
-        print(translated_tokens)
+        # Filter translated tokens using original Malayalam text
+        filtered_translated_tokens = filter_translated_tokens(original_malayalam_text, translated_tokens)
 
         # Write entities to CSV file
         write_to_csv(entities, './static/entities.csv')
@@ -75,6 +96,6 @@ def parse_text(request):
             writer = csv.writer(file)
             writer.writerow([sentence, sentiment])
 
-        return JsonResponse({'entities': translated_entities, 'pos_tags': translated_tokens, 'sentiment': sentiment})
+        return JsonResponse({'entities': translated_entities, 'pos_tags': filtered_translated_tokens, 'sentiment': sentiment})
     else:
         return JsonResponse({'error': 'Invalid request'})
