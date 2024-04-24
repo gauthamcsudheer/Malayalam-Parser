@@ -62,8 +62,8 @@ def filter_translated_tokens(original_malayalam_text, translated_tokens, resembl
             found_similar = False
             for original_word in original_malayalam_text.split():
                 resemblance_score = similar(original_word, token)
-                print(f"Comparison: '{original_word}' vs '{token}', Similarity: {resemblance_score}")
                 if resemblance_score is not None and resemblance_score >= resemblance_threshold:
+                    print(f'{original_word} <--> {token}, Similarity: {resemblance_score}')
                     found_similar = True
                     break
             if found_similar:
