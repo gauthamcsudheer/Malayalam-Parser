@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Malayalam:wght@100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif; /* Use imported font */
+}
+.main {
+  display: flex;
+    margin: 2rem;
+}
+.main-container {
+  margin: 1.5rem; /* Center the main container horizontally */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-heading h1 {
+  font-size: 5rem;
+  margin: 40px 0px 80px 0px;
+}
+
+h2 {
+  font-size: 1.5em;;
+  margin: 20px 0; /* Adjust line spacing */
+  font-weight: bold;
+}
+h2 .eng{
+  font-size: 1.5em;
+  font-family: "Noto Sans Malayalam", sans-serif;
+  margin: 20px 0; /* Adjust line spacing */
+  font-weight: bold;
+}
+
+.description {
+  width: 80%;
+}
+.description .english {
+  margin-bottom: 3rem; /* Add spacing between paragraphs */
+  line-height: 2rem; /* Adjust line spacing */
+  justify-content: space-around;
+  font-family: "Poppins", sans-serif; /* Use imported font */
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+.description .mallu {
+  margin-bottom: 3rem; /* Add spacing between paragraphs */
+  line-height: 2rem; /* Adjust line spacing */
+  justify-content: space-around;
+  font-family: "Noto Sans Malayalam", sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+ul {
+  list-style-type: disc; /* Use bullets for list items */
+  margin-left: 20px; /* Add left margin to separate from heading */
+}
+
+li {
+  font-family: "Noto Sans Malayalam", sans-serif; /* Use imported Malayalam font */
+  line-height: 2; /* Adjust line spacing */
+}
+/* CSS */
+.home-button {
+  position: absolute;
+  top: 70px;
+  left: 1200px;
+}
+
+.home-button button {
+  font-size: 30px; /* Inherit font size */
+  padding: 10px 20px; /* Adjust padding */
+  border: 0;
+  border-radius: 10px;
+  background-color: #b4e944;
+  transition: transform 0.3s ease; /* Add transition for smoother animation */
+}
+
+.home-button button:hover {
+  transform: scale(1.1); /* Increase scale on hover */
+}
+
+.eg {
+  margin: 2rem;
+}
+.pic img {
+  position: relative;
+  top: 600px;
+  left: -100px;
+  padding-top: 20px;
+  height: fit-content;
+}
+.noto-sans-malayalam-description {
+  font-family: "Noto Sans Malayalam", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
