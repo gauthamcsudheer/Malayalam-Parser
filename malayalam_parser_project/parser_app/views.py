@@ -24,6 +24,12 @@ def write_to_csv(data, filename):
         writer = csv.writer(file)
         writer.writerows(data)
 
+def write_entities_pos_to_csv(sentence, entities, filename):
+    entity_tags = ' '.join([f'{entity}/{tag}' for entity, tag in entities])
+    with open(filename, 'a', newline='', encoding='utf-8') as file:
+        writer = csv.writer(file)
+        writer.writerow([sentence, entity_tags])
+
 def is_malayalam(text):
     # Check if the text contains Malayalam characters
     malayalam_chars = [char for char in text if 0x0D00 <= ord(char) <= 0x0D7F]
@@ -70,14 +76,20 @@ def filter_translated_tokens(original_malayalam_text, translated_tokens, resembl
                 filtered_tokens.append((token, pos))
     return filtered_tokens
 
+# def open_and_parse_csv(input_filename):
+#     with open(input_filename, 'r', newline='', encoding='utf-8') as file:
+#         reader = csv.reader(file)
+#         for row in reader:
+#             sentence = row[0]
+#             parse_text(sentence)
+
 def parse_text(request):
 
     language = 0
 
     if request.method == 'POST' and request.META.get('HTTP_X_REQUESTED_WITH') == 'XMLHttpRequest':
         text = request.POST.get('text', '')
-        
-
+     
         # Check if the text is in Malayalam
         if is_malayalam(text):
             language = 1
@@ -97,9 +109,10 @@ def parse_text(request):
             print(filtered_translated_tokens)
 
             # Write entities to CSV file
-            write_to_csv(translated_entities, './static/entities.csv')
+            write_entities_pos_to_csv(original_malayalam_text, translated_entities, './static/entities.csv')
+            # write_to_csv(translated_entities, './static/entities.csv')
             # Write POS tags to CSV file
-            write_to_csv(filtered_translated_tokens, './static/pos_tags.csv')
+            write_entities_pos_to_csv(original_malayalam_text, filtered_translated_tokens, './static/pos_tags.csv')
             # Write sentiment and sentence to CSV file
             with open('./static/sentiment.csv', 'a', newline='', encoding='utf-8') as file:
                 writer = csv.writer(file)
@@ -109,9 +122,9 @@ def parse_text(request):
         
         else:
             # Write entities to CSV file
-            write_to_csv(entities, './static/entities.csv')
+            write_entities_pos_to_csv(text, entities, './static/entities.csv')
             # Write POS tags to CSV file
-            write_to_csv(pos_tags, './static/pos_tags.csv')
+            write_entities_pos_to_csv(text, pos_tags, './static/pos_tags.csv')
             # Write sentiment and sentence to CSV file
             with open('./static/sentiment.csv', 'a', newline='', encoding='utf-8') as file:
                 writer = csv.writer(file)
@@ -119,3 +132,5 @@ def parse_text(request):
             return JsonResponse({'entities': entities, 'pos_tags': pos_tags, 'sentiment': sentiment})
     else:
         return JsonResponse({'error': 'Invalid request'})
+
+# open_and_parse_csv('./static/input.csv')
