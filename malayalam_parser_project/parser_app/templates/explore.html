@@ -1,35 +1,35 @@
-<!-- {% load static %} -->
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Explore</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{% static 'exp_style.css' %}">
 </head>
 <body>
     <div class="main-heading">
         <h1><span style="color: #8ab927">Malayalam</span> Parser</h1>
-      </div>
+    </div>
 
     <div class="container">
-        <div class="tag">Adjective</div>
-        <div class="tag">Adposition</div>
-        <div class="tag">Adverb</div>
-        <div class="tag">Auxilary</div>
-        <div class="tag">Coordinate Conjunction</div>
-        <div class="tag">Determiner</div>
-        <div class="tag">Interjection</div>
-        <div class="tag">Noun</div>
-        <div class="tag">Numeral</div>
-        <div class="tag">Other</div>
-        <div class="tag">Particle</div>
-        <div class="tag">Pronoun</div>
-        <div class="tag">Proper Noun</div>
-        <div class="tag">Punctuation</div>
-        <div class="tag">Subordinate</div>
-        <div class="tag">Symbol</div>
-        <div class="tag">Verb</div>
+        <div class="tag"><a href="{% url 'pos_tag_detail' 'Adjective' %}">Adjective</a></div>
+        <div class="tag"><a href="{% url 'pos_tag_detail' 'Adposition' %}">Adposition</a></div>
+        <div class="tag"><a href="{% url 'pos_tag_detail' 'Adverb' %}">Adverb</a></div>
+        <div class="tag"><a href="{% url 'pos_tag_detail' 'Auxilary' %}">Auxilary</a></div>
+        <div class="tag"><a href="{% url 'pos_tag_detail' 'Coordinate Conjunction' %}">Coordinate Conjunction</a></div>
+        <div class="tag"><a href="{% url 'pos_tag_detail' 'Determiner' %}">Determiner</a></div>
+        <div class="tag"><a href="{% url 'pos_tag_detail' 'Interjection' %}">Interjection</a></div>
+        <div class="tag"><a href="{% url 'pos_tag_detail' 'Noun' %}">Noun</a></div>
+        <div class="tag"><a href="{% url 'pos_tag_detail' 'Numeral' %}">Numeral</a></div>
+        <div class="tag"><a href="{% url 'pos_tag_detail' 'Other' %}">Other</a></div>
+        <div class="tag"><a href="{% url 'pos_tag_detail' 'Particle' %}">Particle</a></div>
+        <div class="tag"><a href="{% url 'pos_tag_detail' 'Pronoun' %}">Pronoun</a></div>
+        <div class="tag"><a href="{% url 'pos_tag_detail' 'Proper Noun' %}">Proper Noun</a></div>
+        <div class="tag"><a href="{% url 'pos_tag_detail' 'Punctuation' %}">Punctuation</a></div>
+        <div class="tag"><a href="{% url 'pos_tag_detail' 'Subordinate' %}">Subordinate</a></div>
+        <div class="tag"><a href="{% url 'pos_tag_detail' 'Symbol' %}">Symbol</a></div>
+        <div class="tag"><a href="{% url 'pos_tag_detail' 'Verb' %}">Verb</a></div>
     </div>
 </body>
 </html>
