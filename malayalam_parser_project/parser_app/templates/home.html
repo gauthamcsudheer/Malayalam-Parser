@@ -222,11 +222,10 @@
                         // Add click event listener to each row
                         tr.click(function() {
                             var posTag = expandedTag; // POS tag
-                            // Redirect to the respective page based on the POS tag
-                            window.location.href = '/pos/' + encodeURIComponent(posTag);
+                            // Open the respective page in a new tab based on the POS tag
+                            window.open('/pos/' + encodeURIComponent(posTag), '_blank');
                         });
                     });
-
 
                     // Populate Sentimental Table
                     var tbodySentiment = $('#sentiment tbody');
