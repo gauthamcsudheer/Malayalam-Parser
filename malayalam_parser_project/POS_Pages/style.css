@@ -18,8 +18,15 @@
   flex-direction: column;
 }
 
+.main-heading{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .main-heading h1 {
-  font-size: 5rem;
+  font-size: 4rem;
+  margin: 0px 0px 80px 0px;
 }
 
 h2 {
@@ -65,12 +72,12 @@ li {
 /* CSS */
 .home-button {
   position: absolute;
-  top: 70px;
+  top: 12px;
   left: 1200px;
 }
 
 .home-button button {
-  font-size: 30px; /* Inherit font size */
+  font-size: 25px; /* Inherit font size */
   padding: 10px 20px; /* Adjust padding */
   border: 0;
   border-radius: 10px;
@@ -87,8 +94,9 @@ li {
 }
 .pic img {
   position: relative;
-  top: 600px;
-  left: -100px;
+  float: right;
+  top: 200px;
+  left: -10px;
   padding-top: 20px;
   height: fit-content;
 }
