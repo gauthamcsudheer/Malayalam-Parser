@@ -77,7 +77,11 @@ th, td {
   text-align: left;
   border: 1px solid #000;
   text-align: center;
+}
+
+td:hover {
   cursor: pointer;
+  text-decoration: underline;
 }
 
 th {

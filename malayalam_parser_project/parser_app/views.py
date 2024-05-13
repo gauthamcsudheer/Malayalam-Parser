@@ -9,6 +9,9 @@ from difflib import SequenceMatcher
 def home(request):
     return render(request, 'home.html')
 
+def explore(request):
+    return render(request, 'explore.html')
+
 def pos_tag_detail(request, pos_tag):
     # Render the respective POS tag page
     return render(request, f'{pos_tag}.html')
