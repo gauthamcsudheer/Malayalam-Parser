@@ -218,7 +218,15 @@
                         var expandedTag = getExpandedPOSTag(tag[1]); // Get expanded form of POS tag
                         tr.append($('<td>').text(expandedTag)); // Expanded POS Tag
                         tbodyPosTags.append(tr);
+
+                        // Add click event listener to each row
+                        tr.click(function() {
+                            var posTag = expandedTag; // POS tag
+                            // Redirect to the respective page based on the POS tag
+                            window.location.href = '/pos/' + encodeURIComponent(posTag);
+                        });
                     });
+
 
                     // Populate Sentimental Table
                     var tbodySentiment = $('#sentiment tbody');

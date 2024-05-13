@@ -2,8 +2,10 @@
 
 from django.urls import path
 from .views import home, parse_text
+from . import views
 
 urlpatterns = [
     path('', home, name='home'),
     path('parse/', parse_text, name='parse_text'),
+    path('pos/<str:pos_tag>/', views.pos_tag_detail, name='pos_tag_detail'),
 ]

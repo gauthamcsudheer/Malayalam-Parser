@@ -9,6 +9,11 @@ from difflib import SequenceMatcher
 def home(request):
     return render(request, 'home.html')
 
+def pos_tag_detail(request, pos_tag):
+    # Render the respective POS tag page
+    return render(request, f'pos_tags/{pos_tag}.html')
+
+
 def extract_entities_and_pos_and_sentiment(text):
     nlp = spacy.load("en_core_web_sm")
     doc = nlp(text)

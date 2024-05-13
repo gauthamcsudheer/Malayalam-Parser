@@ -9,7 +9,7 @@
 
 .main {
   display: flex;
-    margin: 2rem;
+  margin: 2rem;
 }
 .main-container {
   margin: 1.5rem; /* Center the main container horizontally */
