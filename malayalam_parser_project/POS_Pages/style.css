@@ -6,6 +6,7 @@
   margin: 0;
   font-family: "Poppins", sans-serif; /* Use imported font */
 }
+
 .main {
   display: flex;
     margin: 2rem;
@@ -19,7 +20,6 @@
 
 .main-heading h1 {
   font-size: 5rem;
-  margin: 40px 0px 80px 0px;
 }
 
 h2 {
