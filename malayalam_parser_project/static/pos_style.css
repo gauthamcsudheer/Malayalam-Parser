@@ -87,6 +87,7 @@ li {
 
 .home-button button:hover {
   transform: scale(1.1); /* Increase scale on hover */
+  cursor: pointer;
 }
 
 .eg {
