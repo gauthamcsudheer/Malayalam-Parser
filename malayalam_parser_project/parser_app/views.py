@@ -45,7 +45,7 @@ def is_malayalam(text):
 
 def translate_to_english(text):
     try:
-        translated_text = GoogleTranslator(source='malayalam', target='english').translate(text)
+        translated_text = GoogleTranslator(source='mallayaam', target='english').translate(text)
         print(f"{text} -> {translated_text}")
         return translated_text
     except Exception as e:
@@ -118,7 +118,6 @@ def parse_text(request):
 
             # Write entities to CSV file
             write_entities_pos_to_csv(original_malayalam_text, translated_entities, './static/entities.csv')
-            # write_to_csv(translated_entities, './static/entities.csv')
             # Write POS tags to CSV file
             write_entities_pos_to_csv(original_malayalam_text, filtered_translated_tokens, './static/pos_tags.csv')
             # Write sentiment and sentence to CSV file
