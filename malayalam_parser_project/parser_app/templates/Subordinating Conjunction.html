@@ -51,11 +51,29 @@
             <li>എങ്കിൽ</li>
             
           </ul>
+          <h2>ഉദാഹരണങ്ങൾ വായിക്കുക</h2>
+          <ol id="adj-sentences"></ol>
+
         </div>
       </div>
-      <div class="pic">
-        <img src="image.png" alt="" />
-      </div>
     </section>
+    
+    <script>
+      // Load pos_tags.csv using fetch API
+      fetch('/static/pos_tags.csv')
+        .then(response => response.text())
+        .then(data => {
+          const rows = data.split('\n').filter(row => row.trim() !== '');
+          const adjRows = rows.filter(row => row.split(',')[1].includes('SCONJ'));
+    
+          // Display first 10 rows
+          const olElement = document.getElementById('adj-sentences');
+          adjRows.slice(0, 10).forEach(row => {
+            const liElement = document.createElement('li');
+            liElement.textContent = row;
+            olElement.appendChild(liElement);
+          });
+        });
+    </script>
   </body>
 </html>
