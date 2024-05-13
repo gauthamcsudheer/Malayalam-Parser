@@ -11,7 +11,7 @@ def home(request):
 
 def pos_tag_detail(request, pos_tag):
     # Render the respective POS tag page
-    return render(request, f'pos_tags/{pos_tag}.html')
+    return render(request, f'{pos_tag}.html')
 
 
 def extract_entities_and_pos_and_sentiment(text):
