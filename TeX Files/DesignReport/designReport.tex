@@ -356,7 +356,13 @@
 		\item \textbf{Chapter 2-Software Requirements Specification:} This chapter outlines the functional and nonfunctional requirements of the NLP tools for Malayalam. It defines the overall description of the software, external interface requirements, system features, and other nonfunctional requirements necessary for the development and deployment of the tools.
 		
 		\item \textbf{Chapter 3-System Architecture and Design:} The system architecture and design chapter provides an overview of the project’s technical framework. It includes discussions on the system overview, architectural design, identified datasets, proposed algorithms, implementation strategies, module division, and a work schedule presented as a Gantt chart for project planning and management.
-	\end{itemize}
+		
+		\item \textbf{Chapter 4-Results and Discussions:} 
+		This chapter presents an overview of the testing process, including graphical analysis and discussion. 
+			
+		\item \textbf{Chapter 5-Conclusion:}
+		This chapter comprises the conclusion of the study along with suggestions for future research directions. 
+	  \end{itemize}
 	
 	
 	
@@ -1055,45 +1061,73 @@
 	
 	
 	
-	%	\chapter{Results and Discussions}
+		\chapter{Results and Discussions}
 	
 	
-	%	\section{Overview}
-	%	\paragraph\
-	%	This section describes the overall results achieved in terms of the end results, quantitative	results and further analysis. One paragraph of textual description is expected.
+		\section{Overview}
+		\paragraph\
+		our project provides three essential datasets for Malayalam text analysis: POS-tagged, named entity labeled, and sentiment labeled. We include POS tag information along with dataset examples to enhance understanding. The implementation of the parser involved the use of the translation method. Although efforts to improve accuracy with rules and machine learning were not integrated due to accuracy concerns, this remains a future goal. Overall, the project has established a foundation for processing and analyzing Malayalam text, with potential implications for advancing NLP applications in Malayalam.
 	
 	
-	%	\section{Testing}
-	%	\paragraph\
+		\section{Testing}
+		\paragraph\
+	    
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=10cm]{./mal_parser.jpeg}
+			\caption{Malayalam Parser Output}
+		\end{figure}
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=11cm]{./eng_parser.jpeg}
+			\caption{English Parser Output}
+		\end{figure}
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=11cm]{./noun.jpeg}
+			\caption{Description of POS tags(eg-Noun)}
+		\end{figure}
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=13cm]{./explore.jpeg}
+			\caption{Different POS tags}
+		\end{figure}
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=13cm]{./csv.jpeg}
+			\caption{POS tagged malayalam text}
+		\end{figure}
+		
+		
 	
-	%	For a webapp/database project, screenshots of results in chronological order can be added	in this section. Other types of projects also can have this section with less length.
 	
 	
-	%	\section{Quantitative Results}
-	%	\paragraph\
-	%	The quantitative results of the project (eg- numerical values like accuracy, precision, rmse,	confusion matrix etc ) can be supplemented in this section. Important note is textual description of all results is mandatory. Give appropriate titles for the tabular results.
+	
+		\section{Discussion}
+		\paragraph\
+		In summary, the project has developed a Malayalam parser for dataset creation, offering three essential datasets: POS-tagged, named entity labeled, and sentiment labeled. Despite efforts to integrate rules and machine learning for accuracy improvement, this remains a future goal. The project has established a solid foundation for processing and analyzing Malayalam text, with potential implications for advancing NLP applications in Malayalam.
+		
+		
+		
+		The project's deviation from its initial goal of integrating rules and machine learning underscores the challenges in accurately processing Malayalam text. Factors such as the language's linguistic complexities and the limited availability of annotated data likely contributed to this deviation. Nevertheless, creating valuable datasets represents a significant step toward overcoming the shortage of resources for NLP in Malayalam.
+	
+		\chapter{Conclusion}
 	
 	
-	%	\section{Graphical Analysis}
-	%	\paragraph\
-	%	The graphical analysis of the project can be given in this section. Choose your graph	representation in accordance with your project. Important note is textual description of allvresults is mandatory. Give appropriate titles for the graphical results. In this section, comparison of your results with other paper titles mentioned in Chapter 2 are also encouraged.
+		\section{Conclusion}
+		\paragraph\
+		
+		In conclusion, the development of a comprehensive Malayalam language processing tool represents a significant advancement in NLP applications for the Malayalam language. This tool facilitates accurate linguistic analysis and dataset generation, supporting essential tasks such as part-of-speech tagging, named entity recognition, and sentiment analysis. By enabling the parsing and analysis of Malayalam text, the tool enhances understanding of the language's grammatical structure, syntax, and semantics. Overall, this project makes a substantial contribution to advancing language processing technologies in Malayalam, setting the stage for future innovations in NLP for this language.
 	
 	
-	%	\section{Discussion}
-	%	\paragraph\
-	%	This section describes a summary of the results. You are also welcome to substantiate the reason behind your results or also the deviation of the results.
-	
-	%	\chapter{Conclusion}
-	
-	
-	%	\section{Conclusion}
-	%	\paragraph\
-	%	This section describes the conclusion of the project in one page. Write one or two paragraphs.
-	
-	
-	%	\section{Future Scope}
-	%	\paragraph\
-	%	In this section outline the future scope/extensions possible in the project in four or five	sentences.
+		\section{Future Scope}
+		\paragraph\
+		
+		In future developments, the Malayalam parser project could explore advanced parsing techniques such as dependency parsing or deep learning to enhance accuracy and robustness. Implementing a rule-based parsing approach specific to Malayalam, with defined grammatical rules and patterns, could further improve parsing accuracy. A hybrid approach that combines rule-based and machine learning techniques could be beneficial, leveraging the strengths of both methodologies. Implementing error correction mechanisms to handle inaccuracies in parsing results, along with user feedback options to improve the parser's quality, and engaging with linguists, researchers, and the local community for feedback and validation, will be essential for prioritizing future development efforts.
 	
 	%	\newpage
 	%	\normalsize{}
@@ -1159,15 +1193,15 @@
 	\end{thebibliography}
 	
 	
-	%	\clearpage
-	%	\addcontentsline{toc}{chapter}{Appendix A: Presentation}
-	%	\chapter*{}
-	%	\paragraph\ 
-	%	\vspace{75mm}
-	%	\begin{center}
-		%		\textbf{\huge{Appendix A: }}
-		%		\textbf{\huge{Presentation}}
-		%	\end{center}
+		\clearpage
+		\addcontentsline{toc}{chapter}{Appendix A: Presentation}
+		\chapter*{}
+		\paragraph\ 
+		\vspace{75mm}
+		\begin{center}
+				\textbf{\huge{Appendix A: }}
+				\textbf{\huge{Presentation}}
+		\end{center}
 	%	\includepdf[pages=-]{1.pdf}
 	
 	%	\clearpage
