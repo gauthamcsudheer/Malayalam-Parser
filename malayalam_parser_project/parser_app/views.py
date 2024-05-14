@@ -24,6 +24,7 @@ def extract_entities_and_pos_and_sentiment(text):
     pos_tags = [(token.text, token.pos_) for token in doc]
     # Perform sentiment analysis using TextBlob
     sentiment = TextBlob(text).sentiment.polarity
+    print(sentiment)
     sentiment_label = "Positive" if sentiment > 0 else "Neutral" if sentiment == 0 else "Negative"
     return entities, pos_tags, sentiment_label, text
 
@@ -45,7 +46,7 @@ def is_malayalam(text):
 
 def translate_to_english(text):
     try:
-        translated_text = GoogleTranslator(source='mallayaam', target='english').translate(text)
+        translated_text = GoogleTranslator(source='malayalam', target='english').translate(text)
         print(f"{text} -> {translated_text}")
         return translated_text
     except Exception as e:
@@ -69,13 +70,14 @@ def translate_entities_and_tokens(entities, tokens):
 def similar(a, b):
     return SequenceMatcher(None, a, b).ratio()
 
-def filter_translated_tokens(original_malayalam_text, translated_tokens, resemblance_threshold=0.5):
+def filter_translated_tokens(original_malayalam_text, translated_tokens, resemblance_threshold=0.3):
     filtered_tokens = []
     for token, pos in translated_tokens:
         if token is not None:
             found_similar = False
             for original_word in original_malayalam_text.split():
                 resemblance_score = similar(original_word, token)
+                print(f'{original_word} - {token} -> {resemblance_score}')
                 if resemblance_score is not None and resemblance_score >= resemblance_threshold:
                     print(f'{original_word} <--> {token}, Similarity: {resemblance_score}')
                     found_similar = True
