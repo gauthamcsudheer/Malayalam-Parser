@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.8)  15 MAY 2024 19:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.8)  15 MAY 2024 20:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -488,24 +488,24 @@ Overfull \hbox (89.44139pt too wide) in alignment at lines 115--122
 
 ] (finalReport.toc [3
 
-] [4])
+])
 \tf@toc=\write3
 \openout3 = `finalReport.toc'.
 
- [5] (finalReport.lof)
+ [4] (finalReport.lof)
 \tf@lof=\write4
 \openout4 = `finalReport.lof'.
 
- [6
+ [5
 
-]
-(finalReport.lot)
+] (finalReport.lot)
 \tf@lot=\write5
 \openout5 = `finalReport.lot'.
 
- [7
 
-] [8
+[6
+
+] [7
 
 ]
 Chapter 1.
@@ -519,100 +519,99 @@ Overfull \hbox (30.13356pt too wide) in paragraph at lines 279--292
 
 [2] [3] [4] [5]
 Chapter 2.
-[6
-
-]
-<./system_design.jpg, id=62, 2430.07875pt x 3132.70375pt>
+<./system_design.jpg, id=56, 2430.07875pt x 3132.70375pt>
 File: ./system_design.jpg Graphic file (type jpg)
 <use ./system_design.jpg>
-Package pdftex.def Info: ./system_design.jpg  used on input line 436.
-(pdftex.def)             Requested size: 341.43306pt x 440.15298pt.
- [7] [8 <./system_design.jpg>] [9] [10] [11]
-Overfull \hbox (0.12477pt too wide) in paragraph at lines 565--574
+Package pdftex.def Info: ./system_design.jpg  used on input line 393.
+(pdftex.def)             Requested size: 170.71652pt x 220.07649pt.
+[6
+
+ <./system_design.jpg>] [7] [8] [9] [10]
+Overfull \hbox (0.12477pt too wide) in paragraph at lines 522--531
 [] [][] \OT1/cmr/m/n/12 The Malay-alam parser in-te-grates with var-i-ous soft-
 ware com-po-nents, in-clud-ing databases
  []
 
-[12] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22]
+[11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21]
 Chapter 3.
-<./architecture.jpg, id=114, 963.6pt x 542.025pt>
+<./architecture.jpg, id=107, 963.6pt x 542.025pt>
 File: ./architecture.jpg Graphic file (type jpg)
 <use ./architecture.jpg>
-Package pdftex.def Info: ./architecture.jpg  used on input line 905.
+Package pdftex.def Info: ./architecture.jpg  used on input line 863.
 (pdftex.def)             Requested size: 540.60236pt x 304.09433pt.
 
-Overfull \hbox (85.35825pt too wide) in paragraph at lines 905--906
+Overfull \hbox (85.35825pt too wide) in paragraph at lines 863--864
  [][] 
  []
 
-[23
+[22
 
 ]
-<./ui.png, id=118, 965.85844pt x 555.57562pt>
+<./ui.png, id=112, 965.85844pt x 555.57562pt>
 File: ./ui.png Graphic file (type png)
 <use ./ui.png>
-Package pdftex.def Info: ./ui.png  used on input line 925.
+Package pdftex.def Info: ./ui.png  used on input line 883.
 (pdftex.def)             Requested size: 455.24408pt x 261.8581pt.
-<./LandingPage.png, id=119, 1517.67pt x 985.6825pt>
+<./LandingPage.png, id=113, 1517.67pt x 985.6825pt>
 File: ./LandingPage.png Graphic file (type png)
 <use ./LandingPage.png>
-Package pdftex.def Info: ./LandingPage.png  used on input line 931.
+Package pdftex.def Info: ./LandingPage.png  used on input line 889.
 (pdftex.def)             Requested size: 341.43306pt x 221.7389pt.
- [24 <./architecture.jpg> <./ui.png>]
-<./Result.png, id=124, 1517.67pt x 1817.79124pt>
+ [23 <./architecture.jpg> <./ui.png>]
+<./Result.png, id=118, 1517.67pt x 1817.79124pt>
 File: ./Result.png Graphic file (type png)
 <use ./Result.png>
-Package pdftex.def Info: ./Result.png  used on input line 937.
+Package pdftex.def Info: ./Result.png  used on input line 895.
 (pdftex.def)             Requested size: 284.52756pt x 340.77956pt.
- [25 <./LandingPage.png> <./Result.png>] [26] [27]
-<./ganttchart.jpg, id=137, 963.6pt x 542.025pt>
+ [24 <./LandingPage.png> <./Result.png>] [25] [26]
+<./ganttchart.jpg, id=130, 963.6pt x 542.025pt>
 File: ./ganttchart.jpg Graphic file (type jpg)
 <use ./ganttchart.jpg>
-Package pdftex.def Info: ./ganttchart.jpg  used on input line 1056.
+Package pdftex.def Info: ./ganttchart.jpg  used on input line 1014.
 (pdftex.def)             Requested size: 512.1496pt x 288.09067pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 1056--1057
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 1014--1015
  [][] 
  []
 
-[28] [29 <./ganttchart.jpg>]
+[27] [28 <./ganttchart.jpg>]
 Chapter 4.
-<./mal_parser.jpeg, id=144, 555.57562pt x 456.20438pt>
+<./mal_parser.jpeg, id=138, 555.57562pt x 456.20438pt>
 File: ./mal_parser.jpeg Graphic file (type jpg)
 <use ./mal_parser.jpeg>
-Package pdftex.def Info: ./mal_parser.jpeg  used on input line 1077.
+Package pdftex.def Info: ./mal_parser.jpeg  used on input line 1035.
 (pdftex.def)             Requested size: 284.52756pt x 233.6357pt.
-<./eng_parser.jpeg, id=145, 498.36188pt x 465.23813pt>
+<./eng_parser.jpeg, id=139, 498.36188pt x 465.23813pt>
 File: ./eng_parser.jpeg Graphic file (type jpg)
 <use ./eng_parser.jpeg>
-Package pdftex.def Info: ./eng_parser.jpeg  used on input line 1083.
+Package pdftex.def Info: ./eng_parser.jpeg  used on input line 1041.
 (pdftex.def)             Requested size: 312.9803pt x 292.1858pt.
-[30
+[29
 
  <./mal_parser.jpeg>]
-<./noun.jpeg, id=149, 569.12625pt x 417.81094pt>
+<./noun.jpeg, id=143, 569.12625pt x 417.81094pt>
 File: ./noun.jpeg Graphic file (type jpg)
 <use ./noun.jpeg>
-Package pdftex.def Info: ./noun.jpeg  used on input line 1089.
+Package pdftex.def Info: ./noun.jpeg  used on input line 1047.
 (pdftex.def)             Requested size: 312.9803pt x 229.7776pt.
-<./explore.jpeg, id=150, 686.565pt x 312.41719pt>
+<./explore.jpeg, id=144, 686.565pt x 312.41719pt>
 File: ./explore.jpeg Graphic file (type jpg)
 <use ./explore.jpeg>
-Package pdftex.def Info: ./explore.jpeg  used on input line 1095.
+Package pdftex.def Info: ./explore.jpeg  used on input line 1053.
 (pdftex.def)             Requested size: 398.33858pt x 181.2593pt.
- [31 <./eng_parser.jpeg> <./noun.jpeg>]
-<./csv.jpeg, id=154, 963.6pt x 511.15968pt>
+ [30 <./eng_parser.jpeg> <./noun.jpeg>]
+<./csv.jpeg, id=148, 963.6pt x 511.15968pt>
 File: ./csv.jpeg Graphic file (type jpg)
 <use ./csv.jpeg>
-Package pdftex.def Info: ./csv.jpeg  used on input line 1101.
+Package pdftex.def Info: ./csv.jpeg  used on input line 1059.
 (pdftex.def)             Requested size: 398.33858pt x 211.30054pt.
- [32 <./explore.jpeg> <./csv.jpeg>] [33]
+ [31 <./explore.jpeg> <./csv.jpeg>] [32]
 Chapter 5.
-[34
+[33
 
-] [35] [36
+] [34] [35
 
-] [37] [38
+] [36] [37
 
 
 ] (finalReport.aux)
@@ -624,9 +623,9 @@ L3 programming layer <2024-01-04>
 Here is how much of TeX's memory you used:
  12248 strings out of 474485
  245703 string characters out of 5743735
- 1936542 words of memory out of 5000000
+ 1935542 words of memory out of 5000000
  34385 multiletter control sequences out of 15000+600000
- 571514 words of font info for 86 fonts, out of 8000000 for 9000
+ 571512 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,8n,117p,1120b,353s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
@@ -637,9 +636,9 @@ ype1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Admin/AppData/Local/Programs/MiK
 TeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Admin/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Admin/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10.pfb>
-Output written on finalReport.pdf (48 pages, 2290816 bytes).
+Output written on finalReport.pdf (46 pages, 2287267 bytes).
 PDF statistics:
- 209 PDF objects out of 1000 (max. 8388607)
+ 203 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

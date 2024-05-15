@@ -372,54 +372,11 @@
 	
 	\chapter{Software Requirements Specification}
 	
-	
-	\section{Introduction}
-	\subsection{Purpose}
-	\paragraph\
-	The system aims to enhance the understanding and analysis of Malayalam text data, enabling more
-	accurate and efficient processing of information, including but not limited to retrieval, sentiment
-	analysis, machine translation, and text summarization. By focusing on the unique linguistic characteristics
-	of Malayalam, the project seeks to overcome the challenges posed by the language’s morphology,
-	syntax, and semantics. Through the development of innovative algorithms, data structures, and
-	linguistic resources, the project aims to contribute to the advancement of NLP research and technology
-	in the context of the Malayalam language.
-	\begin{itemize}
-		\item 	 The primary focus of the Malayalam Parser system is to analyze and parse written text in
-		the Malayalam language. This involves tasks such as tokenization, part-of-speech tagging,
-		parsing, and semantic analysis.
-		\item Initially, the system will target general-purpose parsing tasks, which are applicable to a wide
-		range of text data. These tasks form the foundation of the parsing capabilities of the system.
-		\item The system is designed to be extensible, allowing for the inclusion of domain-specific or
-		specialized parsing tasks in the future. This flexibility ensures that the system can adapt to
-		different needs and requirements over time.
-		\item In addition to algorithms and data structures, the project also involves the development of
-		linguistic resources that are crucial for parsing Malayalam text. These resources may include
-		lexicons, grammars, and annotated corpora.
-	\end{itemize}
-		
-	
-    \subsection{Product Scope}
-    \paragraph\
-    The Malayalam Parser is a smart tool that understands Malayalam text. It breaks down sentences to
-    figure out their grammar, structure, and meaning using advanced language processing techniques.
-    It helps with tasks like identifying different parts of speech, understanding how sentences are put
-    together, and analyzing the overall meaning of text.
-    \begin{enumerate}
-    	
-    	\item \textbf{Informed Decision-Making:} Implementation of parsing tasks including tokenization, part-of-speech tagging, parsing, and semantic analysis for Malayalam text. Extracting insights from Malayalam text aids in data-driven decision-making, enhancing strategic planning and
-    	execution.
-    	\item \textbf{Innovation:} Developing a Malayalam parser for dataset creation is significant as it encompasses
-    	crucial linguistic tasks such as tokenization, part-of-speech tagging, and named entity recognition.
-    	This effort is essential for advancing natural language processing capabilities in Malayalam,
-    	enabling the development of robust models for sentiment analysis, machine translation,
-    	question answering, and domain-specific parsing. The creation of annotated datasets is vital
-    	to train and evaluate these models, contributing to the overall improvement of Malayalam
-    	language processing technologies.
-    \end{enumerate}
+  
 	
 	
-	\section{Overall Description}
-	\subsection{Product Perspective}
+%	\section{Overall Description}
+	\section{Product Perspective}
 	\paragraph\
 	This software represents a new, standalone product developed to fulfill the crucial task of parsing
 	and analyzing Malayalam language text. Unlike existing systems or components, this software
@@ -433,7 +390,7 @@
 	linguistic analysis frameworks.
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=12cm]{./system_design.jpg}
+		\includegraphics[width=6cm]{./system_design.jpg}
 		\caption{System design}
 	\end{figure}
 	\subsection{Product Functions}
@@ -487,7 +444,7 @@
     	storage and retrieval if necessary.
     \end{itemize}
 	
-	\subsection{Design and Implementation Constraints}
+	\section{Design and Implementation Constraints}
 	\paragraph\
 	The development of the Malayalam Parser is subject to various constraints and limitations, including:
 	\begin{itemize}
@@ -512,7 +469,7 @@
 	of the codebase.
 \end{itemize}
 
-\subsection{Assumptions and Dependencies}
+\section{Assumptions and Dependencies}
 
 \begin{enumerate}
 	\item  \textbf{Third-Party or Commercial Components:} It is assumed that the development of the
@@ -793,6 +750,7 @@
 	
 	\subsubsection{Parsing Malayalam Text}
 	\paragraph\
+	
 	Rationale: Parsing text should be fast to provide timely analysis for user interactions or batch
 	processing.
 	\newline

@@ -1,16 +1,16 @@
 \acswitchoff 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces System design}}{8}{}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces System design}}{6}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Architecture diagram}}{24}{}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Landing page}}{25}{}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Result page}}{25}{}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Work Schedule-Gantt chart}}{29}{}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Architecture diagram}}{23}{}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Landing page}}{24}{}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Result page}}{24}{}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Work Schedule-Gantt chart}}{28}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Malayalam Parser Output}}{30}{}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces English Parser Output}}{31}{}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Description of POS tags(eg-Noun)}}{31}{}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Different POS tags}}{32}{}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces POS tagged malayalam dataset}}{32}{}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Malayalam Parser Output}}{29}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces English Parser Output}}{30}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Description of POS tags(eg-Noun)}}{30}{}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Different POS tags}}{31}{}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces POS tagged malayalam dataset}}{31}{}%
 \addvspace {10\p@ }
