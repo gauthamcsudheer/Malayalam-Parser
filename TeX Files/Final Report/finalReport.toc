@@ -6,9 +6,9 @@
 \contentsline {paragraph}{\ }{i}{}%
 \contentsline {chapter}{Abstract}{ii}{}%
 \contentsline {paragraph}{\ }{ii}{}%
-\contentsline {chapter}{List of Figures}{v}{}%
-\contentsline {chapter}{List of Tables}{vi}{}%
-\contentsline {chapter}{List of Abbreviations}{vii}{}%
+\contentsline {chapter}{List of Figures}{vi}{}%
+\contentsline {chapter}{List of Tables}{vii}{}%
+\contentsline {chapter}{List of Abbreviations}{viii}{}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{}%
 \contentsline {section}{\numberline {1.1}Background}{1}{}%
 \contentsline {section}{\numberline {1.2}Problem Definition}{1}{}%
@@ -118,3 +118,7 @@
 \contentsline {paragraph}{\ }{34}{}%
 \contentsline {chapter}{Appendix A: Presentation}{37}{}%
 \contentsline {paragraph}{\ }{37}{}%
+\contentsline {paragraph}{\ }{50}{}%
+\contentsline {chapter}{Vision, Mission, POs, PSOs and COs}{2}{}%
+\contentsline {chapter}{Appendix C: CO-PO-PSO Mapping}{6}{}%
+\contentsline {paragraph}{\ }{6}{}%

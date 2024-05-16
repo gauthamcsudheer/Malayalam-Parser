@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.14)  16 MAY 2024 09:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.8)  16 MAY 2024 23:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,9 +6,9 @@ entering extended mode
 (finalReport.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
 Document Class: report 2023/05/17 v1.4n Standard LaTeX document class
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
 File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count187
@@ -24,38 +24,38 @@ File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
 )
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 )
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
 fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen141
 \Gin@req@width=\dimen142
 )
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
 \Gm@cnth=\count196
@@ -71,29 +71,29 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layoutvoffset=\dimen150
 \Gm@dimlist=\toks18
 
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/base\latexsym.sty
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/base\latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
 )
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/graphics\epsfig.sty
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\epsfig.sty
 Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
 \epsfxsize=\dimen151
 \epsfysize=\dimen152
 )
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\eufrak.sty
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\eufrak.sty
 Package: eufrak 2009/06/22 v3.00 Euler Fraktur fonts
 LaTeX Font Info:    Overwriting math alphabet `\EuFrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 39.
 )
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/type1cm\type1cm.sty
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/type1cm\type1cm.sty
 Package: type1cm 2002/09/05 v0.04 BlueSky/Y&Y Type1 CM font definitions (DPC, p
 atched RF)
 )
 (newsec.sty)
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \ttl@box=\box51
 \beforetitleunit=\skip50
@@ -105,7 +105,7 @@ Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \titlewidthlast=\dimen156
 \titlewidthfirst=\dimen157
 )
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
 Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
 \LTleft=\skip52
 \LTright=\skip53
@@ -124,31 +124,31 @@ Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
 \c@LT@chunks=\count269
 \LT@p@ftn=\toks20
 )
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
 Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
 \XKV@toks=\toks21
 \XKV@tempa@toks=\toks22
 )
 \XKV@depth=\count270
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
 -ends (calc, etex, pgfmath)
 )
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
 Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
 
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.s
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.s
 ty
 Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
 \collectedbox=\box57
@@ -159,7 +159,7 @@ Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
 \tc@ury=\dimen162
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
 File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
 \adjbox@Width=\dimen163
@@ -171,17 +171,17 @@ File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 \adjbox@pdepth=\dimen169
 \adjbox@ptotalheight=\dimen170
 
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
 \c@checkoddpage=\count271
-) (C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+) (C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box58
 \sift@deathcycles=\count272
 \@vwid@loff=\dimen171
 \@vwid@roff=\dimen172
 ))
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
 \lst@mode=\count273
 \lst@gtempboxa=\box59
 \lst@token=\toks23
@@ -195,24 +195,24 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \lst@lineno=\count278
 \lst@maxwidth=\dimen176
 
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 \c@lstnumber=\count279
 \lst@skipnumbers=\count280
 \lst@framebox=\box60
 )
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2023/02/27 1.9 listings configuration
 ))
 Package: listings 2023/02/27 1.9 (Carsten Heinz)
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
 
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
 Package xcolor Info: Model `RGB' extended on input line 1366.
@@ -222,12 +222,12 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
-) (C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+) (C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
 Package: pdfpages 2024/01/21 v0.5y Insert pages of external PDF documents (AM)
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count281
 \calc@Bcount=\count282
@@ -240,7 +240,7 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count283
 \calc@Cskip=\skip58
 )
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
 Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
 \ESO@tempdima=\dimen179
 \ESO@tempdimb=\dimen180
@@ -249,7 +249,7 @@ Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
 \AM@pageheight=\dimen182
 \AM@fboxrule=\dimen183
 
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
 File: pppdftex.def 2024/01/21 v0.5y Pdfpages driver for pdfTeX (AM)
 )
 \pdfpages@includegraphics@status=\count284
@@ -260,10 +260,10 @@ File: pppdftex.def 2024/01/21 v0.5y Pdfpages driver for pdfTeX (AM)
 \AM@lof@heading=\toks26
 \c@AM@survey=\count286
 \AM@templatesizebox=\box62
-) (C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+) (C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen184
 \captionmargin=\dimen185
@@ -280,9 +280,9 @@ Package caption Info: Standard document class detected.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
 
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
-)) (C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+)) (C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count289
 \float@exts=\toks27
@@ -290,13 +290,13 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks28
 \@floatcapt=\box64
 )
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/acro\acro.sty
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/acro\acro.sty
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
 eys2e.sty
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2024-01-04 L3 programming layer (loader) 
 
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count290
@@ -329,25 +329,25 @@ Loading module `pages' ...
 \l__acro_pages_seq_threshold_int=\count300
 Loading module `locale' ...
 
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/translations\translatio
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/translations\translatio
 ns.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
  (CN)
 
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count301
 )
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
 .sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
 ty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -379,7 +379,7 @@ LaTeX Font Info:    ... okay on input line 63.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
 LaTeX Font Info:    ... okay on input line 63.
 
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count302
@@ -394,13 +394,13 @@ ii
 \makeMPintoPDFobject=\count307
 \everyMPtoPDFconversion=\toks30
 )
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
@@ -440,15 +440,15 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 
 \c@lstlisting=\count308
 
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
 
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nom
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nom
 etadata.sty
 Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
 F (HO)
 
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
@@ -457,7 +457,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-(C:\Users\csgau\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
 slations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
@@ -471,7 +471,7 @@ Package pdftex.def Info: rset.png  used on input line 67.
 (pdftex.def)             Requested size: 85.4238pt x 125.89531pt.
  [1
 
-{C:/Users/csgau/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./rset.png>]
+{C:/Users/Admin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./rset.png>]
 
 Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
@@ -488,24 +488,24 @@ Overfull \hbox (89.44139pt too wide) in alignment at lines 115--122
 
 ] (finalReport.toc [3
 
-])
+] [4])
 \tf@toc=\write3
 \openout3 = `finalReport.toc'.
 
- [4] (finalReport.lof)
+ [5] (finalReport.lof)
 \tf@lof=\write4
 \openout4 = `finalReport.lof'.
 
- [5
+ [6
 
-] (finalReport.lot)
+]
+(finalReport.lot)
 \tf@lot=\write5
 \openout5 = `finalReport.lot'.
 
+ [7
 
-[6
-
-] [7
+] [8
 
 ]
 Chapter 1.
@@ -519,7 +519,7 @@ Overfull \hbox (30.13356pt too wide) in paragraph at lines 279--292
 
 [2] [3] [4] [5]
 Chapter 2.
-<./system_design.jpg, id=56, 2430.07875pt x 3132.70375pt>
+<./system_design.jpg, id=59, 2430.07875pt x 3132.70375pt>
 File: ./system_design.jpg Graphic file (type jpg)
 <use ./system_design.jpg>
 Package pdftex.def Info: ./system_design.jpg  used on input line 393.
@@ -534,7 +534,7 @@ ware com-po-nents, in-clud-ing databases
 
 [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21]
 Chapter 3.
-<./architecture.jpg, id=107, 963.6pt x 542.025pt>
+<./architecture.jpg, id=111, 963.6pt x 542.025pt>
 File: ./architecture.jpg Graphic file (type jpg)
 <use ./architecture.jpg>
 Package pdftex.def Info: ./architecture.jpg  used on input line 863.
@@ -547,24 +547,24 @@ Overfull \hbox (85.35825pt too wide) in paragraph at lines 863--864
 [22
 
 ]
-<./ui.png, id=112, 965.85844pt x 555.57562pt>
+<./ui.png, id=115, 965.85844pt x 555.57562pt>
 File: ./ui.png Graphic file (type png)
 <use ./ui.png>
 Package pdftex.def Info: ./ui.png  used on input line 883.
 (pdftex.def)             Requested size: 455.24408pt x 261.8581pt.
-<./LandingPage.png, id=113, 1517.67pt x 985.6825pt>
+<./LandingPage.png, id=116, 1517.67pt x 985.6825pt>
 File: ./LandingPage.png Graphic file (type png)
 <use ./LandingPage.png>
 Package pdftex.def Info: ./LandingPage.png  used on input line 889.
 (pdftex.def)             Requested size: 341.43306pt x 221.7389pt.
  [23 <./architecture.jpg> <./ui.png>]
-<./Result.png, id=118, 1517.67pt x 1817.79124pt>
+<./Result.png, id=121, 1517.67pt x 1817.79124pt>
 File: ./Result.png Graphic file (type png)
 <use ./Result.png>
 Package pdftex.def Info: ./Result.png  used on input line 895.
 (pdftex.def)             Requested size: 284.52756pt x 340.77956pt.
  [24 <./LandingPage.png> <./Result.png>] [25] [26]
-<./ganttchart.jpg, id=130, 963.6pt x 542.025pt>
+<./ganttchart.jpg, id=133, 963.6pt x 542.025pt>
 File: ./ganttchart.jpg Graphic file (type jpg)
 <use ./ganttchart.jpg>
 Package pdftex.def Info: ./ganttchart.jpg  used on input line 1014.
@@ -576,12 +576,12 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 1014--1015
 
 [27] [28 <./ganttchart.jpg>]
 Chapter 4.
-<./mal_parser.jpeg, id=138, 555.57562pt x 456.20438pt>
+<./mal_parser.jpeg, id=141, 555.57562pt x 456.20438pt>
 File: ./mal_parser.jpeg Graphic file (type jpg)
 <use ./mal_parser.jpeg>
 Package pdftex.def Info: ./mal_parser.jpeg  used on input line 1035.
 (pdftex.def)             Requested size: 284.52756pt x 233.6357pt.
-<./eng_parser.jpeg, id=139, 498.36188pt x 465.23813pt>
+<./eng_parser.jpeg, id=142, 498.36188pt x 465.23813pt>
 File: ./eng_parser.jpeg Graphic file (type jpg)
 <use ./eng_parser.jpeg>
 Package pdftex.def Info: ./eng_parser.jpeg  used on input line 1041.
@@ -589,18 +589,18 @@ Package pdftex.def Info: ./eng_parser.jpeg  used on input line 1041.
 [29
 
  <./mal_parser.jpeg>]
-<./noun.jpeg, id=143, 569.12625pt x 417.81094pt>
+<./noun.jpeg, id=146, 569.12625pt x 417.81094pt>
 File: ./noun.jpeg Graphic file (type jpg)
 <use ./noun.jpeg>
 Package pdftex.def Info: ./noun.jpeg  used on input line 1047.
 (pdftex.def)             Requested size: 312.9803pt x 229.7776pt.
-<./explore.jpeg, id=144, 686.565pt x 312.41719pt>
+<./explore.jpeg, id=147, 686.565pt x 312.41719pt>
 File: ./explore.jpeg Graphic file (type jpg)
 <use ./explore.jpeg>
 Package pdftex.def Info: ./explore.jpeg  used on input line 1053.
 (pdftex.def)             Requested size: 398.33858pt x 181.2593pt.
  [30 <./eng_parser.jpeg> <./noun.jpeg>]
-<./csv.jpeg, id=148, 963.6pt x 511.15968pt>
+<./csv.jpeg, id=151, 963.6pt x 511.15968pt>
 File: ./csv.jpeg Graphic file (type jpg)
 <use ./csv.jpeg>
 Package pdftex.def Info: ./csv.jpeg  used on input line 1059.
@@ -615,25 +615,25 @@ Chapter 5.
 
 
 ]
-<./ppt/Final Presentation_page-0001.jpg, id=171, 722.7pt x 406.6392pt>
+<./ppt/Final Presentation_page-0001.jpg, id=174, 722.7pt x 406.6392pt>
 File: ./ppt/Final Presentation_page-0001.jpg Graphic file (type jpg)
 <use ./ppt/Final Presentation_page-0001.jpg>
 Package pdftex.def Info: ./ppt/Final Presentation_page-0001.jpg  used on input 
 line 1178.
 (pdftex.def)             Requested size: 398.33858pt x 224.13002pt.
-<./ppt/Final Presentation_page-0002.jpg, id=172, 722.7pt x 406.6392pt>
+<./ppt/Final Presentation_page-0002.jpg, id=175, 722.7pt x 406.6392pt>
 File: ./ppt/Final Presentation_page-0002.jpg Graphic file (type jpg)
 <use ./ppt/Final Presentation_page-0002.jpg>
 Package pdftex.def Info: ./ppt/Final Presentation_page-0002.jpg  used on input 
 line 1182.
 (pdftex.def)             Requested size: 398.33858pt x 224.13002pt.
-<./ppt/Final Presentation_page-0003.jpg, id=173, 722.7pt x 406.6392pt>
+<./ppt/Final Presentation_page-0003.jpg, id=176, 722.7pt x 406.6392pt>
 File: ./ppt/Final Presentation_page-0003.jpg Graphic file (type jpg)
 <use ./ppt/Final Presentation_page-0003.jpg>
 Package pdftex.def Info: ./ppt/Final Presentation_page-0003.jpg  used on input 
 line 1186.
 (pdftex.def)             Requested size: 398.33858pt x 224.13002pt.
-<./ppt/Final Presentation_page-0004.jpg, id=174, 722.7pt x 406.6392pt>
+<./ppt/Final Presentation_page-0004.jpg, id=177, 722.7pt x 406.6392pt>
 File: ./ppt/Final Presentation_page-0004.jpg Graphic file (type jpg)
 <use ./ppt/Final Presentation_page-0004.jpg>
 Package pdftex.def Info: ./ppt/Final Presentation_page-0004.jpg  used on input 
@@ -643,13 +643,13 @@ line 1190.
 
  <./ppt/Final Presentation_page-0001.jpg> <./ppt/Final Presentation_page-0002.j
 pg>]
-<./ppt/Final Presentation_page-0005.jpg, id=178, 722.7pt x 406.6392pt>
+<./ppt/Final Presentation_page-0005.jpg, id=181, 722.7pt x 406.6392pt>
 File: ./ppt/Final Presentation_page-0005.jpg Graphic file (type jpg)
 <use ./ppt/Final Presentation_page-0005.jpg>
 Package pdftex.def Info: ./ppt/Final Presentation_page-0005.jpg  used on input 
 line 1194.
 (pdftex.def)             Requested size: 398.33858pt x 224.13002pt.
-<./ppt/Final Presentation_page-0006.jpg, id=179, 722.7pt x 406.6392pt>
+<./ppt/Final Presentation_page-0006.jpg, id=182, 722.7pt x 406.6392pt>
 File: ./ppt/Final Presentation_page-0006.jpg Graphic file (type jpg)
 <use ./ppt/Final Presentation_page-0006.jpg>
 Package pdftex.def Info: ./ppt/Final Presentation_page-0006.jpg  used on input 
@@ -657,13 +657,13 @@ line 1198.
 (pdftex.def)             Requested size: 398.33858pt x 224.13002pt.
  [39 <./ppt/Final Presentation_page-0003.jpg> <./ppt/Final Presentation_page-00
 04.jpg>]
-<./ppt/Final Presentation_page-0007.jpg, id=183, 722.7pt x 406.6392pt>
+<./ppt/Final Presentation_page-0007.jpg, id=187, 722.7pt x 406.6392pt>
 File: ./ppt/Final Presentation_page-0007.jpg Graphic file (type jpg)
 <use ./ppt/Final Presentation_page-0007.jpg>
 Package pdftex.def Info: ./ppt/Final Presentation_page-0007.jpg  used on input 
 line 1202.
 (pdftex.def)             Requested size: 398.33858pt x 224.13002pt.
-<./ppt/Final Presentation_page-0008.jpg, id=184, 722.7pt x 406.6392pt>
+<./ppt/Final Presentation_page-0008.jpg, id=188, 722.7pt x 406.6392pt>
 File: ./ppt/Final Presentation_page-0008.jpg Graphic file (type jpg)
 <use ./ppt/Final Presentation_page-0008.jpg>
 Package pdftex.def Info: ./ppt/Final Presentation_page-0008.jpg  used on input 
@@ -671,13 +671,13 @@ line 1206.
 (pdftex.def)             Requested size: 398.33858pt x 224.13002pt.
  [40 <./ppt/Final Presentation_page-0005.jpg> <./ppt/Final Presentation_page-00
 06.jpg>]
-<./ppt/Final Presentation_page-0009.jpg, id=189, 722.7pt x 406.6392pt>
+<./ppt/Final Presentation_page-0009.jpg, id=192, 722.7pt x 406.6392pt>
 File: ./ppt/Final Presentation_page-0009.jpg Graphic file (type jpg)
 <use ./ppt/Final Presentation_page-0009.jpg>
 Package pdftex.def Info: ./ppt/Final Presentation_page-0009.jpg  used on input 
 line 1210.
 (pdftex.def)             Requested size: 398.33858pt x 224.13002pt.
-<./ppt/Final Presentation_page-0010.jpg, id=190, 722.7pt x 406.6392pt>
+<./ppt/Final Presentation_page-0010.jpg, id=193, 722.7pt x 406.6392pt>
 File: ./ppt/Final Presentation_page-0010.jpg Graphic file (type jpg)
 <use ./ppt/Final Presentation_page-0010.jpg>
 Package pdftex.def Info: ./ppt/Final Presentation_page-0010.jpg  used on input 
@@ -685,13 +685,13 @@ line 1214.
 (pdftex.def)             Requested size: 398.33858pt x 224.13002pt.
  [41 <./ppt/Final Presentation_page-0007.jpg> <./ppt/Final Presentation_page-00
 08.jpg>]
-<./ppt/Final Presentation_page-0011.jpg, id=194, 722.7pt x 406.6392pt>
+<./ppt/Final Presentation_page-0011.jpg, id=197, 722.7pt x 406.6392pt>
 File: ./ppt/Final Presentation_page-0011.jpg Graphic file (type jpg)
 <use ./ppt/Final Presentation_page-0011.jpg>
 Package pdftex.def Info: ./ppt/Final Presentation_page-0011.jpg  used on input 
 line 1218.
 (pdftex.def)             Requested size: 398.33858pt x 224.13002pt.
-<./ppt/Final Presentation_page-0012.jpg, id=195, 722.7pt x 406.6392pt>
+<./ppt/Final Presentation_page-0012.jpg, id=198, 722.7pt x 406.6392pt>
 File: ./ppt/Final Presentation_page-0012.jpg Graphic file (type jpg)
 <use ./ppt/Final Presentation_page-0012.jpg>
 Package pdftex.def Info: ./ppt/Final Presentation_page-0012.jpg  used on input 
@@ -699,13 +699,13 @@ line 1222.
 (pdftex.def)             Requested size: 398.33858pt x 224.13002pt.
  [42 <./ppt/Final Presentation_page-0009.jpg> <./ppt/Final Presentation_page-00
 10.jpg>]
-<./ppt/Final Presentation_page-0013.jpg, id=199, 722.7pt x 406.6392pt>
+<./ppt/Final Presentation_page-0013.jpg, id=202, 722.7pt x 406.6392pt>
 File: ./ppt/Final Presentation_page-0013.jpg Graphic file (type jpg)
 <use ./ppt/Final Presentation_page-0013.jpg>
 Package pdftex.def Info: ./ppt/Final Presentation_page-0013.jpg  used on input 
 line 1226.
 (pdftex.def)             Requested size: 398.33858pt x 224.13002pt.
-<./ppt/Final Presentation_page-0014.jpg, id=200, 722.7pt x 406.6392pt>
+<./ppt/Final Presentation_page-0014.jpg, id=203, 722.7pt x 406.6392pt>
 File: ./ppt/Final Presentation_page-0014.jpg Graphic file (type jpg)
 <use ./ppt/Final Presentation_page-0014.jpg>
 Package pdftex.def Info: ./ppt/Final Presentation_page-0014.jpg  used on input 
@@ -713,13 +713,13 @@ line 1230.
 (pdftex.def)             Requested size: 398.33858pt x 224.13002pt.
  [43 <./ppt/Final Presentation_page-0011.jpg> <./ppt/Final Presentation_page-00
 12.jpg>]
-<./ppt/Final Presentation_page-0015.jpg, id=204, 722.7pt x 406.6392pt>
+<./ppt/Final Presentation_page-0015.jpg, id=207, 722.7pt x 406.6392pt>
 File: ./ppt/Final Presentation_page-0015.jpg Graphic file (type jpg)
 <use ./ppt/Final Presentation_page-0015.jpg>
 Package pdftex.def Info: ./ppt/Final Presentation_page-0015.jpg  used on input 
 line 1234.
 (pdftex.def)             Requested size: 398.33858pt x 224.13002pt.
-<./ppt/Final Presentation_page-0016.jpg, id=205, 722.7pt x 406.6392pt>
+<./ppt/Final Presentation_page-0016.jpg, id=208, 722.7pt x 406.6392pt>
 File: ./ppt/Final Presentation_page-0016.jpg Graphic file (type jpg)
 <use ./ppt/Final Presentation_page-0016.jpg>
 Package pdftex.def Info: ./ppt/Final Presentation_page-0016.jpg  used on input 
@@ -728,13 +728,13 @@ line 1238.
 
 [44 <./ppt/Final Presentation_page-0013.jpg> <./ppt/Final Presentation_page-001
 4.jpg>]
-<./ppt/Final Presentation_page-0017.jpg, id=209, 722.7pt x 406.6392pt>
+<./ppt/Final Presentation_page-0017.jpg, id=212, 722.7pt x 406.6392pt>
 File: ./ppt/Final Presentation_page-0017.jpg Graphic file (type jpg)
 <use ./ppt/Final Presentation_page-0017.jpg>
 Package pdftex.def Info: ./ppt/Final Presentation_page-0017.jpg  used on input 
 line 1242.
 (pdftex.def)             Requested size: 398.33858pt x 224.13002pt.
-<./ppt/Final Presentation_page-0018.jpg, id=210, 722.7pt x 406.6392pt>
+<./ppt/Final Presentation_page-0018.jpg, id=213, 722.7pt x 406.6392pt>
 File: ./ppt/Final Presentation_page-0018.jpg Graphic file (type jpg)
 <use ./ppt/Final Presentation_page-0018.jpg>
 Package pdftex.def Info: ./ppt/Final Presentation_page-0018.jpg  used on input 
@@ -742,13 +742,13 @@ line 1246.
 (pdftex.def)             Requested size: 398.33858pt x 224.13002pt.
  [45 <./ppt/Final Presentation_page-0015.jpg> <./ppt/Final Presentation_page-00
 16.jpg>]
-<./ppt/Final Presentation_page-0019.jpg, id=214, 722.7pt x 406.6392pt>
+<./ppt/Final Presentation_page-0019.jpg, id=218, 722.7pt x 406.6392pt>
 File: ./ppt/Final Presentation_page-0019.jpg Graphic file (type jpg)
 <use ./ppt/Final Presentation_page-0019.jpg>
 Package pdftex.def Info: ./ppt/Final Presentation_page-0019.jpg  used on input 
 line 1250.
 (pdftex.def)             Requested size: 398.33858pt x 224.13002pt.
-<./ppt/Final Presentation_page-0020.jpg, id=215, 722.7pt x 406.6392pt>
+<./ppt/Final Presentation_page-0020.jpg, id=219, 722.7pt x 406.6392pt>
 File: ./ppt/Final Presentation_page-0020.jpg Graphic file (type jpg)
 <use ./ppt/Final Presentation_page-0020.jpg>
 Package pdftex.def Info: ./ppt/Final Presentation_page-0020.jpg  used on input 
@@ -756,13 +756,13 @@ line 1254.
 (pdftex.def)             Requested size: 398.33858pt x 224.13002pt.
  [46 <./ppt/Final Presentation_page-0017.jpg> <./ppt/Final Presentation_page-00
 18.jpg>]
-<./ppt/Final Presentation_page-0021.jpg, id=220, 722.7pt x 406.6392pt>
+<./ppt/Final Presentation_page-0021.jpg, id=223, 722.7pt x 406.6392pt>
 File: ./ppt/Final Presentation_page-0021.jpg Graphic file (type jpg)
 <use ./ppt/Final Presentation_page-0021.jpg>
 Package pdftex.def Info: ./ppt/Final Presentation_page-0021.jpg  used on input 
 line 1258.
 (pdftex.def)             Requested size: 398.33858pt x 224.13002pt.
-<./ppt/Final Presentation_page-0022.jpg, id=221, 722.7pt x 406.6392pt>
+<./ppt/Final Presentation_page-0022.jpg, id=224, 722.7pt x 406.6392pt>
 File: ./ppt/Final Presentation_page-0022.jpg Graphic file (type jpg)
 <use ./ppt/Final Presentation_page-0022.jpg>
 Package pdftex.def Info: ./ppt/Final Presentation_page-0022.jpg  used on input 
@@ -770,52 +770,232 @@ line 1262.
 (pdftex.def)             Requested size: 398.33858pt x 224.13002pt.
  [47 <./ppt/Final Presentation_page-0019.jpg> <./ppt/Final Presentation_page-00
 20.jpg>]
-<./ppt/Final Presentation_page-0023.jpg, id=225, 722.7pt x 406.6392pt>
+<./ppt/Final Presentation_page-0023.jpg, id=228, 722.7pt x 406.6392pt>
 File: ./ppt/Final Presentation_page-0023.jpg Graphic file (type jpg)
 <use ./ppt/Final Presentation_page-0023.jpg>
 Package pdftex.def Info: ./ppt/Final Presentation_page-0023.jpg  used on input 
 line 1266.
 (pdftex.def)             Requested size: 398.33858pt x 224.13002pt.
-<./ppt/Final Presentation_page-0024.jpg, id=226, 722.7pt x 406.6392pt>
+<./ppt/Final Presentation_page-0024.jpg, id=229, 722.7pt x 406.6392pt>
 File: ./ppt/Final Presentation_page-0024.jpg Graphic file (type jpg)
 <use ./ppt/Final Presentation_page-0024.jpg>
 Package pdftex.def Info: ./ppt/Final Presentation_page-0024.jpg  used on input 
 line 1270.
 (pdftex.def)             Requested size: 398.33858pt x 224.13002pt.
  [48 <./ppt/Final Presentation_page-0021.jpg> <./ppt/Final Presentation_page-00
-22.jpg>]
-<./ppt/Final Presentation_page-0025.jpg, id=230, 722.7pt x 406.6392pt>
-File: ./ppt/Final Presentation_page-0025.jpg Graphic file (type jpg)
-<use ./ppt/Final Presentation_page-0025.jpg>
-Package pdftex.def Info: ./ppt/Final Presentation_page-0025.jpg  used on input 
-line 1274.
-(pdftex.def)             Requested size: 398.33858pt x 224.13002pt.
- [49 <./ppt/Final Presentation_page-0023.jpg> <./ppt/Final Presentation_page-00
-24.jpg>] [50 <./ppt/Final Presentation_page-0025.jpg>] (finalReport.aux)
+22.jpg>] [49 <./ppt/Final Presentation_page-0023.jpg> <./ppt/Final Presentation
+_page-0024.jpg>] [50
+
+]
+
+LaTeX Warning: File `logo (1).jpg' not found on input line 1295.
+
+
+! Package pdftex.def Error: File `logo (1).jpg' not found: using draft setting.
+
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1295 ...ncludegraphics[scale=0.25]{logo (1).jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1306--1308
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1306--1308
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1309--1311
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1309--1311
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1312--1314
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1312--1314
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1315--1317
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1315--1317
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
+
+ []
+
+[2
+
+
+
+] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 1333--1341
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1333--1341
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1333--1341
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1333--1341
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1333--1341
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1342--1354
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1342--1354
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1342--1354
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1342--1354
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1342--1354
+
+ []
+
+[4] [5] [6
+
+
+] (finalReport.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 12423 strings out of 474486
- 253489 string characters out of 5743755
+ 12449 strings out of 474485
+ 253933 string characters out of 5743735
  1935542 words of memory out of 5000000
- 34559 multiletter control sequences out of 15000+600000
- 571522 words of font info for 86 fonts, out of 8000000 for 9000
+ 34585 multiletter control sequences out of 15000+600000
+ 571700 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,8n,117p,1120b,353s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\csgau\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
-1200.pk><C:/Users/csgau/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmbx10.pfb><C:/Users/csgau/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmbx12.pfb><C:/Users/csgau/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/csgau/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/csgau/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/csgau/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10.pfb>
-Output written on finalReport.pdf (59 pages, 8603278 bytes).
+ 79i,8n,117p,1120b,490s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+1200.pk><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmbx10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmbx12.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Admin/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Admin/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Admin/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/Admin/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10.pfb>
+Output written on finalReport.pdf (65 pages, 7995365 bytes).
 PDF statistics:
- 269 PDF objects out of 1000 (max. 8388607)
+ 292 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 186 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 181 words of extra memory for PDF output out of 10000 (max. 10000000)
 
