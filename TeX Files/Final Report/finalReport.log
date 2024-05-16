@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.8)  16 MAY 2024 23:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.8)  16 MAY 2024 23:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -786,23 +786,13 @@ line 1270.
 22.jpg>] [49 <./ppt/Final Presentation_page-0023.jpg> <./ppt/Final Presentation
 _page-0024.jpg>] [50
 
+
 ]
-
-LaTeX Warning: File `logo (1).jpg' not found on input line 1295.
-
-
-! Package pdftex.def Error: File `logo (1).jpg' not found: using draft setting.
-
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1295 ...ncludegraphics[scale=0.25]{logo (1).jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<logo (1).jpg, id=239, 1027.84pt x 458.71375pt>
+File: logo (1).jpg Graphic file (type jpg)
+<use logo (1).jpg>
+Package pdftex.def Info: logo (1).jpg  used on input line 1295.
+(pdftex.def)             Requested size: 256.95937pt x 114.67815pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1306--1308
 
@@ -840,76 +830,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 1315--1317
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1315--1317
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
 
  []
 
@@ -917,7 +837,77 @@ Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
 
 
 
-] [3]
+ <./logo (1).jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1318--1332
+
+ []
+
+[3]
 Underfull \hbox (badness 10000) in paragraph at lines 1333--1341
 
  []
@@ -977,13 +967,13 @@ L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 12449 strings out of 474485
- 253933 string characters out of 5743735
+ 12423 strings out of 474485
+ 253371 string characters out of 5743735
  1935542 words of memory out of 5000000
- 34585 multiletter control sequences out of 15000+600000
- 571700 words of font info for 87 fonts, out of 8000000 for 9000
+ 34560 multiletter control sequences out of 15000+600000
+ 571531 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,8n,117p,1120b,490s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,8n,117p,1120b,429s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1200.pk><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -991,11 +981,10 @@ ic/amsfonts/cm/cmbx12.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Admin/AppData/Local/Programs/MiK
 TeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Admin/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Admin/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/Admin/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10.pfb>
-Output written on finalReport.pdf (65 pages, 7995365 bytes).
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10.pfb>
+Output written on finalReport.pdf (65 pages, 8364138 bytes).
 PDF statistics:
- 292 PDF objects out of 1000 (max. 8388607)
+ 289 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 181 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 186 words of extra memory for PDF output out of 10000 (max. 10000000)
 
