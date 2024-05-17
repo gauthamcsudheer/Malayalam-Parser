@@ -120,6 +120,6 @@
 \contentsline {paragraph}{\ }{37}{}%
 \contentsline {chapter}{Appendix B: Vision, Mission, Programme Outcomes and Course Outcomes}{50}{}%
 \contentsline {paragraph}{\ }{50}{}%
-\contentsline {chapter}{Vision, Mission, POs, PSOs and COs}{2}{}%
-\contentsline {chapter}{Appendix C: CO-PO-PSO Mapping}{6}{}%
-\contentsline {paragraph}{\ }{6}{}%
+\contentsline {chapter}{Vision, Mission, POs, PSOs and COs}{51}{}%
+\contentsline {chapter}{Appendix C: CO-PO-PSO Mapping}{55}{}%
+\contentsline {paragraph}{\ }{55}{}%
