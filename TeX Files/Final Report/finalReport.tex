@@ -1030,7 +1030,7 @@
 	
 		\section{Overview}
 		\paragraph\
-		Our project provides three essential datasets for Malayalam text analysis: POS-tagged, named entity labeled, and sentiment labeled.We include POS tag information along with dataset examples to enhance understanding.The implementation of the parser involved the use of the translation method.Although efforts to improve accuracy with rules and machine learning were not integrated due to accuracy concerns, this remains a future goal.Overall, the project has established a foundation for processing and analyzing Malayalam text, with potential implications for advancing NLP applications in Malayalam.
+		Our project provides three essential datasets for Malayalam text analysis: POS-tagged, named entity labeled, and sentiment labeled.We also include POS tag information and examples from the datasets to make it easier for users to understand the tags.The implementation of the parser involved the use of the translation method.Additionally, we tried implementing with rule-based approaches and a bidirectional LSTM model, but did not integrate them into the main project due to accuracy concerns.Despite this, the project lays a solid foundation for processing and analyzing Malayalam text and has the potential to advance NLP applications for the language.
 	
 	
 		\section{Testing}
@@ -1067,17 +1067,38 @@
 		\end{figure}
 		
 		
-	
-	
-	
+	    \section{Quantitative Results}
+	    	\paragraph\
+	    	Based on the results obtained using bidirectional LSTM models, the confusion matrix and performance metrics are given below:
+	    	\begin{figure}[H]
+	    		\centering
+	    		\includegraphics[width=10cm]{./confusion_matrix.jpeg}
+	    		\caption{Confusion matrix}
+	    	\end{figure}
+	     \begin{table}[h!]
+	     	\centering
+	     	\begin{tabular}{|c|c|}
+	     		\hline
+	     		\textbf{Metric} & \textbf{Value} \\
+	     		\hline
+	     		Accuracy & 0.72 \\
+	     		\hline
+	     		Precision & 0.27 \\
+	     		\hline
+	     		Recall & 0.21 \\
+	     		\hline
+	     		F1 Score & 0.22 \\
+	     		\hline
+	     	\end{tabular}
+	     	\caption{Performance Metrics }
+	     	\label{table:metrics}
+	     \end{table}
 	
 		\section{Discussion}
 		\paragraph\
 		
-		
-		The project has developed a Malayalam Parser for Dataset Creation.However, due to timing constraints, integrating the rule-based and machine learning-based approach remains a future enhancement.
-		
-		The project's deviation from its initial goal of integrating rules and machine learning underscores the challenges in accurately processing Malayalam text.Factors such as the language's linguistic complexities and the limited availability of annotated data likely contributed to this deviation.Nevertheless, creating valuable datasets represents a significant step toward overcoming the shortage of resources for NLP in Malayalam.
+			The project has developed a Malayalam Parser for Dataset Creation.To improve accuracy, we employed rule-based and a bidirectional LSTM model.Although the LSTM model achieved 72.11\% accuracy  and a 21.77\% F1 score, it did not meet our required accuracy level.Due to time constraints, further enhancement of the model remains a future consideration.
+	
 		
 		
 		
@@ -1090,16 +1111,19 @@
 		\paragraph\
 		
 		
-	The project aimed to develop a  Malayalam Parser for Dataset Creation, focusing on tasks such as part-of-speech tagging, named entity recognition, and sentiment analysis.The main goal was to create annotated datasets for Malayalam NLP applications, which are currently scarce.The system provides POS-tagged, named entity labeled, and sentiment labeled datasets. It has a user-friendly interface for inputting Malayalam text and getting analyzed results.This parser helps with various applications, including sentiment analysis, translation, and summarization, making it easier to work with Malayalam text in technology.It also supports research and learning in NLP and Malayalam linguistics, offering valuable resources for scholars and developers.
-		\newline
-		The creation of this Malayalam Parser is a significant step forward in developing linguistic tools for the Malayalam language.By providing annotated datasets and robust analysis capabilities, the project not only preserves and promotes Malayalam but also opens new opportunities for technology applications in Malayalam-speaking regions.Future work includes improving accuracy by refining machine learning models and integrating them with handcrafted rules, expanding the dataset with more diverse examples, and handling complex linguistic structures in Malayalam.This project lays a strong foundation for future enhancements and broader applications, ensuring Malayalam remains a vital part of the technological landscape
+        The project aimed to develop a Malayalam Parser for Dataset Creation, focusing on tasks such as part-of-speech tagging, named entity recognition, and sentiment analysis. The main goal was to create annotated datasets for Malayalam NLP applications, which are currently scarce.The system provides POS-tagged, named entity labeled, and sentiment labeled datasets.It has a user-friendly interface for inputting Malayalam text and getting analyzed results.This parser helps with various applications, including sentiment analysis, translation, and summarization, making it easier to work with Malayalam text in technology.It also supports research and learning in NLP and Malayalam linguistics, offering valuable resources for scholars and developers.
+        
+        The creation of this Malayalam Parser is a significant step forward in developing linguistic tools for the Malayalam language.By providing annotated datasets and robust analysis capabilities, the project not only preserves and promotes Malayalam but also opens new opportunities for technology applications in Malayalam-speaking regions.Future work includes improving accuracy obtained by using ruled based and bidirectional LSTM model, expanding the dataset with more diverse examples, and handling complex linguistic structures in Malayalam.This project lays a strong foundation for future enhancements and broader applications, ensuring Malayalam remains a vital part of the technological landscape.
 		
 	
 	    \newpage
 		\section{Future Scope}
 		\paragraph\
 		
-		In future developments, the Malayalam parser project could explore advanced parsing techniques such as dependency parsing or deep learning to enhance accuracy and robustness.Implementing a rule-based parsing approach specific to Malayalam, with defined grammatical rules and patterns, could further improve parsing accuracy.A hybrid approach that combines rule-based and machine learning techniques could be beneficial, leveraging the strengths of both methodologies.Implementing error correction mechanisms to handle inaccuracies in parsing results, along with user feedback options to improve the parser's quality, and engaging with linguists, researchers, and the local community for feedback and validation, will be essential for prioritizing future development efforts.
+		Future work will focus on refining and integrating the rule-based and machine learning approaches, enhancing the bidirectional LSTM model, and investigating advanced machine learning models like dependency parsing or deep learning for better accuracy and robustness.Implementing error correction mechanisms and user feedback options to handle inaccuracies and improve parser quality, along with engaging with local community for feedback, will be essential.
+		
+		
+
 	
 		\newpage
 	%	\normalsize{}
