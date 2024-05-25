@@ -1030,7 +1030,18 @@
 	
 		\section{Overview}
 		\paragraph\
-		Our project provides three essential datasets for Malayalam text analysis: POS-tagged, named entity labeled, and sentiment labeled.We also include POS tag information and examples from the datasets to make it easier for users to understand the tags.The implementation of the parser involved the use of the translation method.Additionally, we tried implementing with rule-based approaches and a bidirectional LSTM model, but did not integrate them into the main project due to accuracy concerns.Despite this, the project lays a solid foundation for processing and analyzing Malayalam text and has the potential to advance NLP applications for the language.
+		Our project provides three essential datasets for Malayalam text analysis: POS-tagged,
+		named entity labeled, and sentiment labeled. We also include POS tag information and
+		examples from the datasets to make it easier for users to understand the tags. The
+		implementation of the parser involved the use of the translation method. Additionally,
+		we experimented with rule-based approaches and a bidirectional LSTM model. Although
+		it produced $ \approx 20\% $ increase in classifying verbs, we did not integrate them into the main
+		project due to accuracy concerns.
+		
+		Despite not integrating the machine learning models, we have elevated the translation
+		model and made significant strides in improving the classification of verbs using a machine
+		learning approach. This advancement enhances the parser’s ability to accurately capture
+		and analyze the syntactic and semantic structures of Malayalam sentences.
 	
 	
 		\section{Testing}
@@ -1081,23 +1092,33 @@
 	     		\hline
 	     		\textbf{Metric} & \textbf{Value} \\
 	     		\hline
-	     		Accuracy & 0.72 \\
+	     		Accuracy & 0.9324 \\
 	     		\hline
-	     		Precision & 0.27 \\
+	     		Precision & 0.9273 \\
 	     		\hline
-	     		Recall & 0.21 \\
+	     		Recall & 0.9016 \\
 	     		\hline
-	     		F1 Score & 0.22 \\
+	     		F1 Score & 0.9227 \\
 	     		\hline
 	     	\end{tabular}
-	     	\caption{Performance Metrics }
+	     	\caption{Performance Metrics of Translation Model}
 	     	\label{table:metrics}
 	     \end{table}
 	
 		\section{Discussion}
-		\paragraph\
-		
-			The project has developed a Malayalam Parser for Dataset Creation.To improve accuracy, we employed rule-based and a bidirectional LSTM model.Although the LSTM model achieved 72.11\% accuracy  and a 21.77\% F1 score, it did not meet our required accuracy level.Due to time constraints, further enhancement of the model remains a future consideration.
+		\paragraph\		
+			Our project lays a solid foundation for processing and analyzing Malayalam text and
+			has the potential to advance NLP applications for the language. Future work will focus
+			on refining and integrating the rule-based and machine learning approaches, enhancing
+			the bidirectional LSTM model, and investigating advanced machine learning models like
+			dependency parsing or deep learning for better accuracy and robustness. Implementing error correction mechanisms and user feedback options to handle inaccuracies and im-
+			prove parser quality, along with engaging with the local community for feedback, will be	essential.
+			
+			The “Malayalam Parser for Dataset Creation” project aligns with the broader goal of
+			promoting linguistic diversity in NLP, addressing the challenges posed by the scarcity of
+			resources for underrepresented languages. Through the development of this parser, the
+			project aims to facilitate further research and innovation in Malayalam NLP, opening
+			avenues for the exploration of various language-related tasks and applications.
 	
 		
 		
